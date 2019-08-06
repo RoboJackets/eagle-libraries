@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -315,6 +315,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<circle x="-1.9" y="-0.8" radius="0.22360625" width="0.1524" layer="21"/>
 </package>
 <package name="ACS758">
 <wire x1="-7" y1="11.8" x2="-7" y2="10.2" width="0.254" layer="21"/>
