@@ -1898,7 +1898,7 @@ Shoot-through protection</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IFX91041">
+<deviceset name="IFX91041" prefix="U">
 <gates>
 <gate name="G$1" symbol="IFX91041" x="-2.54" y="7.62"/>
 </gates>
