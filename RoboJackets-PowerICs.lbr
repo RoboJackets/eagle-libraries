@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -466,6 +466,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <text x="-3" y="-2" size="1" layer="25" rot="R90">&gt;NAME</text>
+<circle x="-1.5" y="-0.5" radius="0.25" width="0.127" layer="21"/>
 </package>
 <package name="HTSSOP-16">
 <smd name="9" x="2.275" y="2.97" dx="1.78" dy="0.42" layer="1" rot="R90"/>
@@ -719,6 +720,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-3.25" y1="-1.75" x2="3.25" y2="-1.75" width="0.1" layer="21"/>
 </package>
 <package name="SOIC-8-EXPOSED_PAD">
+<description>SOIC-8 Package with Thermal Pad underneath</description>
 <smd name="P$1" x="-2.7" y="1.905" dx="0.61" dy="1.6" layer="1" rot="R90"/>
 <smd name="P$2" x="-2.7" y="0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
 <smd name="P$3" x="-2.7" y="-0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
@@ -732,9 +734,13 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-1.8" y1="-2.5" x2="1.8" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.8" y1="-2.5" x2="1.8" y2="2.5" width="0.127" layer="21"/>
 <wire x1="1.8" y1="2.5" x2="-1.8" y2="2.5" width="0.127" layer="21"/>
-<circle x="-1.4" y="2.1" radius="0.14141875" width="0.3048" layer="21"/>
+<circle x="-1.4" y="2.1" radius="0.14141875" width="0.127" layer="21"/>
 <text x="-2" y="3" size="1" layer="25" font="vector">&gt;Name</text>
 <text x="-2" y="-3.7" size="1" layer="27" font="vector">&gt;Value</text>
+<wire x1="-3.6" y1="3" x2="3.6" y2="3" width="0.127" layer="39"/>
+<wire x1="3.6" y1="3" x2="3.6" y2="-3" width="0.127" layer="39"/>
+<wire x1="3.6" y1="-3" x2="-3.6" y2="-3" width="0.127" layer="39"/>
+<wire x1="-3.6" y1="-3" x2="-3.6" y2="3" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1220,20 +1226,20 @@ pull down resistors</text>
 <text x="3.048" y="-5.842" size="1.778" layer="97" font="vector" ratio="20" align="bottom-center">&gt;VOLTAGE</text>
 </symbol>
 <symbol name="IFX91041">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-22.86" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="SYNC" x="-12.7" y="-12.7" length="middle"/>
-<pin name="GND" x="2.54" y="-27.94" length="middle" rot="R90"/>
-<pin name="COMP" x="-12.7" y="-2.54" length="middle"/>
-<pin name="FB" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="BDS" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="EN" x="-2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="VS" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="BUO" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" align="top-left">&gt;Name</text>
-<text x="-7.62" y="-25.4" size="1.778" layer="96" font="vector">&gt;Value</text>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<pin name="SYNC" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="COMP" x="-15.24" y="5.08" length="middle"/>
+<pin name="FB" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="BDS" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="EN" x="-5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="VS" x="5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="BUO" x="15.24" y="0" length="middle" rot="R180"/>
+<text x="-10.16" y="17.78" size="1.778" layer="95" font="vector" align="top-left">&gt;Name</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96" font="vector">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1899,8 +1905,11 @@ Shoot-through protection</description>
 </devices>
 </deviceset>
 <deviceset name="IFX91041" prefix="U">
+<description>1.8A DC/DC Step-Down Voltage Regulator
+
+5.0V, 3.3V, or Adjustable Output</description>
 <gates>
-<gate name="G$1" symbol="IFX91041" x="-2.54" y="7.62"/>
+<gate name="G$1" symbol="IFX91041" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC-8-EXPOSED_PAD">
@@ -1915,7 +1924,9 @@ Shoot-through protection</description>
 <connect gate="G$1" pin="VS" pad="P$8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="IFX91041EJV50XUMA1CT-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
