@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5802,7 +5802,7 @@ http://www.digikey.com/product-detail/en/XC3S250E-4PQG208C/122-1483-ND/1091711</
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZXBM5210-S-13" prefix="U" uservalue="yes">
+<deviceset name="ZXBM5210-S-13" prefix="U">
 <description>IC MOTOR DRIVER 3V-18V 8SO 
 &lt;p&gt;DKPN: ZXBM5210-S-13DICT-ND&lt;/p&gt;</description>
 <gates>
