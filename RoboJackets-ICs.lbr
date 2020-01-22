@@ -5821,7 +5821,9 @@ http://www.digikey.com/product-detail/en/XC3S250E-4PQG208C/122-1483-ND/1091711</
 <connect gate="G$1" pin="V_REF" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="ZXBM5210-S-13DICT-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
