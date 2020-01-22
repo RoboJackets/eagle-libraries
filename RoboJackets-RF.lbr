@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3712,6 +3712,85 @@ KO</text>
 <text x="20.5" y="0.5" size="1.016" layer="21" rot="SR270">OCA
 KO</text>
 </package>
+<package name="ISM43340-L77">
+<smd name="61" x="-6.6" y="5.975" dx="1.15" dy="1.15" layer="1"/>
+<smd name="62" x="-6.6" y="-5.975" dx="1.15" dy="1.15" layer="1"/>
+<smd name="1" x="-6.6" y="4.745" dx="0.6" dy="0.35" layer="1"/>
+<smd name="2" x="-6.6" y="4.015" dx="0.6" dy="0.35" layer="1"/>
+<smd name="3" x="-6.6" y="3.285" dx="0.6" dy="0.35" layer="1"/>
+<smd name="4" x="-6.6" y="2.555" dx="0.6" dy="0.35" layer="1"/>
+<smd name="6" x="-6.6" y="1.095" dx="0.6" dy="0.35" layer="1"/>
+<smd name="7" x="-6.6" y="0.365" dx="0.6" dy="0.35" layer="1"/>
+<smd name="8" x="-6.6" y="-0.365" dx="0.6" dy="0.35" layer="1"/>
+<smd name="9" x="-6.6" y="-1.095" dx="0.6" dy="0.35" layer="1"/>
+<smd name="10" x="-6.6" y="-1.825" dx="0.6" dy="0.35" layer="1"/>
+<smd name="11" x="-6.6" y="-2.555" dx="0.6" dy="0.35" layer="1"/>
+<smd name="12" x="-6.6" y="-3.285" dx="0.6" dy="0.35" layer="1"/>
+<smd name="13" x="-6.6" y="-4.015" dx="0.6" dy="0.35" layer="1"/>
+<smd name="14" x="-6.6" y="-4.745" dx="0.6" dy="0.35" layer="1"/>
+<smd name="5" x="-6.6" y="1.825" dx="0.6" dy="0.35" layer="1"/>
+<smd name="15" x="6.6" y="5.975" dx="1.15" dy="1.15" layer="1"/>
+<smd name="16" x="6.6" y="-5.975" dx="1.15" dy="1.15" layer="1"/>
+<smd name="17" x="6.6" y="4.745" dx="0.6" dy="0.35" layer="1"/>
+<smd name="18" x="6.6" y="4.015" dx="0.6" dy="0.35" layer="1"/>
+<smd name="19" x="6.6" y="3.285" dx="0.6" dy="0.35" layer="1"/>
+<smd name="20" x="6.6" y="2.555" dx="0.6" dy="0.35" layer="1"/>
+<smd name="21" x="6.6" y="1.095" dx="0.6" dy="0.35" layer="1"/>
+<smd name="22" x="6.6" y="0.365" dx="0.6" dy="0.35" layer="1"/>
+<smd name="23" x="6.6" y="-0.365" dx="0.6" dy="0.35" layer="1"/>
+<smd name="24" x="6.6" y="-1.095" dx="0.6" dy="0.35" layer="1"/>
+<smd name="25" x="6.6" y="-1.825" dx="0.6" dy="0.35" layer="1"/>
+<smd name="26" x="6.6" y="-2.555" dx="0.6" dy="0.35" layer="1"/>
+<smd name="27" x="6.6" y="-3.285" dx="0.6" dy="0.35" layer="1"/>
+<smd name="28" x="6.6" y="-4.015" dx="0.6" dy="0.35" layer="1"/>
+<smd name="29" x="6.6" y="-4.745" dx="0.6" dy="0.35" layer="1"/>
+<smd name="30" x="6.6" y="1.825" dx="0.6" dy="0.35" layer="1"/>
+<smd name="P$1" x="-1.8246" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$2" x="-5.4746" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$3" x="-4.7446" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$4" x="-4.0146" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$5" x="-3.2846" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$6" x="-2.5546" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$7" x="-1.0946" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$8" x="-0.3646" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$9" x="0.3654" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$10" x="1.0954" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$11" x="1.8254" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$12" x="2.5554" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$13" x="3.2854" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$14" x="4.0154" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$15" x="4.7454" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$16" x="5.4754" y="5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$19" x="-1.8246" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$20" x="-5.4746" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$21" x="-4.7446" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$22" x="-4.0146" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$23" x="-3.2846" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$24" x="-2.5546" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$25" x="-1.0946" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$26" x="-0.3646" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$27" x="0.3654" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$28" x="1.0954" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$29" x="1.8254" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$30" x="2.5554" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$31" x="3.2854" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$32" x="4.0154" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$33" x="4.7454" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$34" x="5.4754" y="-5.975" dx="0.35" dy="0.6" layer="1"/>
+<smd name="P$17" x="-2.3102" y="-1.8232" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$18" x="-2.3102" y="0.1072" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$35" x="-2.3102" y="2.0376" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$36" x="-0.8482" y="3.0028" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$37" x="-0.8482" y="-3.0028" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$38" x="0.6139" y="0.1072" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$39" x="0.6139" y="-1.8232" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$40" x="2.0759" y="-3.0028" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$41" x="2.0759" y="3.0028" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$42" x="3.5379" y="2.0376" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$43" x="3.5379" y="-1.8232" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$44" x="3.5379" y="0.1072" dx="0.7" dy="0.7" layer="1"/>
+<smd name="P$45" x="0.6139" y="2.0376" dx="0.7" dy="0.7" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="0896BM15A0001">
@@ -4335,6 +4414,17 @@ This is the very popular, low cost, very low power RF transceiver from Nordic Se
 <connect gate="G$1" pin="P53-GPIO_I" pad="P$53"/>
 <connect gate="G$1" pin="P54-GPIO_K" pad="P$54"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ISM43340-L77">
+<gates>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
