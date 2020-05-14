@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -167,8 +167,9 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3" y="-2" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.254" y="-2" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <circle x="-1.5" y="-0.5" radius="0.25" width="0.127" layer="21"/>
+<text x="4.246" y="-2" size="1" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="TSSOP-48_PAD">
 <smd name="1" x="-5.75" y="-3.75" dx="1.55" dy="0.3" layer="1" rot="R90"/>
@@ -221,9 +222,10 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <smd name="48" x="-5.75" y="3.75" dx="1.55" dy="0.3" layer="1" rot="R270"/>
 <smd name="PAD" x="0" y="0" dx="4.42" dy="3.483" layer="1"/>
 <wire x1="6.3" y1="3.1" x2="6.3" y2="-3.1" width="0.3" layer="21"/>
-<text x="-6.5" y="-3" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="-7.008" y="-2.873" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <wire x1="-6.3" y1="-3.1" x2="-6.3" y2="3.1" width="0.3" layer="21"/>
 <circle x="-5.5" y="-2" radius="0.5" width="0" layer="21"/>
+<text x="7.992" y="-2.873" size="1" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="WSON-6">
 <smd name="1" x="-0.5" y="-0.575" dx="0.75" dy="0.28" layer="1" rot="R90"/>
@@ -236,7 +238,8 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-0.775" y1="-0.775" x2="-0.775" y2="0" width="0.2" layer="21"/>
 <wire x1="-0.775" y1="0" x2="-0.775" y2="0.775" width="0.2" layer="21"/>
 <wire x1="-0.25" y1="0" x2="-0.775" y2="0" width="0.2" layer="21"/>
-<text x="-1" y="-1" size="1" layer="21" rot="R90">&gt;NAME</text>
+<text x="-1" y="-1" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2" y="-1" size="1" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="TO-PMOD-7">
 <smd name="1" x="-3.81" y="-7.305" dx="3.06" dy="0.89" layer="1" rot="R90"/>
@@ -251,7 +254,8 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="5.08" y1="4.925" x2="5.08" y2="-4.925" width="0.2" layer="21"/>
 <wire x1="5.08" y1="-4.925" x2="-5.08" y2="-4.925" width="0.2" layer="21"/>
 <wire x1="-5.08" y1="-4.925" x2="-5.08" y2="4.925" width="0.2" layer="21"/>
-<text x="-5.5" y="-5" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.5" y="-5" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.5" y="-5" size="1" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="POWERSO-16">
 <smd name="1" x="-2.8" y="-6" dx="2" dy="0.5" layer="1" rot="R90"/>
@@ -278,9 +282,10 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-3.75" y1="-4.2" x2="-3.75" y2="-4.05" width="0.3" layer="21"/>
 <wire x1="3.75" y1="4.7" x2="3.75" y2="4.05" width="0.3" layer="21"/>
 <wire x1="3.75" y1="-4.05" x2="3.75" y2="-4.2" width="0.3" layer="21"/>
-<text x="-5.5" y="-4" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.5" y="-4" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <wire x1="3.75" y1="-4.2" x2="3.75" y2="-4.7" width="0.3" layer="21"/>
 <wire x1="3.75" y1="-4.2" x2="-3.75" y2="-4.2" width="0.3" layer="21"/>
+<text x="6.5" y="-4" size="1" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 <package name="SOT-23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;, 5 lead</description>
@@ -289,7 +294,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <smd name="1" x="-0.95" y="-1.306" dx="0.6" dy="1.2" layer="1"/>
 <smd name="2" x="0" y="-1.306" dx="0.6" dy="1.2" layer="1"/>
 <smd name="3" x="0.95" y="-1.306" dx="0.6" dy="1.2" layer="1"/>
-<text x="-1.5" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.5" y="2.254" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <rectangle x1="-1.1875" y1="0.7126" x2="-0.7125" y2="1.5439" layer="51"/>
 <rectangle x1="0.7125" y1="0.7126" x2="1.1875" y2="1.5439" layer="51"/>
 <rectangle x1="-1.1875" y1="-1.5437" x2="-0.7125" y2="-0.7124" layer="51"/>
@@ -299,6 +304,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-1.4" y1="-0.8" x2="-1.4" y2="0.8" width="0.2" layer="21"/>
 <circle x="-1" y="-0.25" radius="0.2" width="0" layer="21"/>
 <wire x1="-0.5" y1="0.9" x2="0.5" y2="0.9" width="0.2" layer="21"/>
+<text x="-1.5" y="-2.238" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="R-78E">
 <pad name="1" x="-2.54" y="0" drill="1" shape="square"/>
@@ -326,29 +332,8 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="3.25" y1="-1.75" x2="3.25" y2="1.75" width="0.1" layer="21"/>
 <wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.1" layer="21"/>
 <wire x1="-3.25" y1="-1.75" x2="3.25" y2="-1.75" width="0.1" layer="21"/>
-</package>
-<package name="SOIC-8-EXPOSED_PAD">
-<description>SOIC-8 Package with Thermal Pad underneath</description>
-<smd name="P$1" x="-2.7" y="1.905" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$2" x="-2.7" y="0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$3" x="-2.7" y="-0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$4" x="-2.7" y="-1.905" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$5" x="2.7" y="-1.905" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$6" x="2.7" y="-0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$7" x="2.7" y="0.635" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$8" x="2.7" y="1.905" dx="0.61" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$9" x="0" y="0" dx="2.62" dy="3.51" layer="1"/>
-<wire x1="-1.8" y1="2.5" x2="-1.8" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="-2.5" x2="1.8" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.8" y1="-2.5" x2="1.8" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.8" y1="2.5" x2="-1.8" y2="2.5" width="0.127" layer="21"/>
-<circle x="-1.4" y="2.1" radius="0.14141875" width="0.127" layer="21"/>
-<text x="-2" y="3" size="1" layer="25" font="vector">&gt;Name</text>
-<text x="-2" y="-3.7" size="1" layer="27" font="vector">&gt;Value</text>
-<wire x1="-3.6" y1="3" x2="3.6" y2="3" width="0.127" layer="39"/>
-<wire x1="3.6" y1="3" x2="3.6" y2="-3" width="0.127" layer="39"/>
-<wire x1="3.6" y1="-3" x2="-3.6" y2="-3" width="0.127" layer="39"/>
-<wire x1="-3.6" y1="-3" x2="-3.6" y2="3" width="0.127" layer="39"/>
+<text x="-3.31" y="4.28" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.21" y="-4.45" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
