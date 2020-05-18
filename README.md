@@ -15,7 +15,9 @@ RoboJackets directories.
 you copied from pt. 1. Then, add `/libraries` to the end of the entry. 
 For libraries, the path should look like `/path/to/directory/eagle-libraries/libraries`.
 
-4. Press OK and restart EAGLE by closing the control panel and opening it back. To verify that everything works, open a new schematic 
+4. Press OK and restart EAGLE by closing the control panel and opening it back. Now, expand the 'Libraries' group in the EAGLE Control Panel. Locate the 'libraries' group within and expand it to see a list of libraries with the 'RoboJackets' prefix. Right click the group name (libraries), and select "Use All". Now, each RoboJackets library should now have a green dot next to it.
+
+5. To verify that everything works, open a new schematic 
 (File > New > Schematic) and start the `add` tool. In this panel, you should be able to find a set of libraries with the prefix "RoboJackets."
 
 Congrats! You are now ready to work on RoboJackets CAD projects with EAGLE!
