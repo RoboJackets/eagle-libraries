@@ -5909,13 +5909,13 @@ http://www.digikey.com/product-detail/en/XC3S250E-4PQG208C/122-1483-ND/1091711</
 <devices>
 <device name="HSOP-8" package="SOIC127P600X170-9T240X310N">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND" pad="1 9"/>
 <connect gate="G$1" pin="ILIM" pad="4"/>
 <connect gate="G$1" pin="IN1" pad="3"/>
 <connect gate="G$1" pin="IN2" pad="2"/>
 <connect gate="G$1" pin="OUT1" pad="6"/>
 <connect gate="G$1" pin="OUT2" pad="8"/>
-<connect gate="G$1" pin="PGND" pad="7 9"/>
+<connect gate="G$1" pin="PGND" pad="7"/>
 <connect gate="G$1" pin="VM" pad="5"/>
 </connects>
 <package3dinstances>
