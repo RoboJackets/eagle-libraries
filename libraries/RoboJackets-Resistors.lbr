@@ -141,6 +141,7 @@ In this library you will find resistors. If you are looking for a common package
 <wire x1="1.8" y1="1.6" x2="-1.8" y2="1.6" width="0.1" layer="39"/>
 </package>
 <package name="TO220">
+<description>&lt;a href="https://www.ohmite.com/assets/docs/res_tdh35.pdf?r=false"&gt;Power Resistor&lt;/a&gt;</description>
 <smd name="3" x="0" y="0" dx="11" dy="9.65" layer="1"/>
 <smd name="1" x="-2.54" y="-11.17" dx="2.32" dy="3.81" layer="1"/>
 <smd name="2" x="2.54" y="-11.17" dx="2.32" dy="3.81" layer="1"/>
@@ -564,7 +565,7 @@ In this library you will find resistors. If you are looking for a common package
 </symbols>
 <devicesets>
 <deviceset name="RA-2" prefix="RN">
-<description>Resistor Array, 2 element</description>
+<description>Resistor Array, 2 Elements</description>
 <gates>
 <gate name="G$1" symbol="RA-2" x="0" y="0"/>
 </gates>
@@ -585,7 +586,7 @@ In this library you will find resistors. If you are looking for a common package
 </devices>
 </deviceset>
 <deviceset name="RA-4" prefix="RN">
-<description>Resistor Array, 4 element</description>
+<description>Resistor Array, 4 Elements</description>
 <gates>
 <gate name="G$1" symbol="RA-4" x="0" y="0"/>
 </gates>
@@ -610,7 +611,7 @@ In this library you will find resistors. If you are looking for a common package
 </devices>
 </deviceset>
 <deviceset name="TDH35" prefix="R" uservalue="yes">
-<description>Power resistor</description>
+<description>Power Resistor</description>
 <gates>
 <gate name="G$1" symbol="STANDARD" x="0" y="0"/>
 </gates>
@@ -621,13 +622,15 @@ In this library you will find resistors. If you are looking for a common package
 <connect gate="G$1" pin="PIN2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="TDH35P1R00JE-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="RA-8" prefix="RN" uservalue="yes">
-<description>Resistor Array, 8 element</description>
+<description>Resistor Array, 8 Elements</description>
 <gates>
 <gate name="G$1" symbol="RA-8" x="0" y="5.08"/>
 </gates>
