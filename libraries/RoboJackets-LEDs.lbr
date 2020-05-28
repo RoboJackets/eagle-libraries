@@ -145,6 +145,7 @@ In this library you will find LEDs and other visual output devices.
 </symbols>
 <devicesets>
 <deviceset name="LED-SMD" prefix="D">
+<description>Series of 0603 LEDs</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -157,27 +158,26 @@ In this library you will find LEDs and other visual output devices.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
 <technology name="-BLUE">
 <attribute name="DIGIKEY" value="160-1647-1-ND" constant="no"/>
-<attribute name="MPN" value="LTST-C191TBKT" constant="no"/>
 <attribute name="VALUE" value="BLUE" constant="no"/>
 </technology>
 <technology name="-GREEN">
 <attribute name="DIGIKEY" value="160-1446-1-ND" constant="no"/>
-<attribute name="MPN" value="LTST-C191KGKT" constant="no"/>
 <attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+<technology name="-ORANGE">
+<attribute name="DIGIKEY" value="160-1445-1-ND" constant="no"/>
+<attribute name="VALUE" value="ORANGE" constant="no"/>
 </technology>
 <technology name="-RED">
 <attribute name="DIGIKEY" value="160-1447-1-ND" constant="no"/>
-<attribute name="MPN" value="LTST-C191KRKT" constant="no"/>
 <attribute name="VALUE" value="RED" constant="no"/>
 </technology>
 <technology name="-YELLOW">
 <attribute name="DIGIKEY" value="160-1448-1-ND" constant="no"/>
-<attribute name="MPN" value="LTST-C191KSKT" constant="no"/>
 <attribute name="VALUE" value="YELLOW" constant="no"/>
 </technology>
 </technologies>
@@ -185,6 +185,7 @@ In this library you will find LEDs and other visual output devices.
 </devices>
 </deviceset>
 <deviceset name="EMITTER" prefix="DIODE">
+<description>IR LED</description>
 <gates>
 <gate name="G$1" symbol="EMITTER" x="12.7" y="2.54"/>
 </gates>
