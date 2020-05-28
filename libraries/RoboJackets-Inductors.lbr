@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -149,6 +149,7 @@ In this library you will find inductors. If you are looking for a common package
 &lt;/p&gt;</description>
 <packages>
 <package name="DA2034">
+<description>&lt;a href="https://www.coilcraft.com/pdfs/da2032.pdf"&gt;Flyback Transformer&lt;/a&gt;</description>
 <circle x="-12" y="9.5" radius="0.5" width="0" layer="21"/>
 <wire x1="10.5" y1="10.5" x2="-10.5" y2="10.5" width="0.127" layer="21"/>
 <wire x1="-10.5" y1="10.5" x2="-10.5" y2="-10.5" width="0.127" layer="21"/>
@@ -166,7 +167,8 @@ In this library you will find inductors. If you are looking for a common package
 <smd name="10" x="13.46" y="1.5" dx="3.3" dy="1.27" layer="1"/>
 <smd name="11" x="13.46" y="4.5" dx="3.3" dy="1.27" layer="1"/>
 <smd name="12" x="13.46" y="7.5" dx="3.3" dy="1.27" layer="1"/>
-<text x="-10.5" y="10.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.5" y="10.5" size="1" layer="25">&gt;NAME</text>
+<text x="-10.5" y="-10.5" size="1" layer="25" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -244,13 +246,14 @@ In this library you will find inductors. If you are looking for a common package
 <pin name="9" x="-20.32" y="10.16" visible="pad" length="point"/>
 <pin name="10" x="-20.32" y="12.7" visible="pad" length="point"/>
 <pin name="12" x="10.16" y="5.08" visible="pad" length="point"/>
-<text x="5.588" y="-0.762" size="2.1844" layer="94">S</text>
-<text x="-20.32" y="-1.016" size="2.1844" layer="94">P</text>
+<text x="7.62" y="0" size="1.778" layer="94" align="center-left">S</text>
+<text x="-20.32" y="0" size="1.778" layer="94" align="center-left">P</text>
 <text x="2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DA203X-AL" prefix="T">
+<deviceset name="DA203X-AL" prefix="T" uservalue="yes">
 <gates>
 <gate name="A" symbol="DA203X-AL" x="0" y="0"/>
 </gates>
@@ -270,7 +273,7 @@ In this library you will find inductors. If you are looking for a common package
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MOUSER" value="994-DA2034-ALD"/>
+<attribute name="MOUSER" value="994-DA2034-ALD" constant="no"/>
 </technology>
 </technologies>
 </device>
