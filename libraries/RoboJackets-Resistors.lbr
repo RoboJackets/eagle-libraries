@@ -103,6 +103,7 @@ In this library you will find resistors. If you are looking for a common package
 &lt;/p&gt;</description>
 <packages>
 <package name="RA-2_0606">
+<description>&lt;a href="http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf"&gt;Chip Resistor Array&lt;/a&gt;</description>
 <wire x1="-0.8" y1="1.1" x2="0.8" y2="1.1" width="0.153" layer="51"/>
 <wire x1="0.8" y1="1.1" x2="0.8" y2="-1.1" width="0.153" layer="21"/>
 <wire x1="0.8" y1="-1.1" x2="-0.8" y2="-1.1" width="0.153" layer="51"/>
@@ -119,6 +120,7 @@ In this library you will find resistors. If you are looking for a common package
 <wire x1="1.016" y1="1.651" x2="-1.016" y2="1.651" width="0.1" layer="39"/>
 </package>
 <package name="RA-4_1206">
+<description>&lt;a href="http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf"&gt;Chip Resistor Array&lt;/a&gt;</description>
 <wire x1="-1.6" y1="1.1" x2="1.6" y2="1.1" width="0.153" layer="51"/>
 <wire x1="1.6" y1="1.1" x2="1.6" y2="-1.1" width="0.153" layer="21"/>
 <wire x1="1.6" y1="-1.1" x2="-1.6" y2="-1.1" width="0.153" layer="51"/>
@@ -154,8 +156,7 @@ In this library you will find resistors. If you are looking for a common package
 <wire x1="6" y1="5.3" x2="-6" y2="5.3" width="0.1" layer="39"/>
 </package>
 <package name="RA-8_2506">
-<description>&lt;b&gt;Chip Resistor Array&lt;/b&gt;&lt;p&gt;
-Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</description>
+<description>&lt;a href="http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf"&gt;Chip Resistor Array&lt;/a&gt;</description>
 <wire x1="-3.15" y1="0.75" x2="-3.05" y2="0.75" width="0.1016" layer="51"/>
 <wire x1="-3.05" y1="0.75" x2="-2.9" y2="0.6" width="0.1016" layer="51"/>
 <wire x1="-2.9" y1="0.6" x2="-2.7" y2="0.6" width="0.1016" layer="51"/>
@@ -576,7 +577,9 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="742C043331JPCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -599,7 +602,9 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="742C043331JPCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -621,7 +626,7 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="RA-8-*-?" prefix="RN" uservalue="yes">
+<deviceset name="RA-8" prefix="RN" uservalue="yes">
 <description>Resistor Array, 8 element</description>
 <gates>
 <gate name="G$1" symbol="RA-8" x="0" y="5.08"/>
@@ -647,7 +652,7 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="330_OHM">
+<technology name="">
 <attribute name="DKPN" value="742C163331JPCT-ND" constant="no"/>
 </technology>
 </technologies>
