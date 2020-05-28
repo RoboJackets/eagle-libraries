@@ -254,6 +254,7 @@ In this library you will find inductors. If you are looking for a common package
 </symbols>
 <devicesets>
 <deviceset name="DA203X-AL" prefix="T" uservalue="yes">
+<description>DA2034-ALD Transformer</description>
 <gates>
 <gate name="A" symbol="DA203X-AL" x="0" y="0"/>
 </gates>
