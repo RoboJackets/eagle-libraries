@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -477,6 +477,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </symbols>
 <devicesets>
 <deviceset name="IX4427" prefix="U">
+<description>Low-Side Gate Driver IC Non-Inverting 8-SOIC</description>
 <gates>
 <gate name="G$1" symbol="IX4427" x="-5.08" y="0"/>
 </gates>
@@ -491,12 +492,15 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <connect gate="G$1" pin="VDD" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="CLA4146CT-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="DRV8303" prefix="U">
+<description>IC MOTOR DRIVER 6V-60V 48HTSSOP, SPI</description>
 <gates>
 <gate name="G$1" symbol="DRV8303" x="0" y="0"/>
 </gates>
@@ -560,6 +564,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </devices>
 </deviceset>
 <deviceset name="TLV70233" prefix="U">
+<description>Linear Voltage Regulator IC 1 Output 300mA 6-WSON (1.5x1.5)</description>
 <gates>
 <gate name="G$1" symbol="TLV70233" x="0" y="0"/>
 </gates>
@@ -572,7 +577,9 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <connect gate="G$1" pin="VOUT" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="296-30242-1-ND"/>
+</technology>
 </technologies>
 </device>
 <device name="DBVR" package="SOT-23-5">
@@ -592,6 +599,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </devices>
 </deviceset>
 <deviceset name="LMZ14201" prefix="U">
+<description>Non-Isolated PoL Module DC DC Converter 1 Output 5 ~ 30V 1A 6V - 42V Input</description>
 <gates>
 <gate name="G$1" symbol="LMZ14201" x="0" y="0"/>
 </gates>
@@ -616,6 +624,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </devices>
 </deviceset>
 <deviceset name="VND5E006ASPTR-E" prefix="U">
+<description>Power Switch/Driver 1:1 N-Channel 70A PowerSO-16™</description>
 <gates>
 <gate name="G$1" symbol="VND5E006ASPTR-E" x="0" y="0"/>
 </gates>
@@ -634,7 +643,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="497-11623-1-ND" constant="no"/>
+<attribute name="DKPN" value="497-11623-1-ND"/>
 <attribute name="MPN" value="VND5E006ASPTR-E" constant="no"/>
 </technology>
 </technologies>
@@ -642,6 +651,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </devices>
 </deviceset>
 <deviceset name="R-78E5.0-0.5" prefix="U">
+<description>Linear Regulator Replacement DC DC Converter 1 Output 5V 500mA 7V - 28V Input</description>
 <gates>
 <gate name="G$1" symbol="R-78E" x="0" y="0"/>
 </gates>
@@ -653,12 +663,15 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <connect gate="G$1" pin="VOUT" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="945-1648-5-ND"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MCP1824T*?" prefix="U">
+<description>Linear Voltage Regulator IC 1 Output 300mA</description>
 <gates>
 <gate name="G$1" symbol="MCP1824T" x="0" y="0"/>
 </gates>
@@ -673,42 +686,42 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DKPN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
 <technology name="-1202E/">
-<attribute name="DIGIKEY" value="MCP1824T-1202E/OTCT-ND" constant="no"/>
+<attribute name="DKPN" value="MCP1824T-1202E/OTCT-ND" constant="no"/>
 <attribute name="MPN" value="MCP1824T-1202E/OT" constant="no"/>
 <attribute name="VOLTAGE" value="1.2V"/>
 </technology>
 <technology name="-1802E/">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DKPN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="VOLTAGE" value="1.8V"/>
 </technology>
 <technology name="-2502E/">
-<attribute name="DIGIKEY" value="MCP1824T-2502E/OTCT-ND" constant="no"/>
+<attribute name="DKPN" value="MCP1824T-2502E/OTCT-ND" constant="no"/>
 <attribute name="MPN" value="MCP1824T-2502E/OT" constant="no"/>
 <attribute name="VOLTAGE" value="2.5V"/>
 </technology>
 <technology name="-3002E/">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DKPN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="VOLTAGE" value="3.0V"/>
 </technology>
 <technology name="-3302E/">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DKPN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="VOLTAGE" value="3.3V"/>
 </technology>
 <technology name="-5002E/">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DKPN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="VOLTAGE" value="5.0V"/>
 </technology>
 <technology name="-ADJE/">
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DKPN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="VOLTAGE" value="0.8V~5.0V" constant="no"/>
 </technology>
