@@ -114,6 +114,7 @@
 <library>
 <packages>
 <package name="MBED_LPC1768">
+<description>&lt;a href="https://os.mbed.com/platforms/mbed-LPC1768/"&gt;Website&lt;/a&gt;</description>
 <wire x1="-12.7" y1="26.67" x2="12.7" y2="26.67" width="0.127" layer="21"/>
 <wire x1="12.7" y1="26.67" x2="12.7" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-26.67" x2="-12.7" y2="-26.67" width="0.127" layer="21"/>
@@ -412,7 +413,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="MBED">
+<symbol name="OM11043">
 <wire x1="-45.72" y1="25.4" x2="-8.255" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-8.255" y1="25.4" x2="8.255" y2="25.4" width="0.254" layer="94"/>
 <wire x1="8.255" y1="25.4" x2="45.72" y2="25.4" width="0.254" layer="94"/>
@@ -6128,9 +6129,11 @@
 </symbols>
 <devicesets>
 <deviceset name="MBED_NXP_LPC1768" prefix="A">
-<description>&lt;b&gt;Mbed LPC1768 - ARM CORTEX&lt;/b&gt; v2.1&lt;p&gt;</description>
+<description>&lt;b&gt;Mbed LPC1768 - ARM CORTEX&lt;/b&gt; v2.1&lt;p&gt;
+
+&lt;a href="https://os.mbed.com/platforms/mbed-LPC1768/"&gt;Website&lt;/a&gt;</description>
 <gates>
-<gate name="KIT" symbol="MBED" x="0" y="1.27"/>
+<gate name="KIT" symbol="OM11043" x="0" y="1.27"/>
 </gates>
 <devices>
 <device name="" package="MBED_LPC1768">
