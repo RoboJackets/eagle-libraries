@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -167,81 +167,13 @@
 In this library you will find all the connectors used on any of our boards.
 &lt;/p&gt;</description>
 <packages>
-<package name="HFW8R-1ST">
-<wire x1="5.3" y1="2.75" x2="5.3" y2="-2.75" width="0.2" layer="21"/>
-<wire x1="5.3" y1="-2.75" x2="-5.3" y2="-2.75" width="0.2" layer="21"/>
-<wire x1="-5.3" y1="-2.75" x2="-5.3" y2="2.75" width="0.2" layer="21"/>
-<smd name="6" x="1.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="LEG1" x="-4.5" y="1.15" dx="4.2" dy="0.7" layer="1" rot="R90"/>
-<smd name="LEG2" x="4.5" y="1.15" dx="4.2" dy="0.7" layer="1" rot="R90"/>
-<smd name="5" x="0.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-0.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="-1.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-2.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="-3.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<text x="-5.5" y="-2.5" size="1" layer="25" rot="R90">&gt;NAME</text>
-<circle x="-4.25" y="3.75" radius="0.25" width="0" layer="25"/>
-<wire x1="-5.3" y1="2.75" x2="-5" y2="2.75" width="0.2" layer="21"/>
-<wire x1="5" y1="2.75" x2="5.3" y2="2.75" width="0.2" layer="21"/>
-<smd name="7" x="2.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="3.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-</package>
-<package name="1.25MM-4-H">
-<pad name="1" x="-1.25" y="0" drill="0.5" shape="square" rot="R180"/>
-<pad name="2" x="0" y="0" drill="0.5" rot="R180"/>
-<pad name="3" x="1.25" y="0" drill="0.5" rot="R180"/>
-<pad name="4" x="2.5" y="0" drill="0.5" rot="R180"/>
-<wire x1="4" y1="-4.45" x2="4" y2="1.05" width="0.127" layer="21"/>
-<wire x1="4" y1="1.05" x2="-2.75" y2="1.05" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="1.05" x2="-2.75" y2="-4.45" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-4.45" x2="4" y2="-4.45" width="0.127" layer="21"/>
-<text x="0.595" y="1.855" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="2MM-2-H">
-<wire x1="-3" y1="2" x2="-3" y2="-8" width="0.127" layer="21"/>
-<wire x1="-3" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
-<wire x1="5" y1="-8" x2="5" y2="2" width="0.127" layer="21"/>
-<wire x1="5" y1="2" x2="-3" y2="2" width="0.127" layer="21"/>
-<pad name="2" x="2" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R180"/>
-<text x="1" y="2.5" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="2MM-2-V">
-<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.127" layer="21"/>
-<wire x1="-4" y1="-3" x2="4" y2="-3" width="0.127" layer="21"/>
-<wire x1="4" y1="-3" x2="4" y2="3" width="0.127" layer="21"/>
-<wire x1="4" y1="3" x2="-4" y2="3" width="0.127" layer="21"/>
-<pad name="2" x="1" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-1" y="0" drill="0.8" shape="square" rot="R180"/>
-<text x="-4" y="3.5" size="1" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="2MM-3-H">
-<wire x1="-5" y1="2" x2="-5" y2="-8" width="0.127" layer="21"/>
-<wire x1="-5" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
-<wire x1="5" y1="-8" x2="5" y2="2" width="0.127" layer="21"/>
-<wire x1="5" y1="2" x2="-5" y2="2" width="0.127" layer="21"/>
-<pad name="2" x="0" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-2" y="0" drill="0.8" shape="square" rot="R180"/>
-<pad name="3" x="2" y="0" drill="0.8" rot="R180"/>
-<text x="0" y="2.5" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="2MM-3-V">
-<wire x1="-5" y1="3" x2="-5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-5" y1="-3" x2="5" y2="-3" width="0.127" layer="21"/>
-<wire x1="5" y1="-3" x2="5" y2="3" width="0.127" layer="21"/>
-<wire x1="5" y1="3" x2="-5" y2="3" width="0.127" layer="21"/>
-<pad name="2" x="0" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-2" y="0" drill="0.8" shape="square" rot="R180"/>
-<pad name="3" x="2" y="0" drill="0.8" rot="R180"/>
-<text x="-5" y="3.5" size="1" layer="25" font="vector">&gt;NAME</text>
-</package>
 <package name="0353630460">
 <wire x1="-5" y1="2" x2="-5" y2="-8.5" width="0.127" layer="21"/>
 <wire x1="-5" y1="-8.5" x2="5" y2="-8.5" width="0.127" layer="21"/>
 <wire x1="5" y1="-8.5" x2="5" y2="2" width="0.127" layer="21"/>
 <wire x1="5" y1="2" x2="-5" y2="2" width="0.127" layer="21"/>
 <pad name="2" x="-1" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-3" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-3" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="1" y="0" drill="0.8" rot="R180"/>
 <pad name="4" x="3" y="0" drill="0.8" rot="R180"/>
 <text x="-5" y="2.1" size="1" layer="25" font="vector">&gt;NAME</text>
@@ -253,7 +185,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="7" y1="-3" x2="7" y2="3" width="0.127" layer="21"/>
 <wire x1="7" y1="3" x2="-5" y2="3" width="0.127" layer="21"/>
 <pad name="2" x="0" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-2" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-2" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="2" y="0" drill="0.8" rot="R180"/>
 <pad name="4" x="4" y="0" drill="0.8" rot="R180"/>
 <text x="-3.99" y="3.52" size="1" layer="25" font="vector">&gt;NAME</text>
@@ -265,7 +197,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="6.2" y1="-8" x2="6.2" y2="2" width="0.127" layer="21"/>
 <wire x1="6.2" y1="2" x2="-6.2" y2="2" width="0.127" layer="21"/>
 <pad name="2" x="-2" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="-4" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-4" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="0" y="0" drill="0.8" rot="R90"/>
 <pad name="4" x="2" y="0" drill="0.8" rot="R90"/>
 <pad name="5" x="4" y="0" drill="0.8" rot="R90"/>
@@ -278,7 +210,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="7" y1="-3" x2="7" y2="3" width="0.127" layer="21"/>
 <wire x1="7" y1="3" x2="-7" y2="3" width="0.127" layer="21"/>
 <pad name="2" x="-2" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-4" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-4" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="0" y="0" drill="0.8" rot="R180"/>
 <pad name="4" x="2" y="0" drill="0.8" rot="R180"/>
 <pad name="5" x="4" y="0" drill="0.8" rot="R180"/>
@@ -291,7 +223,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="8.2" y1="-8" x2="8.2" y2="2" width="0.127" layer="21"/>
 <wire x1="8.2" y1="2" x2="-6.2" y2="2" width="0.127" layer="21"/>
 <pad name="2" x="-2" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="-4" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-4" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="0" y="0" drill="0.8" rot="R90"/>
 <pad name="4" x="2" y="0" drill="0.8" rot="R90"/>
 <pad name="5" x="4" y="0" drill="0.8" rot="R90"/>
@@ -305,7 +237,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="9" y1="-3" x2="9" y2="3" width="0.127" layer="21"/>
 <wire x1="9" y1="3" x2="-7" y2="3" width="0.127" layer="21"/>
 <pad name="2" x="-2" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-4" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-4" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="0" y="0" drill="0.8" rot="R180"/>
 <pad name="4" x="2" y="0" drill="0.8" rot="R180"/>
 <pad name="5" x="4" y="0" drill="0.8" rot="R180"/>
@@ -319,7 +251,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="8.2" y1="-8" x2="8.2" y2="2" width="0.127" layer="21"/>
 <wire x1="8.2" y1="2" x2="-8.2" y2="2" width="0.127" layer="21"/>
 <pad name="2" x="-4" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="-6" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-6" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="-2" y="0" drill="0.8" rot="R90"/>
 <pad name="4" x="0" y="0" drill="0.8" rot="R90"/>
 <pad name="5" x="2" y="0" drill="0.8" rot="R90"/>
@@ -334,7 +266,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="9" y1="-3" x2="9" y2="3" width="0.127" layer="21"/>
 <wire x1="9" y1="3" x2="-9" y2="3" width="0.127" layer="21"/>
 <pad name="2" x="-4" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-6" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-6" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="-2" y="0" drill="0.8" rot="R180"/>
 <pad name="4" x="0" y="0" drill="0.8" rot="R180"/>
 <pad name="5" x="2" y="0" drill="0.8" rot="R180"/>
@@ -349,7 +281,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="9.2" y1="-8" x2="9.2" y2="2" width="0.2" layer="21"/>
 <wire x1="9.2" y1="2" x2="-9.2" y2="2" width="0.2" layer="21"/>
 <pad name="2" x="-5" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="-7" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-7" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="-3" y="0" drill="0.8" rot="R90"/>
 <pad name="4" x="-1" y="0" drill="0.8" rot="R90"/>
 <pad name="5" x="1" y="0" drill="0.8" rot="R90"/>
@@ -365,7 +297,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="11" y1="-3" x2="11" y2="3" width="0.127" layer="21"/>
 <wire x1="11" y1="3" x2="-9" y2="3" width="0.127" layer="21"/>
 <pad name="2" x="-4" y="0" drill="0.8" rot="R180"/>
-<pad name="1" x="-6" y="0" drill="0.8" rot="R180"/>
+<pad name="1" x="-6" y="0" drill="0.8" shape="square" rot="R180"/>
 <pad name="3" x="-2" y="0" drill="0.8" rot="R180"/>
 <pad name="4" x="0" y="0" drill="0.8" rot="R180"/>
 <pad name="5" x="2" y="0" drill="0.8" rot="R180"/>
@@ -647,7 +579,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="-3.93" y1="-4.25" x2="3.93" y2="-4.25" width="0.127" layer="21"/>
 <wire x1="3.93" y1="-4.25" x2="3.93" y2="4.25" width="0.127" layer="21"/>
 <pad name="2" x="1.98" y="0" drill="1.65" rot="R180"/>
-<pad name="1" x="-1.98" y="0" drill="1.65" rot="R180"/>
+<pad name="1" x="-1.98" y="0" drill="1.65" shape="square" rot="R180"/>
 <text x="-3" y="4.55" size="1" layer="25" font="vector">&gt;NAME</text>
 <text x="-3" y="-4.6" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
@@ -720,19 +652,20 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="1.1" y1="15.6" x2="0.8" y2="15.735" width="0.127" layer="21" curve="48.455379"/>
 <wire x1="-0.8" y1="15.735" x2="0.8" y2="15.735" width="0.127" layer="21"/>
 <wire x1="-3.864" y1="0" x2="3.864" y2="0" width="0.127" layer="21"/>
-<text x="-4.5" y="0" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.5" y="0" size="1" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <pad name="BATT" x="0" y="4.1545" drill="4.7"/>
 <pad name="GND" x="0" y="11.092" drill="4.7"/>
 <dimension x1="-2.35" y1="4.1545" x2="2.35" y2="4.1545" x3="0" y3="-1.6" textsize="0.5" layer="49" dtype="diameter" width="0.01" visible="yes"/>
 <wire x1="-4.064" y1="0.2" x2="-3.864" y2="0" width="0.127" layer="21" curve="90"/>
-<text x="5" y="4.1545" size="1.2" layer="21" font="vector" ratio="15" rot="R90" align="top-center">BATT+</text>
-<text x="5" y="11.092" size="1.2" layer="21" font="vector" ratio="15" rot="R90" align="top-center">GND</text>
+<text x="5" y="4.1545" size="1.2" layer="21" font="vector" rot="R90" align="top-center">BATT+</text>
+<text x="5" y="11.092" size="1.2" layer="21" font="vector" rot="R90" align="top-center">GND</text>
+<text x="-4.572" y="8.89" size="1" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 </package>
 <package name="0039301040">
 <wire x1="4.8" y1="6.2" x2="4.8" y2="-6.6" width="0.2" layer="21"/>
 <wire x1="4.8" y1="-6.6" x2="-4.8" y2="-6.6" width="0.2" layer="21"/>
 <wire x1="-4.8" y1="-6.6" x2="-4.8" y2="6.2" width="0.2" layer="21"/>
-<pad name="1" x="2.1" y="7.3" drill="1.8" diameter="3" shape="octagon"/>
+<pad name="1" x="2.1" y="7.3" drill="1.8" diameter="3" shape="square"/>
 <pad name="2" x="-2.1" y="7.3" drill="1.8" diameter="3"/>
 <pad name="3" x="2.1" y="12.8" drill="1.8" diameter="3"/>
 <pad name="4" x="-2.1" y="12.8" drill="1.8" diameter="3"/>
@@ -777,7 +710,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <package name="DF22L-3P">
 <pad name="2" x="0" y="0" drill="1.6"/>
 <pad name="3" x="-7.92" y="0" drill="1.6"/>
-<pad name="1" x="7.92" y="0" drill="1.6"/>
+<pad name="1" x="7.92" y="0" drill="1.6" shape="square"/>
 <wire x1="-13.86" y1="18.7" x2="13.86" y2="18.7" width="0.127" layer="21"/>
 <wire x1="13.86" y1="18.7" x2="13.86" y2="-5.3" width="0.127" layer="21"/>
 <wire x1="13.86" y1="-5.3" x2="12.36" y2="-5.3" width="0.127" layer="21"/>
@@ -828,14 +761,15 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="1.1" y1="15.6" x2="0.8" y2="15.735" width="0.127" layer="21" curve="48.455379"/>
 <wire x1="-0.8" y1="15.735" x2="0.8" y2="15.735" width="0.127" layer="21"/>
 <wire x1="-3.864" y1="0" x2="3.864" y2="0" width="0.127" layer="21"/>
-<text x="-4.5" y="0" size="1" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.5" y="0" size="1" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <pad name="+" x="0" y="4.1545" drill="4.7"/>
 <pad name="-" x="0" y="11.092" drill="4.7"/>
 <wire x1="-4.064" y1="0.2" x2="-3.864" y2="0" width="0.127" layer="21" curve="90"/>
+<text x="-4.572" y="10.16" size="1" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 </package>
 <package name="DF22L-2P">
 <pad name="2" x="-3.96" y="0" drill="1.5" diameter="2.5"/>
-<pad name="1" x="3.96" y="0" drill="1.5" diameter="2.5"/>
+<pad name="1" x="3.96" y="0" drill="1.5" diameter="2.5" shape="square"/>
 <wire x1="-9.9" y1="18.7" x2="9.9" y2="18.7" width="0.2" layer="21"/>
 <wire x1="9.9" y1="18.7" x2="9.9" y2="-5.3" width="0.2" layer="21"/>
 <wire x1="-9.9" y1="-5.3" x2="-9.9" y2="18.7" width="0.2" layer="21"/>
@@ -844,8 +778,6 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="-9.9" y1="-5.3" x2="9.9" y2="-5.3" width="0.2" layer="21"/>
 <text x="-9.037" y="19.009" size="1" layer="25" font="vector">&gt;NAME</text>
 <text x="-10" y="-6" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-</package>
-<package name="MICRO_SD">
 </package>
 <package name="0731000105">
 <pad name="SHIELD1" x="-3.8" y="0" drill="1.8"/>
@@ -866,60 +798,12 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="4" y1="-4" x2="4" y2="0" width="0.2" layer="21"/>
 <wire x1="-4" y1="-4" x2="-4" y2="-7.2" width="0.2" layer="21"/>
 <pad name="2" x="1.98" y="0" drill="1.65" rot="R180"/>
-<pad name="1" x="-1.98" y="0" drill="1.65" rot="R180"/>
+<pad name="1" x="-1.98" y="0" drill="1.65" shape="square" rot="R180"/>
 <text x="-3" y="1.85" size="1" layer="25" font="vector">&gt;NAME</text>
 <wire x1="4" y1="-7.2" x2="4" y2="-4" width="0.2" layer="21"/>
 <wire x1="-4" y1="-4" x2="4" y2="-4" width="0.2" layer="21"/>
 <wire x1="-4" y1="-7.2" x2="4" y2="-7.2" width="0.2" layer="21"/>
 <text x="-3" y="-7.4" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-</package>
-<package name="HDR_2X3">
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="1.27" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3" x="0" y="1.27" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5" x="2.54" y="1.27" drill="1.016" shape="octagon" rot="R90"/>
-<text x="-4" y="3" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="-1.27" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4" x="0" y="-1.27" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6" x="2.54" y="-1.27" drill="1.016" shape="octagon" rot="R90"/>
-</package>
-<package name="HFW6R-1ST">
-<wire x1="4.3" y1="2.75" x2="4.3" y2="-2.75" width="0.2" layer="21"/>
-<wire x1="4.3" y1="-2.75" x2="-4.3" y2="-2.75" width="0.2" layer="21"/>
-<wire x1="-4.3" y1="-2.75" x2="-4.3" y2="2.75" width="0.2" layer="21"/>
-<smd name="6" x="2.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="LEG1" x="-3.5" y="1.15" dx="4.2" dy="0.7" layer="1" rot="R90"/>
-<smd name="LEG2" x="3.5" y="1.15" dx="4.2" dy="0.7" layer="1" rot="R90"/>
-<smd name="5" x="1.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="0.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="-0.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-1.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="-2.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<text x="-3" y="4.6" size="1" layer="25" font="vector">&gt;NAME</text>
-<wire x1="-4.3" y1="2.75" x2="-4" y2="2.75" width="0.2" layer="21"/>
-<wire x1="4" y1="2.75" x2="4.3" y2="2.75" width="0.2" layer="21"/>
-<text x="-4" y="-3" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
 <package name="20021321-00010C4LF">
 <wire x1="-3.405" y1="-1.5" x2="-3.405" y2="1.5" width="0.127" layer="21"/>
@@ -1070,7 +954,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </package>
 <package name="DF22-2P">
 <pad name="2" x="-3.96" y="0" drill="1.5" diameter="2.5"/>
-<pad name="1" x="3.96" y="0" drill="1.5" diameter="2.5"/>
+<pad name="1" x="3.96" y="0" drill="1.5" diameter="2.5" shape="square"/>
 <wire x1="-9.9" y1="18.7" x2="9.9" y2="18.7" width="0.2" layer="21"/>
 <wire x1="9.9" y1="18.7" x2="9.9" y2="11.7" width="0.2" layer="21"/>
 <wire x1="9.9" y1="11.7" x2="8.4" y2="11.7" width="0.2" layer="21"/>
@@ -1091,68 +975,6 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="0.65" y1="-3.6" x2="0.65" y2="-1.4" width="0.2" layer="21"/>
 <wire x1="6.7" y1="-1.4" x2="0.65" y2="-1.4" width="0.2" layer="21"/>
 <text x="-8" y="-6" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-</package>
-<package name="AVR_ICSP">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-1.905" y1="6.35" x2="-2.54" y2="5.715" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="4.445" x2="-1.905" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="3.81" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-3.175" x2="-1.905" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="6.35" x2="1.905" y2="6.35" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="6.35" x2="2.54" y2="5.715" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="5.715" x2="2.54" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="4.445" x2="1.905" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="3.81" x2="2.54" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="3.175" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-3.175" x2="1.905" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="3.81" x2="-1.905" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-3.81" x2="-1.905" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="3.175" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="5.715" x2="-2.54" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-3.81" x2="-2.54" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-5.715" x2="-1.905" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-3.81" x2="2.54" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-4.445" x2="2.54" y2="-5.715" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-5.715" x2="1.905" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-6.35" x2="-1.905" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-4.445" x2="-2.54" y2="-5.715" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="5.715" x2="-3.175" y2="4.445" width="0.2032" layer="21"/>
-<rectangle x1="-1.524" y1="4.826" x2="-1.016" y2="5.334" layer="51"/>
-<rectangle x1="1.016" y1="4.826" x2="1.524" y2="5.334" layer="51"/>
-<rectangle x1="1.016" y1="2.286" x2="1.524" y2="2.794" layer="51"/>
-<rectangle x1="-1.524" y1="2.286" x2="-1.016" y2="2.794" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="21"/>
-<rectangle x1="1.016" y1="-5.334" x2="1.524" y2="-4.826" layer="51"/>
-<rectangle x1="-1.524" y1="-5.334" x2="-1.016" y2="-4.826" layer="51"/>
-<rectangle x1="-1.524" y1="-2.794" x2="-1.016" y2="-2.286" layer="51"/>
-<rectangle x1="1.016" y1="-2.794" x2="1.524" y2="-2.286" layer="51"/>
-<pad name="1" x="-1.27" y="5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="2" x="1.27" y="5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="3" x="-1.27" y="2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="4" x="1.27" y="2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="5" x="-1.27" y="0" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="6" x="1.27" y="0" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="7" x="-1.27" y="-2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="8" x="1.27" y="-2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="9" x="-1.27" y="-5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="10" x="1.27" y="-5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<text x="-2.794" y="-3.302" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2.794" y="-0.254" size="0.4064" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 </package>
 <package name="5103308-1">
 <wire x1="-2.775" y1="5.715" x2="-2.775" y2="4.445" width="0.2032" layer="21"/>
@@ -1182,16 +1004,16 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <rectangle x1="-1.524" y1="-5.334" x2="-1.016" y2="-4.826" layer="51"/>
 <rectangle x1="-1.524" y1="-2.794" x2="-1.016" y2="-2.286" layer="51"/>
 <rectangle x1="1.016" y1="-2.794" x2="1.524" y2="-2.286" layer="51"/>
-<pad name="1" x="-1.27" y="5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="2" x="1.27" y="5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="3" x="-1.27" y="2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="4" x="1.27" y="2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="5" x="-1.27" y="0" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="6" x="1.27" y="0" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="7" x="-1.27" y="-2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="8" x="1.27" y="-2.54" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="9" x="-1.27" y="-5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
-<pad name="10" x="1.27" y="-5.08" drill="1.016" diameter="1.8796" shape="octagon" rot="R270"/>
+<pad name="1" x="-1.27" y="5.08" drill="1.016" diameter="1.8796" shape="square" rot="R270"/>
+<pad name="2" x="1.27" y="5.08" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="3" x="-1.27" y="2.54" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="4" x="1.27" y="2.54" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="5" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="6" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="7" x="-1.27" y="-2.54" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="8" x="1.27" y="-2.54" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="9" x="-1.27" y="-5.08" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="10" x="1.27" y="-5.08" drill="1.016" diameter="1.8796" rot="R270"/>
 <text x="-2.921" y="-10.586" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 <text x="-2.921" y="11.078" size="1" layer="25" font="vector">&gt;NAME</text>
 </package>
@@ -1228,7 +1050,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pad name="4" x="2.54" y="-1.27" drill="1"/>
 <pad name="3" x="0" y="-1.27" drill="1"/>
 <pad name="2" x="-2.54" y="-1.27" drill="1"/>
-<pad name="1" x="-5.08" y="-1.27" drill="1"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1" shape="square"/>
 <wire x1="-10.1" y1="-12" x2="-1.5" y2="-12" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-12" x2="0" y2="-12" width="0.127" layer="21"/>
 <wire x1="0" y1="-12" x2="1.5" y2="-12" width="0.127" layer="21"/>
@@ -1246,7 +1068,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <package name="SFH11-*-D05-ST">
 <pad name="3" x="0" y="1.27" drill="1"/>
 <pad name="2" x="-2.54" y="1.27" drill="1"/>
-<pad name="1" x="-5.08" y="1.27" drill="1"/>
+<pad name="1" x="-5.08" y="1.27" drill="1" shape="square"/>
 <pad name="4" x="2.54" y="1.27" drill="1"/>
 <pad name="5" x="5.08" y="1.27" drill="1"/>
 <pad name="6" x="5.08" y="-1.27" drill="1"/>
@@ -1268,56 +1090,9 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <text x="-8.75" y="3.5" size="1" layer="25" font="vector">&gt;NAME</text>
 <text x="-9" y="-4" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
-<package name="MKS-1658">
-<description>&lt;b&gt;Serie MKS 1850&lt;/b&gt; Lötstifte In-line, Raster 2.5 mm, Stiftwannen, stehend, mit Rastlasche&lt;p&gt;
-Source: http://www.stocko.de/de/index.php?seite=ka_rfk2_mks1850.html&amp;rubrik=Katalog+-+RFK+2&lt;br&gt;
-rfk_1850.pdf</description>
-<wire x1="-10.2283" y1="-3.6954" x2="-10.9912" y2="-3.6954" width="0.2032" layer="21"/>
-<wire x1="-10.9912" y1="-3.6954" x2="-12.231" y2="-2.4556" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-12.231" y1="-2.4556" x2="-12.231" y2="2.4558" width="0.2032" layer="21"/>
-<wire x1="-12.231" y1="2.4558" x2="-10.9912" y2="3.6956" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-10.9912" y1="3.6956" x2="10.9672" y2="3.6956" width="0.2032" layer="21"/>
-<wire x1="10.9672" y1="3.6956" x2="12.2547" y2="2.4081" width="0.2032" layer="21" curve="-90"/>
-<wire x1="12.2547" y1="2.4081" x2="12.2547" y2="-2.4079" width="0.2032" layer="21"/>
-<wire x1="12.2547" y1="-2.4079" x2="10.9672" y2="-3.6954" width="0.2032" layer="21" curve="-90"/>
-<wire x1="10.9672" y1="-3.6954" x2="10.2281" y2="-3.6954" width="0.2032" layer="21"/>
-<wire x1="10.2281" y1="-3.6954" x2="10.2281" y2="-2.1695" width="0.2032" layer="21"/>
-<wire x1="10.2281" y1="-2.1695" x2="9.7036" y2="-1.645" width="0.2032" layer="21" curve="90"/>
-<wire x1="9.7036" y1="-1.645" x2="-9.7038" y2="-1.645" width="0.2032" layer="21"/>
-<wire x1="-9.7038" y1="-1.645" x2="-10.2283" y2="-2.1695" width="0.2032" layer="21" curve="90"/>
-<wire x1="-10.2283" y1="-2.1695" x2="-10.2283" y2="-3.6954" width="0.2032" layer="21"/>
-<wire x1="-10.2521" y1="-2.6702" x2="-10.9674" y2="-2.6702" width="0.2032" layer="21"/>
-<wire x1="-10.9674" y1="-2.6702" x2="-11.325" y2="-2.3126" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-11.325" y1="-2.3126" x2="-11.325" y2="2.3605" width="0.2032" layer="21"/>
-<wire x1="-11.325" y1="2.3605" x2="-11.0151" y2="2.6704" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-11.0151" y1="2.6704" x2="10.9911" y2="2.6704" width="0.2032" layer="21"/>
-<wire x1="10.9911" y1="2.6704" x2="11.3249" y2="2.3366" width="0.2032" layer="21" curve="-90"/>
-<wire x1="11.3249" y1="2.3366" x2="11.3249" y2="-2.3364" width="0.2032" layer="21"/>
-<wire x1="11.3249" y1="-2.3364" x2="10.9911" y2="-2.6702" width="0.2032" layer="21" curve="-90"/>
-<wire x1="10.9911" y1="-2.6702" x2="10.3235" y2="-2.6702" width="0.2032" layer="21"/>
-<wire x1="-4.551" y1="3.6479" x2="-4.551" y2="2.7419" width="0.2032" layer="21"/>
-<wire x1="4.527" y1="3.6241" x2="4.527" y2="2.7419" width="0.2032" layer="21"/>
-<wire x1="-10.0853" y1="-1.7165" x2="-10.0853" y2="1.4544" width="0.2032" layer="21"/>
-<wire x1="-10.0853" y1="1.4544" x2="10.1089" y2="1.4544" width="0.2032" layer="21"/>
-<wire x1="10.1089" y1="1.4544" x2="10.1089" y2="-1.7404" width="0.2032" layer="21"/>
-<pad name="1" x="-8.75" y="0" drill="1" diameter="1.4224"/>
-<pad name="2" x="-6.25" y="0" drill="1" diameter="1.4224"/>
-<pad name="3" x="-3.75" y="0" drill="1" diameter="1.4224"/>
-<pad name="4" x="-1.25" y="0" drill="1" diameter="1.4224"/>
-<pad name="5" x="1.25" y="0" drill="1" diameter="1.4224"/>
-<pad name="6" x="3.75" y="0" drill="1" diameter="1.4224"/>
-<pad name="7" x="6.25" y="0" drill="1" diameter="1.4224"/>
-<pad name="8" x="8.75" y="0" drill="1" diameter="1.4224"/>
-<text x="-8.89" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="4.445" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="STANDOFF-HOLE">
-<hole x="0" y="0" drill="3.9"/>
-<circle x="0" y="0" radius="3.6" width="0" layer="39"/>
-</package>
 <package name="3-PIN-HEADER">
 <pad name="2" x="0" y="0" drill="1.02"/>
-<pad name="1" x="-2.54" y="0" drill="1.02"/>
+<pad name="1" x="-2.54" y="0" drill="1.02" shape="square"/>
 <pad name="3" x="2.54" y="0" drill="1.02"/>
 <wire x1="-4.06" y1="1.27" x2="4.06" y2="1.27" width="0.2" layer="21"/>
 <wire x1="4.06" y1="1.27" x2="4.06" y2="-1.27" width="0.2" layer="21"/>
@@ -1411,7 +1186,7 @@ rfk_1850.pdf</description>
 <text x="-6" y="-3.6" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
 <package name="PJ-037A">
-<pad name="P$1" x="0" y="0" drill="3"/>
+<pad name="P$1" x="0" y="0" drill="3" shape="square"/>
 <pad name="P$2" x="6" y="0" drill="3.1"/>
 <wire x1="-7.7" y1="4.5" x2="-7.7" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="-7.7" y1="4.5" x2="9" y2="4.5" width="0.127" layer="21"/>
