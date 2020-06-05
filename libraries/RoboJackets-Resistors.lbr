@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -614,7 +614,7 @@ In this library you will find resistors. If you are looking for a common package
 </device>
 </devices>
 </deviceset>
-<deviceset name="TDH35" prefix="R" uservalue="yes">
+<deviceset name="TDH35P1R00JE" prefix="R" uservalue="yes">
 <description>&lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;
@@ -644,6 +644,7 @@ In this library you will find resistors. If you are looking for a common package
 <attribute name="DKPN" value="TDH35P1R00JE-ND" constant="no"/>
 <attribute name="POWER" value="35W" constant="no"/>
 <attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1" constant="no"/>
 </technology>
 </technologies>
 </device>
