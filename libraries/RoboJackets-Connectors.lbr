@@ -10776,35 +10776,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pin name="25" x="-2.54" y="-15.24" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="26" x="5.08" y="-15.24" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
-<symbol name="PINHD_1V">
-<text x="2.54" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0.508" y1="0.381" x2="0.762" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.635" x2="1.524" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="0.635" x2="1.778" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.381" x2="1.778" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.381" x2="1.524" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-0.635" x2="0.762" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-0.635" x2="0.508" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.381" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.508" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="PINHD_1">
-<text x="2.54" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0.508" y1="0.381" x2="0.762" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.635" x2="1.524" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="0.635" x2="1.778" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.381" x2="1.778" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.381" x2="1.524" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-0.635" x2="0.762" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-0.635" x2="0.508" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.381" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.508" y2="0" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="PINHD2X5">
 <wire x1="-6.35" y1="-7.62" x2="8.89" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="-7.62" x2="8.89" y2="7.62" width="0.4064" layer="94"/>
@@ -10881,35 +10852,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pin name="17" x="-2.54" y="-20.32" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="18" x="-2.54" y="-22.86" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="19" x="-2.54" y="-25.4" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="PINHD_1V-1">
-<text x="2.54" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0.508" y1="0.381" x2="0.762" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.635" x2="1.524" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="0.635" x2="1.778" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.381" x2="1.778" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.381" x2="1.524" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-0.635" x2="0.762" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-0.635" x2="0.508" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.381" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.508" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="PINHD_1-1">
-<text x="2.54" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0.508" y1="0.381" x2="0.762" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.635" x2="1.524" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="0.635" x2="1.778" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.381" x2="1.778" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.381" x2="1.524" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-0.635" x2="0.762" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-0.635" x2="0.508" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.381" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.508" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="PINHD2X24">
 <wire x1="-6.35" y1="-33.02" x2="8.89" y2="-33.02" width="0.4064" layer="94"/>
