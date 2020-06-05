@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9874,7 +9874,7 @@ Source: http://www.commcon.com/main</description>
 <packageinstance name="2X11"/>
 </packageinstances>
 </package3d>
-<package3d name="2X11/90" urn="urn:adsk.eagle:package:22428/2" type="model">
+<package3d name="2X11/90" urn="urn:adsk.eagle:package:22428/3" locally_modified="yes" type="model">
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="2X11/90"/>
@@ -14614,7 +14614,7 @@ Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Through Hole,
 <connect gate="A" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22428/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22428/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
