@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -45,7 +46,7 @@
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -57,7 +58,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -71,23 +72,22 @@
 <library>
 <packages>
 <package name="F1812">
-<wire x1="-1.4732" y1="1.6002" x2="1.4732" y2="1.6002" width="0.1016" layer="51"/>
-<wire x1="-1.4478" y1="-1.6002" x2="1.4732" y2="-1.6002" width="0.1016" layer="51"/>
-<rectangle x1="-2.3876" y1="-1.651" x2="-1.4376" y2="1.649" layer="51"/>
-<rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
 <smd name="1" x="-1.95" y="0" dx="1.9" dy="3.4" layer="1"/>
 <smd name="2" x="1.95" y="0" dx="1.9" dy="3.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.2" y="2" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.2" y="-2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-3" y1="1.8" x2="3" y2="1.8" width="0.2" layer="21"/>
+<wire x1="3" y1="1.8" x2="3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3" y1="-1.8" x2="-3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-3" y1="-1.8" x2="-3" y2="1.8" width="0.2" layer="21"/>
+<rectangle x1="-3.2" y1="-2" x2="3.2" y2="2" layer="39"/>
 </package>
-<package name="FUSEHOLDER_3549_X2">
-<description>2x Blade Fuse Clips
-For MINI Blade Fuses</description>
+<package name="3549_TWO_CLIP">
+<description>&lt;a href="http://www.keyelco.com/product-pdf.cfm?p=303"&gt;Drawing&lt;/a&gt;</description>
 <pad name="2" x="4.065" y="-5.08" drill="1.93" diameter="3" rot="R180"/>
 <pad name="LEG2" x="4.065" y="5.08" drill="1.17" diameter="2" rot="R180"/>
 <pad name="1" x="-4.065" y="-5.08" drill="1.93" diameter="3" rot="R180"/>
 <pad name="LEG1" x="-4.065" y="5.08" drill="1.17" diameter="2" rot="R180"/>
-<text x="6.5" y="-2.5" size="1" layer="25" rot="R270">&gt;NAME</text>
 <wire x1="6" y1="-7" x2="-6" y2="-7" width="0.2" layer="21"/>
 <wire x1="-6" y1="-7" x2="-6" y2="6.5" width="0.2" layer="21"/>
 <wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.2" layer="21"/>
@@ -103,57 +103,60 @@ For MINI Blade Fuses</description>
 <wire x1="5.45" y1="-7.5" x2="5.45" y2="-15.8" width="0.2" layer="51"/>
 <wire x1="5.45" y1="-15.8" x2="-5.45" y2="-15.8" width="0.2" layer="51"/>
 <wire x1="-5.45" y1="-15.8" x2="-5.45" y2="-7.5" width="0.2" layer="51"/>
+<rectangle x1="-6.2" y1="-7.2" x2="6.2" y2="6.7" layer="39"/>
+<text x="-6.2" y="6.7" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-6.2" y="-7.2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
 <package name="F1206">
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-2" y="1.5" size="1" layer="25">&gt;NAME</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-2.522" y="1.2" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.522" y="-1.2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-2.322" y1="1" x2="2.322" y2="1" width="0.2" layer="21"/>
+<wire x1="2.322" y1="1" x2="2.322" y2="-1" width="0.2" layer="21"/>
+<wire x1="2.322" y1="-1" x2="-2.322" y2="-1" width="0.2" layer="21"/>
+<wire x1="-2.322" y1="-1" x2="-2.322" y2="1" width="0.2" layer="21"/>
+<rectangle x1="-2.522" y1="-1.2" x2="2.522" y2="1.2" layer="39"/>
 </package>
 <package name="F0603">
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-1.5" y="1" size="1" layer="25">&gt;NAME</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<text x="-1.65" y="0.85" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.65" y="-0.85" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.2" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.2" layer="21"/>
+<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.2" layer="21"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.2" layer="21"/>
+<rectangle x1="-1.65" y1="-0.85" x2="1.65" y2="0.85" layer="39"/>
 </package>
 <package name="3557-2">
+<description>&lt;a href="http://www.keyelco.com/product-pdf.cfm?p=296"&gt;Drawing&lt;/a&gt;</description>
 <pad name="1" x="-6.735" y="1.7" drill="1.75"/>
 <pad name="2" x="-6.735" y="-1.7" drill="1.75"/>
 <pad name="4" x="6.735" y="1.7" drill="1.75"/>
 <pad name="3" x="6.735" y="-1.7" drill="1.75"/>
-<wire x1="-9.905" y1="3.365" x2="9.905" y2="3.365" width="0.127" layer="21"/>
-<wire x1="9.905" y1="3.365" x2="9.905" y2="-3.365" width="0.127" layer="21"/>
-<wire x1="9.905" y1="-3.365" x2="-9.905" y2="-3.365" width="0.127" layer="21"/>
-<wire x1="-9.905" y1="-3.365" x2="-9.905" y2="3.365" width="0.127" layer="21"/>
-<text x="-10" y="-4.75" size="1" layer="21">&gt;NAME</text>
+<wire x1="-9.905" y1="3.365" x2="9.905" y2="3.365" width="0.2" layer="21"/>
+<wire x1="9.905" y1="3.365" x2="9.905" y2="-3.365" width="0.2" layer="21"/>
+<wire x1="9.905" y1="-3.365" x2="-9.905" y2="-3.365" width="0.2" layer="21"/>
+<wire x1="-9.905" y1="-3.365" x2="-9.905" y2="3.365" width="0.2" layer="21"/>
+<text x="-10.105" y="3.565" size="1" layer="27" font="vector">&gt;NAME</text>
+<rectangle x1="-10.105" y1="-3.565" x2="10.105" y2="3.565" layer="39"/>
+<text x="-10.105" y="-3.565" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="FUSE">
-<pin name="1" x="-2.54" y="0" visible="off" length="point"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="180"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CHIP_FUSE" prefix="F" uservalue="yes">
+<deviceset name="SMD_FUSE" prefix="F" uservalue="yes">
+<description>Generic part for SMD fuses</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -187,26 +190,29 @@ For MINI Blade Fuses</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSEHOLDER_3549_X2" prefix="F" uservalue="yes">
-<description>Keystone Electronics
-Fuse Clip 30A 500V Circuit Blade PCB
-3549</description>
+<deviceset name="3549" prefix="F" uservalue="yes">
+<description>Pair of clips to hold mini automotive blade fuses:
+&lt;a href="http://keyelco.com/userAssets/file/M65p42.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FUSEHOLDER_3549_X2">
+<device name="" package="3549_TWO_CLIP">
 <connects>
 <connect gate="G$1" pin="1" pad="1 LEG1" route="any"/>
 <connect gate="G$1" pin="2" pad="2 LEG2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="36-3549-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3557-2" prefix="XF" uservalue="yes">
+<deviceset name="3557-2" prefix="F" uservalue="yes">
+<description>Fuse holder for automotive blade fuses: 
+&lt;a href="https://www.keyelco.com/userAssets/file/M65p41.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -219,7 +225,6 @@ Fuse Clip 30A 500V Circuit Blade PCB
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="36-3557-2-ND" constant="no"/>
-<attribute name="MPN" value="3557-2" constant="no"/>
 </technology>
 </technologies>
 </device>
