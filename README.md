@@ -20,3 +20,9 @@ in your command line or following [this tutorial](https://help.github.com/en/des
 Congrats! You are now ready to work on RoboJackets CAD projects with EAGLE!
 
 ## Helpful Resources
+
+1. [RJ Videos on EAGLE](https://www.youtube.com/watch?v=2VtJ9Y4NA2E&list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK)
+
+2. [RJ Electrical Training](https://github.com/RoboJackets/electrical-training)
+
+3. [EAGLE Style Guide](https://wiki.robojackets.org/EAGLE_Style_Guide)
