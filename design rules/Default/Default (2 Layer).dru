@@ -1,4 +1,3 @@
-description[de] = <b>EAGLE Design Rules (2 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.
 description[en] = <b>EAGLE Design Rules (2 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.
 layerSetup = (1*16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm

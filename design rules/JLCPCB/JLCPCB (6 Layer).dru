@@ -1,4 +1,3 @@
-description[de] = <b>JLCPCB Design Rules (6 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.\n<p>\nSource: <a href="https://jlcpcb.com/capabilities/Capabilities">JLCPCB</a>\n</p>
 description[en] = <b>JLCPCB Design Rules (6 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.\n<p>\nSource: <a href="https://jlcpcb.com/capabilities/Capabilities">JLCPCB</a>\n</p>
 layerSetup = (1+2*3+14*15+16)
 mtCopper = 0.035mm 0.0175mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.0175mm 0.035mm

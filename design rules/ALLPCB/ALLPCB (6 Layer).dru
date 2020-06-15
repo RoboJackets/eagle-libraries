@@ -1,4 +1,3 @@
-description[de] = <b>ALLPCB Design Rules (6 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.\n<p>\nSource: <a href="https://www.allpcb.com/standard_pcb_manufacturing_capability.html">ALLPCB</a>\n</p>
 description[en] = <b>ALLPCB Design Rules (6 Layers)</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications.\n<p>\nSource: <a href="https://www.allpcb.com/standard_pcb_manufacturing_capability.html">ALLPCB</a>\n</p>
 layerSetup = (1+2*3+14*15+16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
