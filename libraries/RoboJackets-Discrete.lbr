@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -160,7 +160,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <smd name="S@3" x="-2.921" y="-0.635" dx="1.016" dy="0.508" layer="1"/>
 <smd name="S@2" x="-2.921" y="0.635" dx="1.016" dy="0.508" layer="1"/>
 <smd name="S@1" x="-2.921" y="1.905" dx="1.016" dy="0.508" layer="1"/>
-<text x="-3.175" y="2.8575" size="0.8128" layer="21">&gt;NAME</text>
+<text x="-3.175" y="2.8575" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 <wire x1="-2.7178" y1="2.6289" x2="-3.1242" y2="2.2225" width="0.127" layer="21"/>
 <circle x="-1.905" y="1.905" radius="0.3175" width="0.127" layer="21"/>
 <polygon width="0.127" layer="31">
@@ -208,7 +208,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <wire x1="-1.45" y1="0.8" x2="-0.55" y2="0.8" width="0.2" layer="21"/>
 <wire x1="0.45" y1="-0.8" x2="-0.45" y2="-0.8" width="0.2" layer="21"/>
 <wire x1="0.55" y1="0.8" x2="1.45" y2="0.8" width="0.2" layer="21"/>
-<text x="-2" y="-1" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="-2" y="-1" size="1" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="LFPAK">
 <wire x1="2.5" y1="3.5" x2="2.5" y2="-3.5" width="0.127" layer="21"/>
@@ -220,21 +220,21 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <smd name="4" x="1.905" y="-2.725" dx="1.15" dy="0.7" layer="1" rot="R270"/>
 <circle x="-3" y="-3" radius="0.3" width="0.127" layer="21"/>
 <smd name="MB" x="0" y="1.2" dx="4.6" dy="4.7" layer="1" rot="R270"/>
-<text x="-2.5" y="4" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.5" y="4" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="TO264">
 <wire x1="10.16" y1="24.13" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="-2.54" x2="-10.16" y2="24.13" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="24.13" x2="10.16" y2="24.13" width="0.127" layer="21"/>
-<rectangle x1="-1.6002" y1="-5.1308" x2="1.6002" y2="-2.54" layer="21"/>
-<rectangle x1="4.1656" y1="-5.1308" x2="6.7564" y2="-2.54" layer="21"/>
-<rectangle x1="-6.7564" y1="-5.1308" x2="-4.1656" y2="-2.54" layer="21"/>
+<rectangle x1="-1.6002" y1="-4.8" x2="1.6002" y2="-2.54" layer="21"/>
+<rectangle x1="4.1656" y1="-4.8" x2="6.7564" y2="-2.54" layer="21"/>
+<rectangle x1="-6.7564" y1="-4.8" x2="-4.1656" y2="-2.54" layer="21"/>
 <pad name="G_BOT" x="-5.461" y="-6.35" drill="1.905"/>
 <pad name="C_BOT" x="0" y="-6.35" drill="1.905"/>
 <pad name="E_BOT" x="5.461" y="-6.35" drill="1.905"/>
-<text x="-8.89" y="17.78" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-8.89" y="21.59" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="17.78" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-8.89" y="21.59" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="PLUS247">
 <description>IXYS PLUS247 Package</description>
@@ -250,8 +250,8 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <rectangle x1="-6.5278" y1="-6.858" x2="-4.3942" y2="-2.54" layer="21"/>
 <rectangle x1="-1.5621" y1="-6.858" x2="1.5621" y2="-2.54" layer="21"/>
 <rectangle x1="4.3942" y1="-6.858" x2="6.35" y2="-2.54" layer="21"/>
-<text x="-6.35" y="7.62" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.35" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-6.35" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-6.35" y="5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="8.0645" y1="10.4902" x2="8.0645" y2="15.3162" width="0.127" layer="21"/>
 <wire x1="8.0645" y1="15.3162" x2="8.0645" y2="18.796" width="0.127" layer="21"/>
 <wire x1="6.35" y1="15.3162" x2="6.35" y2="10.4902" width="0.127" layer="21"/>
@@ -276,7 +276,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
 <smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
 <smd name="2" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
-<text x="-5.5" y="7.5" size="1" layer="25">&gt;NAME</text>
+<text x="-5.5" y="7.5" size="1" layer="25" font="vector">&gt;NAME</text>
 <rectangle x1="-3.0988" y1="-9.525" x2="-1.9812" y2="-8.1026" layer="51"/>
 <rectangle x1="-3.2512" y1="-8.1534" x2="-1.8288" y2="-6.731" layer="51"/>
 <rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
@@ -289,7 +289,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <smd name="FIN" x="0" y="0" dx="7" dy="7" layer="1"/>
 <smd name="1" x="-2.3" y="-6.25" dx="1.5" dy="2.5" layer="1"/>
 <smd name="3" x="2.3" y="-6.25" dx="1.5" dy="2.5" layer="1"/>
-<text x="-3.5" y="4" size="1" layer="25">&gt;NAME</text>
+<text x="-3.5" y="4" size="1" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="PQFN_5X6_E">
 <smd name="1" x="-3.02" y="1.905" dx="1.5" dy="0.6" layer="1"/>
@@ -297,7 +297,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <smd name="3" x="-3.02" y="-0.635" dx="1.5" dy="0.6" layer="1"/>
 <smd name="4" x="-3.02" y="-1.905" dx="1.5" dy="0.6" layer="1"/>
 <smd name="5678" x="1.3225" y="0" dx="4.895" dy="4.41" layer="1"/>
-<text x="-3.5" y="2.5" size="1" layer="25">&gt;NAME</text>
+<text x="-3.5" y="2.5" size="1" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="MO-299A">
 <smd name="PAD" x="0" y="2.59" dx="10.2" dy="8.1" layer="1"/>
@@ -312,22 +312,22 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="5" y1="-2" x2="5" y2="-5.89" width="0.3" layer="21"/>
 <wire x1="-5" y1="-5.89" x2="-5" y2="-2" width="0.3" layer="21"/>
 <circle x="-4" y="-2.75" radius="0.5" width="0" layer="21"/>
-<text x="-5.5" y="-5.5" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.5" y="-5.5" size="1" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="0603_POL">
-<smd name="P$1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="P$2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
 <wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.05" layer="21"/>
 <wire x1="-0.6" y1="0.4" x2="-0.6" y2="-0.4" width="0.05" layer="21"/>
 <wire x1="-0.6" y1="-0.4" x2="0.6" y2="-0.4" width="0.05" layer="21"/>
 <wire x1="0.6" y1="-0.4" x2="0.6" y2="0.4" width="0.05" layer="21"/>
-<text x="-1.05" y="0.5" size="0.4" layer="25">&gt;NAME</text>
-<text x="-1" y="-0.9" size="0.4" layer="27">&gt;VALUE</text>
+<text x="-1.05" y="0.5" size="0.4" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-0.9" size="0.4" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-0.219" y1="0.4" x2="-0.219" y2="-0.4" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="IGBT_1">
+<symbol name="IGBT">
 <wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -342,7 +342,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <pin name="E" x="5.08" y="-2.54" visible="pad" length="point" rot="R180"/>
 <pin name="G" x="-5.08" y="0" visible="pad" length="point" rot="R180"/>
 </symbol>
-<symbol name="N_MOSFET">
+<symbol name="N_MOSFET_EN">
+<description>Enahncement Mode N-Type MOSFET</description>
 <wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
@@ -374,7 +375,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <vertex x="0.762" y="-0.254"/>
 </polygon>
 </symbol>
-<symbol name="P_MOSFET">
+<symbol name="P_MOSFET_EN">
+<description>Enahncement Mode P-Type MOSFET</description>
 <wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="2.159" width="0.1524" layer="94"/>
@@ -447,7 +449,7 @@ Id=60A
 
 http://www.vishay.com/docs/65596/si7141dp.pdf</description>
 <gates>
-<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="P_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="POWERPAK_SO-8">
@@ -467,7 +469,7 @@ http://www.vishay.com/docs/65596/si7141dp.pdf</description>
 <deviceset name="PSMN014-40YS" prefix="Q">
 <description>N-channel LFPAK 40V, 14 mOhm MOSFET</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="LFPAK">
@@ -477,7 +479,9 @@ http://www.vishay.com/docs/65596/si7141dp.pdf</description>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="1727-4624-1-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -491,7 +495,7 @@ Id=60A
 Qg=32.6nC
 Rdson=1.8mOhm</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="POWERPAK_SO-8">
@@ -501,15 +505,17 @@ Rdson=1.8mOhm</description>
 <connect gate="G$1" pin="S" pad="S@1 S@2 S@3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="SIR438DP-T1-GE3CT-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IXGK400N30A3">
+<deviceset name="IXGK400N30A3" prefix="Q">
 <description>IGBT 300V 400A 1000W in TO264 or PLUS247 Packages</description>
 <gates>
-<gate name="G$1" symbol="IGBT_1" x="0" y="0"/>
+<gate name="G$1" symbol="IGBT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TO264">
@@ -541,7 +547,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="BUK7Y38-100E" prefix="Q">
 <description>N-Channel 100V 30A 95W MOSFET, LFPAK56</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="LFPAK">
@@ -551,7 +557,9 @@ Rdson=1.8mOhm</description>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="1727-1111-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -559,7 +567,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="AOD1N60" prefix="Q">
 <description>N-Channel 600V 1.3A (Tc) 45W (Tc) Surface Mount TO-252, (D-Pak)</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DPAK">
@@ -579,7 +587,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="IRFH7545" prefix="Q">
 <description>N-Channel 60V 85A (Tc) 83W (Tc) Surface Mount PQFN (5x6)</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="PQFN_5X6_E">
@@ -590,7 +598,7 @@ Rdson=1.8mOhm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" constant="no"/>
+<attribute name="DKPN" value="IRFH7545TRPBFCT-ND" constant="no"/>
 <attribute name="MPN" value="IRFH7545TRPBF" constant="no"/>
 </technology>
 </technologies>
@@ -600,7 +608,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="FDBL86361_F085" prefix="Q">
 <description>N-Channel 80V 300A (Tc) 429W (Tj) Surface Mount (8-HPSOF/MO-299A)</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MO-299A">
@@ -620,7 +628,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="LND150" prefix="Q">
 <description>N-Channel 500V 13mA (Tj) 360mW (Ta) Surface Mount SOT-23-3</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="K1-G" package="SOT-23-3">
@@ -640,7 +648,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="BSS127" prefix="Q">
 <description>MOSFET N-CH 600V SOT23 with multiple current ratings</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-3">
@@ -665,8 +673,8 @@ Rdson=1.8mOhm</description>
 <devices>
 <device name="" package="0603_POL">
 <connects>
-<connect gate="G$1" pin="C" pad="P$1"/>
-<connect gate="G$1" pin="E" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -679,7 +687,7 @@ Rdson=1.8mOhm</description>
 <deviceset name="IRFS4227" prefix="Q">
 <description>N-Channel 200V 62A (Tc) 330W (Tc) Surface Mount D2PAK</description>
 <gates>
-<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+<gate name="G$1" symbol="N_MOSFET_EN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="D2PAK">
