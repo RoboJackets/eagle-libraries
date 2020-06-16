@@ -67,6 +67,6 @@ checkStop = 0
 checkValues = 0
 checkNames = 0
 checkWireStubs = 1
-checkPolygonWidth = 1
+checkPolygonWidth = 0
 useDiameter = 13
 maxErrors = 50
