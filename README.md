@@ -1,8 +1,16 @@
-# RoboJackets EAGLE CAD Libraries
+# RoboJackets [EAGLE](https://www.autodesk.com/products/eagle/overview) CAD Libraries
 
-This repository contains unified libraries across the various RoboJackets teams.
+This repository contains unified libraries and design rules across the various RoboJackets teams.
 
-## Setup
+## Starting Resources
+
+1. [RJ Videos on EAGLE](https://www.youtube.com/watch?v=2VtJ9Y4NA2E&list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK)
+
+2. [RJ Electrical Training](https://github.com/RoboJackets/electrical-training)
+
+3. [EAGLE Style Guide](https://wiki.robojackets.org/EAGLE_Style_Guide)
+
+## EAGLE Setup
 
 Here are the steps to add the libraries to your EAGLE setup:
 
@@ -18,11 +26,3 @@ in your command line or following [this tutorial](https://help.github.com/en/des
 5. To verify that everything works, open a new schematic (File > New > Schematic) and start the `add` tool. In this panel, you should be able to find a set of libraries with the prefix "RoboJackets."
 
 Congrats! You are now ready to work on RoboJackets CAD projects with EAGLE!
-
-## Helpful Resources
-
-1. [RJ Videos on EAGLE](https://www.youtube.com/watch?v=2VtJ9Y4NA2E&list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK)
-
-2. [RJ Electrical Training](https://github.com/RoboJackets/electrical-training)
-
-3. [EAGLE Style Guide](https://wiki.robojackets.org/EAGLE_Style_Guide)
