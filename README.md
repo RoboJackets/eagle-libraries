@@ -26,3 +26,10 @@ in your command line or following [this tutorial](https://help.github.com/en/des
 5. To verify that everything works, open a new schematic (File > New > Schematic) and start the `add` tool. In this panel, you should be able to find a set of libraries with the prefix "RoboJackets."
 
 Congrats! You are now ready to work on RoboJackets CAD projects with EAGLE!
+
+## Recommended PCB Fabricators
+
+| Name | Timeline | Use Case |
+| ---- | -------- | ----------------------- |
+| JLCPCB | <2 Weeks | Cheap 2/4 layer boards |
+| EuroCircuits | <4 Weeks | High quality 2/4/6 layer boards |
