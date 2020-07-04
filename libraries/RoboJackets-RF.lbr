@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -707,7 +707,7 @@ KO</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="0896BM15A0001E" prefix="U" uservalue="yes">
+<deviceset name="0896BM15A0001E" prefix="U">
 <description>BALUN 863MHZ-928MHZ 0805 &lt;a href="https://www.johansontechnology.com/datasheets/0896BM15A0001/0896BM15A0001.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="0896BM15A0001E" x="0" y="0"/>
@@ -728,7 +728,7 @@ KO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CC1101" prefix="U" uservalue="yes">
+<deviceset name="CC1101" prefix="U">
 <description>IC RF TXRX ISM 1GHZ 20VFQFN &lt;a href="https://www.ti.com/lit/ds/symlink/cc1101.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CC1101" x="0" y="0"/>
@@ -764,7 +764,7 @@ KO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ANT-916-CHP-?" prefix="U" uservalue="yes">
+<deviceset name="ANT-916-CHP-?" prefix="U">
 <description>RF ANT 916MHZ CHIP SOLDER SMD &lt;a href="https://linxtechnologies.com/wp/wp-content/uploads/ant-fff-chp-x.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
@@ -820,7 +820,7 @@ KO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CC1201" prefix="U" uservalue="yes">
+<deviceset name="CC1201" prefix="U">
 <description>IC RF TXRX+MCU ISM1GHZ 32VFQFN &lt;a href="https://www.ti.com/lit/ds/symlink/cc1201.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CC1201" x="0" y="0"/>
@@ -860,7 +860,7 @@ KO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ISM43340" prefix="A" uservalue="yes">
+<deviceset name="ISM43340" prefix="A">
 <description>RX TXRX MODULE WIFI U.FL SMD &lt;a href="https://www.inventeksys.com/wp-content/uploads/ISM4334x_M4G_L44_Functional_Spec.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ISM43340" x="0" y="0"/>
@@ -931,7 +931,7 @@ KO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ISM43340-L77" prefix="U" uservalue="yes">
+<deviceset name="ISM43340-L77" prefix="U">
 <description>RX TXRX MODULE WIFI U.FL SMD &lt;a href="https://www.inventeksys.com/wp-content/uploads/ISM43340_Product_Brief-R1.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ISM43340-L77" x="0" y="0"/>
