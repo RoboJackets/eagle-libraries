@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -786,7 +786,9 @@ Surface Mount 2114/DO-214AA</description>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="SMAJ20ALFCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
