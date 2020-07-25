@@ -404,6 +404,262 @@ Digi-Key: 1727-5865-1-ND</description>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="SOD-123">
+<description>http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</description>
+<smd name="1" x="-1.6764" y="0" dx="1.2192" dy="0.762" layer="1"/>
+<smd name="2" x="1.6764" y="0" dx="1.2192" dy="0.762" layer="1"/>
+<wire x1="-1.4224" y1="-0.3556" x2="-1.4224" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.3556" x2="-1.9304" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.3556" x2="-1.9304" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.3556" x2="-1.4224" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.3556" x2="1.4224" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.3556" x2="1.9304" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.3556" x2="1.9304" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.3556" x2="1.4224" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="0.635" width="0.1524" layer="39"/>
+<wire x1="-2.54" y1="0.635" x2="-1.6764" y2="0.635" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="39"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="39"/>
+<wire x1="2.54" y1="-0.635" x2="1.6764" y2="-0.635" width="0.1524" layer="39"/>
+<wire x1="-1.6764" y1="-0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="39"/>
+<wire x1="-1.6764" y1="-1.1684" x2="-1.6764" y2="-0.635" width="0.1524" layer="39"/>
+<wire x1="-1.6764" y1="0.635" x2="-1.6764" y2="1.1684" width="0.1524" layer="39"/>
+<wire x1="-1.6764" y1="1.1684" x2="1.6764" y2="1.1684" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="1.1684" x2="1.6764" y2="0.635" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-0.635" x2="1.6764" y2="-1.1684" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-1.1684" x2="-1.6764" y2="-1.1684" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-2.54" y="-0.635"/>
+<vertex x="-2.54" y="0.635"/>
+<vertex x="-1.6764" y="0.635"/>
+<vertex x="-1.6764" y="1.1557"/>
+<vertex x="1.6764" y="1.1557"/>
+<vertex x="1.6764" y="0.635"/>
+<vertex x="2.54" y="0.635"/>
+<vertex x="2.54" y="-0.635"/>
+<vertex x="1.6764" y="-0.635"/>
+<vertex x="1.6764" y="-1.1557"/>
+<vertex x="-1.6764" y="-1.1557"/>
+<vertex x="-1.6764" y="-0.635"/>
+</polygon>
+<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.7112" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.7112" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.016" y="0.8509"/>
+<vertex x="1.016" y="0.8509"/>
+<vertex x="1.016" y="-0.8509"/>
+<vertex x="-1.016" y="-0.8509"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.016" y="0.8509"/>
+<vertex x="1.016" y="0.8509"/>
+<vertex x="1.016" y="-0.8509"/>
+<vertex x="-1.016" y="-0.8509"/>
+</polygon>
+<text x="-2.2766" y="1.365" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.3" y="-1.4" size="1" layer="27" font="vector" align="top-left">Value</text>
+</package>
+<package name="SOD-123-M">
+<description>http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</description>
+<smd name="1" x="-1.7272" y="0" dx="1.524" dy="0.8128" layer="1"/>
+<smd name="2" x="1.7272" y="0" dx="1.524" dy="0.8128" layer="1"/>
+<wire x1="-1.4224" y1="-0.3556" x2="-1.4224" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.3556" x2="-1.9304" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.3556" x2="-1.9304" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.3556" x2="-1.4224" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.3556" x2="1.4224" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.3556" x2="1.9304" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.3556" x2="1.9304" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.3556" x2="1.4224" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<text x="-3.1526" y="-1.735" size="1" layer="27" font="vector" ratio="6" rot="SR0" align="top-left">&gt;Value</text>
+<wire x1="-2.9972" y1="-0.9144" x2="-2.9972" y2="0.9144" width="0.1524" layer="39"/>
+<wire x1="-2.9972" y1="0.9144" x2="-1.9304" y2="0.9144" width="0.1524" layer="39"/>
+<wire x1="1.9304" y1="0.9144" x2="2.9972" y2="0.9144" width="0.1524" layer="39"/>
+<wire x1="2.9972" y1="0.9144" x2="2.9972" y2="-0.9144" width="0.1524" layer="39"/>
+<wire x1="2.9972" y1="-0.9144" x2="1.9304" y2="-0.9144" width="0.1524" layer="39"/>
+<wire x1="-1.9304" y1="-0.9144" x2="-2.9972" y2="-0.9144" width="0.1524" layer="39"/>
+<wire x1="-1.9304" y1="-1.4224" x2="-1.9304" y2="-0.9144" width="0.1524" layer="39"/>
+<wire x1="-1.9304" y1="0.9144" x2="-1.9304" y2="1.4224" width="0.1524" layer="39"/>
+<wire x1="-1.9304" y1="1.4224" x2="1.9304" y2="1.4224" width="0.1524" layer="39"/>
+<wire x1="1.9304" y1="1.4224" x2="1.9304" y2="0.9144" width="0.1524" layer="39"/>
+<wire x1="1.9304" y1="-0.9144" x2="1.9304" y2="-1.4224" width="0.1524" layer="39"/>
+<wire x1="1.9304" y1="-1.4224" x2="-1.9304" y2="-1.4224" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-2.9972" y="-0.9144"/>
+<vertex x="-2.9972" y="0.9144"/>
+<vertex x="-1.9304" y="0.9144"/>
+<vertex x="-1.9304" y="1.4097"/>
+<vertex x="1.9304" y="1.4097"/>
+<vertex x="1.9304" y="0.9144"/>
+<vertex x="2.9972" y="0.9144"/>
+<vertex x="2.9972" y="-0.9144"/>
+<vertex x="1.9304" y="-0.9144"/>
+<vertex x="1.9304" y="-1.4097"/>
+<vertex x="-1.9304" y="-1.4097"/>
+<vertex x="-1.9304" y="-0.9144"/>
+</polygon>
+<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.7366" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.7366" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.7366" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.8509"/>
+<vertex x="0.9144" y="0.8509"/>
+<vertex x="0.9144" y="-0.8509"/>
+<vertex x="-0.9144" y="-0.8509"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.8509"/>
+<vertex x="0.9144" y="0.8509"/>
+<vertex x="0.9144" y="-0.8509"/>
+<vertex x="-0.9144" y="-0.8509"/>
+</polygon>
+<text x="-3.1766" y="1.665" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="SOD-123-L">
+<description>http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</description>
+<smd name="1" x="-1.6256" y="0" dx="0.9144" dy="0.7112" layer="1"/>
+<smd name="2" x="1.6256" y="0" dx="0.9144" dy="0.7112" layer="1"/>
+<wire x1="-1.4224" y1="-0.3556" x2="-1.4224" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.3556" x2="-1.9304" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="0.3556" x2="-1.9304" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.9304" y1="-0.3556" x2="-1.4224" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.3556" x2="1.4224" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.3556" x2="1.9304" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="-0.3556" x2="1.9304" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="1.9304" y1="0.3556" x2="1.4224" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.4572" x2="-0.9652" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4572" x2="-0.9652" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.9144" x2="1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.9144" x2="1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.4224" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-2.1844" y1="-0.4572" x2="-2.1844" y2="0.4572" width="0.1524" layer="39"/>
+<wire x1="-2.1844" y1="0.4572" x2="-1.524" y2="0.4572" width="0.1524" layer="39"/>
+<wire x1="1.524" y1="0.4572" x2="2.1844" y2="0.4572" width="0.1524" layer="39"/>
+<wire x1="2.1844" y1="0.4572" x2="2.1844" y2="-0.4572" width="0.1524" layer="39"/>
+<wire x1="2.1844" y1="-0.4572" x2="1.524" y2="-0.4572" width="0.1524" layer="39"/>
+<wire x1="-1.524" y1="-0.4572" x2="-2.1844" y2="-0.4572" width="0.1524" layer="39"/>
+<wire x1="-1.524" y1="-1.016" x2="-1.524" y2="-0.4572" width="0.1524" layer="39"/>
+<wire x1="-1.524" y1="0.4572" x2="-1.524" y2="1.016" width="0.1524" layer="39"/>
+<wire x1="-1.524" y1="1.016" x2="1.524" y2="1.016" width="0.1524" layer="39"/>
+<wire x1="1.524" y1="1.016" x2="1.524" y2="0.4572" width="0.1524" layer="39"/>
+<wire x1="1.524" y1="-0.4572" x2="1.524" y2="-1.016" width="0.1524" layer="39"/>
+<wire x1="1.524" y1="-1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-2.1844" y="-0.4572"/>
+<vertex x="-2.1844" y="0.4572"/>
+<vertex x="-1.524" y="0.4572"/>
+<vertex x="-1.524" y="1.0033"/>
+<vertex x="1.524" y="1.0033"/>
+<vertex x="1.524" y="0.4572"/>
+<vertex x="2.1844" y="0.4572"/>
+<vertex x="2.1844" y="-0.4572"/>
+<vertex x="1.524" y="-0.4572"/>
+<vertex x="1.524" y="-1.0033"/>
+<vertex x="-1.524" y="-1.0033"/>
+<vertex x="-1.524" y="-0.4572"/>
+</polygon>
+<wire x1="-1.5494" y1="-1.016" x2="1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.016" x2="1.5494" y2="-0.6858" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="1.016" x2="-1.5494" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.016" x2="-1.5494" y2="0.6858" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="-0.6858" x2="-1.5494" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="0.6858" x2="1.5494" y2="1.016" width="0.1524" layer="21"/>
+<text x="-2.748" y="-1.335" size="1" layer="27" font="vector" ratio="6" rot="SR0" align="top-left">&gt;Value</text>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.1176" y="0.8509"/>
+<vertex x="1.1176" y="0.8509"/>
+<vertex x="1.1176" y="-0.8509"/>
+<vertex x="-1.1176" y="-0.8509"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.1176" y="0.8509"/>
+<vertex x="1.1176" y="0.8509"/>
+<vertex x="1.1176" y="-0.8509"/>
+<vertex x="-1.1176" y="-0.8509"/>
+</polygon>
+<text x="-2.8766" y="1.365" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="SOD523">
+<description>&lt;B&gt;DIODE&lt;/B&gt;
+&lt;p&gt;https://www.digikey.com/product-detail/en/on-semiconductor/RB521S30T1G/RB521S30T1GOSTR-ND/920292</description>
+<wire x1="-0.59" y1="0.4" x2="0.59" y2="0.4" width="0.1016" layer="51"/>
+<wire x1="0.59" y1="0.4" x2="0.59" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.59" y1="-0.4" x2="-0.59" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="-0.59" y1="-0.4" x2="-0.59" y2="0.4" width="0.1016" layer="51"/>
+<smd name="A" x="0.7" y="0" dx="0.7" dy="0.5" layer="1"/>
+<smd name="C" x="-0.6" y="0" dx="0.7" dy="0.5" layer="1"/>
+<text x="-1.135" y="0.735" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.135" y="-0.705" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-0.17" x2="-0.54" y2="0.17" layer="51"/>
+<rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
+<rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
+</package>
+<package name="TSSOP14" urn="urn:adsk.eagle:footprint:3765/1" locally_modified="yes">
+<description>&lt;b&gt;14-Lead Thin Shrink Small Outline Package [TSSOP]&lt;/b&gt;&lt;p&gt;
+Source: Analog Devices .. 780914713ADD8704_0.pdf
+https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-breakout-boards/643?k=tssop14</description>
+<wire x1="-0.6" y1="2.4484" x2="0.6" y2="2.4484" width="0.2032" layer="21" curve="180"/>
+<wire x1="-2.1484" y1="-2.4484" x2="2.1484" y2="-2.4484" width="0.2032" layer="21"/>
+<wire x1="2.1484" y1="-2.4484" x2="2.1484" y2="2.4484" width="0.2032" layer="21"/>
+<wire x1="2.1484" y1="2.4484" x2="-2.1484" y2="2.4484" width="0.2032" layer="21"/>
+<wire x1="-2.1484" y1="2.4484" x2="-2.1484" y2="-2.4484" width="0.2032" layer="21"/>
+<smd name="1" x="-2.875" y="1.95" dx="0.9" dy="0.35" layer="1"/>
+<smd name="2" x="-2.875" y="1.3" dx="0.9" dy="0.35" layer="1"/>
+<smd name="3" x="-2.875" y="0.65" dx="0.9" dy="0.35" layer="1"/>
+<smd name="4" x="-2.875" y="0" dx="0.9" dy="0.35" layer="1"/>
+<smd name="5" x="-2.875" y="-0.65" dx="0.9" dy="0.35" layer="1"/>
+<smd name="6" x="-2.875" y="-1.3" dx="0.9" dy="0.35" layer="1"/>
+<smd name="7" x="-2.875" y="-1.95" dx="0.9" dy="0.35" layer="1"/>
+<smd name="8" x="2.875" y="-1.95" dx="0.9" dy="0.35" layer="1"/>
+<smd name="9" x="2.875" y="-1.3" dx="0.9" dy="0.35" layer="1"/>
+<smd name="10" x="2.875" y="-0.65" dx="0.9" dy="0.35" layer="1"/>
+<smd name="11" x="2.875" y="0" dx="0.9" dy="0.35" layer="1"/>
+<smd name="12" x="2.875" y="0.65" dx="0.9" dy="0.35" layer="1"/>
+<smd name="13" x="2.875" y="1.3" dx="0.9" dy="0.35" layer="1"/>
+<smd name="14" x="2.875" y="1.95" dx="0.9" dy="0.35" layer="1"/>
+<text x="-3.175" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2" y1="1.8" x2="-2.25" y2="2.1" layer="51"/>
+<rectangle x1="-3.2" y1="1.15" x2="-2.25" y2="1.45" layer="51"/>
+<rectangle x1="-3.2" y1="0.5" x2="-2.25" y2="0.8" layer="51"/>
+<rectangle x1="-3.2" y1="-0.15" x2="-2.25" y2="0.15" layer="51"/>
+<rectangle x1="-3.2" y1="-0.8" x2="-2.25" y2="-0.5" layer="51"/>
+<rectangle x1="-3.2" y1="-1.45" x2="-2.25" y2="-1.15" layer="51"/>
+<rectangle x1="-3.2" y1="-2.1" x2="-2.25" y2="-1.8" layer="51"/>
+<rectangle x1="2.25" y1="-2.1" x2="3.2" y2="-1.8" layer="51"/>
+<rectangle x1="2.25" y1="-1.45" x2="3.2" y2="-1.15" layer="51"/>
+<rectangle x1="2.25" y1="-0.8" x2="3.2" y2="-0.5" layer="51"/>
+<rectangle x1="2.25" y1="-0.15" x2="3.2" y2="0.15" layer="51"/>
+<rectangle x1="2.25" y1="0.5" x2="3.2" y2="0.8" layer="51"/>
+<rectangle x1="2.25" y1="1.15" x2="3.2" y2="1.45" layer="51"/>
+<rectangle x1="2.25" y1="1.8" x2="3.2" y2="2.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AN-AN">
@@ -532,6 +788,48 @@ Digi-Key: 1727-5865-1-ND</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="MBR0520LT1G">
+<pin name="1" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="2" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<text x="-15.1384" y="5.8166" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-15.2654" y="-5.6134" size="2.0828" layer="96" ratio="6" rot="SR0" align="top-left">&gt;Value</text>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.3114" y="2.6416" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.3114" y="-2.4638" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="CD4066BPWR">
+<wire x1="-11.43" y1="10.16" x2="11.43" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="10.16" x2="11.43" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-10.16" x2="-11.43" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="-10.16" x2="-11.43" y2="10.16" width="0.1524" layer="94"/>
+<pin name="A_I/O" x="-16.51" y="7.62" length="middle" direction="pas"/>
+<pin name="A_O/I" x="-16.51" y="5.08" length="middle" direction="pas"/>
+<pin name="B_O/I" x="-16.51" y="2.54" length="middle" direction="pas"/>
+<pin name="B_I/O" x="-16.51" y="0" length="middle" direction="pas"/>
+<pin name="CTRL_B" x="-16.51" y="-2.54" length="middle" direction="pas"/>
+<pin name="CTRL_C" x="-16.51" y="-5.08" length="middle" direction="pas"/>
+<pin name="VSS" x="-16.51" y="-7.62" length="middle" direction="pas"/>
+<pin name="C_I/O" x="16.51" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="C_O/I" x="16.51" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="D_O/I" x="16.51" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="D_I/O" x="16.51" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="CTRL_D" x="16.51" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="CTRL_A" x="16.51" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="VDD" x="16.51" y="7.62" length="middle" direction="pas" rot="R180"/>
+<text x="-10.922" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-11.176" y="-10.668" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -793,28 +1091,6 @@ Surface Mount 2114/DO-214AA</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPD2E2U06DRLR" prefix="D">
-<description>&lt;a href="http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf"&gt;TPD2E2U06DRLR&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="TPD2E2U06" x="-2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="SOT-553">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="IO1" pad="3"/>
-<connect gate="G$1" pin="IO2" pad="5"/>
-<connect gate="G$1" pin="NC1" pad="1"/>
-<connect gate="G$1" pin="NC2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="296-38361-1-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VS-5EWH06FN-M3" prefix="D">
 <gates>
 <gate name="VS-5EWH06FN-M3" symbol="D" x="0" y="0"/>
@@ -850,7 +1126,108 @@ Surface Mount 2114/DO-214AA</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MBR0520LT1G_DIODE" prefix="U">
+<description>https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSTR-ND/918574</description>
+<gates>
+<gate name="A" symbol="MBR0520LT1G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-123">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="MBR0520LT1G" constant="no"/>
+<attribute name="VENDOR" value="ON Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD-123-M" package="SOD-123-M">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="MBR0520LT1G" constant="no"/>
+<attribute name="VENDOR" value="ON Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD-123-L" package="SOD-123-L">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="MBR0520LT1G" constant="no"/>
+<attribute name="VENDOR" value="ON Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RB521S30T1G">
+<description>https://www.digikey.com/product-detail/en/on-semiconductor/RB521S30T1G/RB521S30T1GOSTR-ND/920292</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CD4066BPWR" prefix="U">
+<description>Bilateral switch IC for controlling data lines. 
+
+Vss should normally be connected to GND.</description>
+<gates>
+<gate name="G$1" symbol="CD4066BPWR" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TSSOP14">
+<connects>
+<connect gate="G$1" pin="A_I/O" pad="1"/>
+<connect gate="G$1" pin="A_O/I" pad="2"/>
+<connect gate="G$1" pin="B_I/O" pad="4"/>
+<connect gate="G$1" pin="B_O/I" pad="3"/>
+<connect gate="G$1" pin="CTRL_A" pad="13"/>
+<connect gate="G$1" pin="CTRL_B" pad="5"/>
+<connect gate="G$1" pin="CTRL_C" pad="6"/>
+<connect gate="G$1" pin="CTRL_D" pad="12"/>
+<connect gate="G$1" pin="C_I/O" pad="8"/>
+<connect gate="G$1" pin="C_O/I" pad="9"/>
+<connect gate="G$1" pin="D_I/O" pad="11"/>
+<connect gate="G$1" pin="D_O/I" pad="10"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="296-14123-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
