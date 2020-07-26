@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -406,6 +406,22 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOT-363">
+<description>https://www.digikey.com/product-detail/en/diodes-incorporated/BSS84DW-7-F/BSS84DW-FDITR-ND/717725</description>
+<smd name="1" x="-0.95" y="0.65" dx="0.6" dy="0.42" layer="1"/>
+<smd name="2" x="-0.95" y="0" dx="0.6" dy="0.42" layer="1" roundness="100"/>
+<smd name="3" x="-0.95" y="-0.65" dx="0.6" dy="0.42" layer="1" roundness="100"/>
+<smd name="4" x="0.95" y="-0.65" dx="0.6" dy="0.42" layer="1" roundness="100"/>
+<smd name="5" x="0.95" y="0" dx="0.6" dy="0.42" layer="1" roundness="100"/>
+<smd name="6" x="0.95" y="0.65" dx="0.6" dy="0.42" layer="1" roundness="100"/>
+<wire x1="-1.7526" y1="0.6604" x2="-1.905" y2="0.6604" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.905" y1="0.6604" x2="-1.7526" y2="0.6604" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.8766" y="1.465" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.016" x2="-1.397" y2="1.016" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IGBT">
@@ -583,6 +599,20 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <vertex x="2.032" y="-0.254"/>
 <vertex x="0.762" y="-0.254"/>
 </polygon>
+</symbol>
+<symbol name="BSS84DW-7-F">
+<pin name="S2" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="G2" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="D1" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="S1" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="G1" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="D2" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<text x="-7.5184" y="8.3566" size="1.778" layer="95" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-7.3914" y="-8.4074" size="1.778" layer="96" font="vector" ratio="6" rot="SR0" align="top-left">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -882,6 +912,30 @@ Rdson=1.8mOhm</description>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="BSS806NH6327XTSA1CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS84DW-7-F" prefix="U" uservalue="yes">
+<description>dual mosfet</description>
+<gates>
+<gate name="A" symbol="BSS84DW-7-F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-363">
+<connects>
+<connect gate="A" pin="D1" pad="3"/>
+<connect gate="A" pin="D2" pad="6"/>
+<connect gate="A" pin="G1" pad="5"/>
+<connect gate="A" pin="G2" pad="2"/>
+<connect gate="A" pin="S1" pad="4"/>
+<connect gate="A" pin="S2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84DW7F" constant="no"/>
+<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
 </technology>
 </technologies>
 </device>
