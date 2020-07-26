@@ -443,6 +443,17 @@ Sourc: www.ctscorp.com</description>
 <rectangle x1="2.29" y1="4" x2="2.79" y2="4.95" layer="51" rot="R180"/>
 <rectangle x1="2.29" y1="-4.95" x2="2.79" y2="-4" layer="51"/>
 </package>
+<package name="CTS_DIP_SWITCH">
+<description>https://www.ctscorp.com/wp-content/uploads/219.pdf</description>
+<smd name="A2" x="-1.25" y="4.25" dx="1.1176" dy="2.4384" layer="1"/>
+<smd name="B2" x="1.29" y="4.25" dx="1.1176" dy="2.4384" layer="1"/>
+<smd name="A1" x="-1.25" y="-4.3606" dx="1.1176" dy="2.4384" layer="1"/>
+<smd name="B1" x="1.29" y="-4.3606" dx="1.1176" dy="2.4384" layer="1"/>
+<wire x1="-3.79" y1="2.98" x2="-3.79" y2="-3.116" width="0.127" layer="21"/>
+<wire x1="3.83" y1="2.98" x2="3.83" y2="-3.116" width="0.127" layer="21"/>
+<wire x1="-3.79" y1="2.98" x2="3.83" y2="2.98" width="0.127" layer="21"/>
+<wire x1="-3.79" y1="-3.116" x2="3.83" y2="-3.116" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HEX">
@@ -703,6 +714,16 @@ Sourc: www.ctscorp.com</description>
 <pin name="2" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="SPST-NO-2X">
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="COMMON" x="-7.62" y="2.54" visible="off" length="middle" direction="pas"/>
+<pin name="A" x="7.62" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="COMMON1" x="-7.62" y="-2.54" visible="off" length="middle" direction="pas"/>
+<pin name="A1" x="7.62" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="-5.842" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.842" y="-4.826" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KMR2" prefix="S">
@@ -892,6 +913,27 @@ Sourc: www.ctscorp.com</description>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="CT2193LPST-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CTS_SWITCH_SPST" prefix="S">
+<description>2 position DIP switch</description>
+<gates>
+<gate name="G$1" symbol="SPST-NO-2X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CTS_DIP_SWITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="A1"/>
+<connect gate="G$1" pin="A1" pad="B1"/>
+<connect gate="G$1" pin="COMMON" pad="A2"/>
+<connect gate="G$1" pin="COMMON1" pad="B2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPT" value="CT3113CT-ND"/>
 </technology>
 </technologies>
 </device>
