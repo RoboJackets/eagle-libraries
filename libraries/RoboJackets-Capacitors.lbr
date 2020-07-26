@@ -223,6 +223,194 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <wire x1="2.286" y1="0.381" x2="2.286" y2="3.429" width="0.127" layer="22"/>
 <wire x1="2.286" y1="3.429" x2="-2.286" y2="3.429" width="0.127" layer="22"/>
 </package>
+<package name="PCAP_8X112">
+<description>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-0JM102/P5115-ND/244974</description>
+<pad name="1" x="-1.7052" y="-0.1" drill="0.9652" diameter="1.524" shape="square"/>
+<pad name="2" x="1.8" y="-0.1" drill="0.9652" diameter="1.524" rot="R180"/>
+<wire x1="-5.4644" y1="-0.1" x2="-4.1944" y2="-0.1" width="0.1524" layer="21"/>
+<wire x1="-4.8548" y1="0.535" x2="-4.8548" y2="-0.735" width="0.1524" layer="21"/>
+<wire x1="4.1876" y1="-0.1" x2="-4.0928" y2="-0.1" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.0928" y1="-0.1" x2="4.1876" y2="-0.1" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-5.4644" y1="-0.1" x2="-4.1944" y2="-0.1" width="0.1524" layer="51"/>
+<wire x1="-4.8548" y1="0.535" x2="-4.8548" y2="-0.735" width="0.1524" layer="51"/>
+<wire x1="4.0352" y1="-0.1" x2="-3.9404" y2="-0.1" width="0" layer="51" curve="-180"/>
+<wire x1="-3.9404" y1="-0.1" x2="4.0352" y2="-0.1" width="0" layer="51" curve="-180"/>
+<text x="-3.2292" y="4.345" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="CAP_4_X_5.4">
+<description>https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1CA100SR/PCE3878TR-ND/766045</description>
+<smd name="1" x="-2.2098" y="0" dx="2.4892" dy="1.7526" layer="1"/>
+<smd name="2" x="2.2098" y="0" dx="2.4892" dy="1.7526" layer="1"/>
+<wire x1="-1.6764" y1="0" x2="-1.8288" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.8288" y1="0" x2="-1.6764" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.1971" y="2.1971"/>
+<vertex x="2.1971" y="2.1971"/>
+<vertex x="2.1971" y="0.9271"/>
+<vertex x="-2.1971" y="0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.1971" y="-0.9271"/>
+<vertex x="2.1971" y="-0.9271"/>
+<vertex x="2.1971" y="-2.1971"/>
+<vertex x="-2.1971" y="-2.1971"/>
+</polygon>
+<wire x1="-1.6764" y1="0" x2="-1.8288" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.8288" y1="0" x2="-1.6764" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.1971" y="2.1971"/>
+<vertex x="2.1971" y="2.1971"/>
+<vertex x="2.1971" y="0.9271"/>
+<vertex x="-2.1971" y="0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.1971" y="-0.9271"/>
+<vertex x="2.1971" y="-0.9271"/>
+<vertex x="2.1971" y="-2.1971"/>
+<vertex x="-2.1971" y="-2.1971"/>
+</polygon>
+<wire x1="-2.3876" y1="-2.3876" x2="2.3876" y2="-2.3876" width="0.1524" layer="21"/>
+<wire x1="2.3876" y1="-2.3876" x2="2.3876" y2="-1.2192" width="0.1524" layer="21"/>
+<wire x1="2.3876" y1="2.3876" x2="-2.3876" y2="2.3876" width="0.1524" layer="21"/>
+<wire x1="-2.3876" y1="2.3876" x2="-2.3876" y2="1.2192" width="0.1524" layer="21"/>
+<wire x1="-2.3876" y1="-1.2192" x2="-2.3876" y2="-2.3876" width="0.1524" layer="21"/>
+<wire x1="2.3876" y1="1.2192" x2="2.3876" y2="2.3876" width="0.1524" layer="21"/>
+<wire x1="-1.6764" y1="0" x2="-1.8288" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.8288" y1="0" x2="-1.6764" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9144" y="0.9271"/>
+<vertex x="0.9144" y="0.9271"/>
+<vertex x="0.9144" y="-0.9271"/>
+<vertex x="-0.9144" y="-0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.1971" y="2.1971"/>
+<vertex x="2.1971" y="2.1971"/>
+<vertex x="2.1971" y="0.9271"/>
+<vertex x="-2.1971" y="0.9271"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.1971" y="-0.9271"/>
+<vertex x="2.1971" y="-0.9271"/>
+<vertex x="2.1971" y="-2.1971"/>
+<vertex x="-2.1971" y="-2.1971"/>
+</polygon>
+<text x="-2.8766" y="2.675" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="PCAP_8X10-ELECT">
+<description>https://www.digikey.com/product-detail/en/nichicon/UWT0J102MNL1GS/493-2160-2-ND/589901</description>
+<smd name="1" x="-3.4544" y="0" dx="3.81" dy="2.1082" layer="1"/>
+<smd name="2" x="3.4544" y="0" dx="3.81" dy="2.1082" layer="1"/>
+<wire x1="-6.096" y1="0" x2="-6.858" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.477" y1="0.381" x2="-6.477" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-4.3688" x2="4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-4.3688" x2="4.3688" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="4.3688" x2="-4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="4.3688" x2="-4.3688" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-1.397" x2="-4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="1.397" x2="4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="0" x2="-6.858" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6.477" y1="0.381" x2="-6.477" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="2.1336" x2="-2.1336" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-2.1336" x2="-2.1336" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-4.2672" x2="4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.2672" x2="4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.2672" x2="-4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="4.2672" x2="-4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<text x="-4.6736" y="4.699" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="PCAP_8X10-ELECT-M">
+<description>https://www.digikey.com/product-detail/en/nichicon/UWT0J102MNL1GS/493-2160-2-ND/589901</description>
+<smd name="1" x="-3.5941" y="0" dx="4.0894" dy="2.3114" layer="1"/>
+<smd name="2" x="3.5941" y="0" dx="4.0894" dy="2.3114" layer="1"/>
+<wire x1="-6.3754" y1="0" x2="-7.1374" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.7564" y1="0.381" x2="-6.7564" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-4.3688" x2="4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-4.3688" x2="4.3688" y2="-1.4986" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="4.3688" x2="-4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="4.3688" x2="-4.3688" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-1.4986" x2="-4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="1.4986" x2="4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-6.3754" y1="0" x2="-7.1374" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6.7564" y1="0.381" x2="-6.7564" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="2.1336" x2="-2.1336" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-2.1336" x2="-2.1336" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-4.2672" x2="4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.2672" x2="4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.2672" x2="-4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="4.2672" x2="-4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<text x="-4.5766" y="4.665" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="PCAP_8X10-ELECT-L">
+<description>https://www.digikey.com/product-detail/en/nichicon/UWT0J102MNL1GS/493-2160-2-ND/589901</description>
+<smd name="1" x="-3.302" y="0" dx="3.5052" dy="1.905" layer="1"/>
+<smd name="2" x="3.302" y="0" dx="3.5052" dy="1.905" layer="1"/>
+<wire x1="-5.7912" y1="0" x2="-6.5532" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.1722" y1="0.381" x2="-6.1722" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-4.3688" x2="4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-4.3688" x2="4.3688" y2="-1.2954" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="4.3688" x2="-4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="4.3688" x2="-4.3688" y2="1.2954" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="-1.2954" x2="-4.3688" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="1.2954" x2="4.3688" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-5.7912" y1="0" x2="-6.5532" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6.1722" y1="0.381" x2="-6.1722" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="2.1336" x2="-2.1336" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-2.1336" x2="-2.1336" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="-4.2672" x2="4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="-4.2672" x2="4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="4.2672" y1="4.2672" x2="-4.2672" y2="4.2672" width="0.1524" layer="51"/>
+<wire x1="-4.2672" y1="4.2672" x2="-4.2672" y2="-4.2672" width="0.1524" layer="51"/>
+<text x="-4.6736" y="4.572" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -246,6 +434,20 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="PCAPH">
+<pin name="22" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="-0.3302" y1="0" x2="-0.3302" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="0.9398" y1="-1.905" x2="0.9398" y2="1.905" width="0.1524" layer="94" curve="-74"/>
+<wire x1="-1.6002" y1="0.635" x2="-1.6002" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="0.3048" y1="0" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="-0.3302" y1="-1.905" x2="-0.3302" y2="0" width="0.2032" layer="94"/>
+<wire x1="-2.2352" y1="1.27" x2="-0.9652" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.3302" y2="0" width="0.2032" layer="94"/>
+<wire x1="0.9398" y1="-1.905" x2="0.9398" y2="1.905" width="0.1524" layer="94" curve="-74"/>
+<text x="-7.9502" y="-1.7272" size="1.778" layer="96" font="vector" ratio="10" rot="SR0" align="top-left">&gt;Value</text>
+<text x="-7.8994" y="2.0828" size="1.778" layer="95" font="vector" ratio="10" rot="SR0">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -283,6 +485,87 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <technology name="">
 <attribute name="DKPN" value="P5572-ND"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECA-0JM102" prefix="C">
+<description>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-0JM102/P5115-ND/244974</description>
+<gates>
+<gate name="A" symbol="PCAPH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCAP_8X112">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECA0JM102" constant="no"/>
+<attribute name="VENDOR" value="Panasonic" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEE-1CA100SR">
+<description>https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1CA100SR/PCE3878TR-ND/766045</description>
+<gates>
+<gate name="A" symbol="PCAPH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAP_4_X_5.4">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT0J102MNL1GS" prefix="C">
+<description>https://www.digikey.com/product-detail/en/nichicon/UWT0J102MNL1GS/493-2160-2-ND/589901</description>
+<gates>
+<gate name="A" symbol="PCAPH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCAP_8X10-ELECT">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PCAP_8X10-ELECT-M" package="PCAP_8X10-ELECT-M">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PCAP_8X10-ELECT-L" package="PCAP_8X10-ELECT-L">
+<connects>
+<connect gate="A" pin="11" pad="1"/>
+<connect gate="A" pin="22" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
 </technology>
 </technologies>
 </device>
