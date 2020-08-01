@@ -842,12 +842,16 @@ In this library you will find resistors. If you are looking for a common package
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="PVG3G501C01R00CT-ND"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="500" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="PWR263S-35" prefix="R" uservalue="yes">
+<description>3.3 kOhms ±5% 35W Chip Resistor TO-263-3, D²Pak (2 Leads + Tab), TO-263AB Automotive AEC-Q200, Current Sense, Pulse Withstanding Thick Film</description>
 <gates>
 <gate name="A" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -860,6 +864,9 @@ In this library you will find resistors. If you are looking for a common package
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="PWR263S-35-3301J-ND"/>
+<attribute name="POWER" value="35W" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.3k" constant="no"/>
 </technology>
 </technologies>
 </device>
