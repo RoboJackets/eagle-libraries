@@ -171,8 +171,8 @@ In this library you will find circuit elements directly involved in controlling 
 <pad name="GND3" x="0.635" y="0.635" drill="0.3" stop="no" thermals="no"/>
 <pad name="GND4" x="-0.635" y="-0.635" drill="0.3" stop="no" thermals="no"/>
 <pad name="GND5" x="0.635" y="-0.635" drill="0.3" stop="no" thermals="no"/>
-<text x="-2.5" y="3" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.5" y="-3" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2.5" y="3" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.5" y="-3" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="39"/>
 <wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.2" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.2" layer="21"/>
@@ -184,9 +184,9 @@ In this library you will find circuit elements directly involved in controlling 
 <smd name="NC" x="8" y="0" dx="1.016" dy="3.302" layer="1" rot="R180"/>
 <wire x1="-7.366" y1="1.778" x2="7.366" y2="1.778" width="0.2" layer="21"/>
 <wire x1="-7.366" y1="-1.778" x2="7.366" y2="-1.778" width="0.2" layer="21"/>
-<text x="-8" y="2.5" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-8" y="2.5" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <rectangle x1="-8.608" y1="-1.978" x2="8.608" y2="1.978" layer="39"/>
-<text x="-8" y="-2.5" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-8" y="-2.5" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="QFN-32">
 <circle x="-1.6" y="-1.8" radius="0.1414" width="0.127" layer="21"/>
@@ -232,8 +232,8 @@ In this library you will find circuit elements directly involved in controlling 
 <smd name="P$31" x="-2.5" y="-1.25" dx="0.8" dy="0.2846" layer="1"/>
 <smd name="P$32" x="-2.5" y="-1.75" dx="0.8" dy="0.2846" layer="1"/>
 <smd name="P$33" x="0" y="0" dx="2.5" dy="2.5" layer="1" thermals="no"/>
-<text x="-3" y="3.5" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-3" y="-3.5" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-3" y="3.5" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3" y="-3.5" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
 </package>
 <package name="QFN20">
@@ -280,8 +280,8 @@ In this library you will find circuit elements directly involved in controlling 
 <smd name="18" x="0" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
 <smd name="19" x="-0.5" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
 <smd name="20" x="-1" y="1.9" dx="0.65" dy="0.3" layer="1" rot="R90" cream="no"/>
-<text x="-2.5" y="2.5" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.5" y="-2.5" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2.5" y="2.5" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.5" y="-2.5" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="39"/>
 </package>
 <package name="ISM43340">
@@ -360,8 +360,8 @@ In this library you will find circuit elements directly involved in controlling 
 KO</text>
 <text x="20.5" y="0.5" size="1.016" layer="21" font="vector" rot="SR270">OCA
 KO</text>
-<text x="-10.5" y="8" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-10.5" y="-8" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-10.5" y="8" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-10.5" y="-8" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <rectangle x1="-10.5" y1="-7.5" x2="23.5" y2="7.5" layer="39"/>
 </package>
 <package name="ISM43340-L77">
@@ -447,22 +447,22 @@ KO</text>
 <wire x1="-7.5" y1="-7" x2="7.5" y2="-7" width="0.2" layer="21"/>
 <wire x1="-7.5" y1="-7" x2="-7.5" y2="7" width="0.2" layer="21"/>
 <rectangle x1="-7.5" y1="-7" x2="7.5" y2="7" layer="39"/>
-<text x="-7.5" y="7.5" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-7.6" y="-7.5" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-7.5" y="7.5" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-7.6" y="-7.5" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="0896BM15A0001E">
-<wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
-<text x="-15.24" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-8.89" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-<pin name="GND" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="BAL3" x="-20.32" y="5.08" length="middle"/>
-<pin name="BAL4" x="-20.32" y="-5.08" length="middle"/>
-<pin name="UNBAL" x="20.32" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-8.89" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="BAL1" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="BAL2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="UNBAL" x="-15.24" y="2.54" length="middle"/>
 </symbol>
 <symbol name="CC1101">
 <wire x1="-17.78" y1="-25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
@@ -710,15 +710,15 @@ KO</text>
 <deviceset name="0896BM15A0001E" prefix="U">
 <description>BALUN 863MHZ-928MHZ 0805 &lt;a href="https://www.johansontechnology.com/datasheets/0896BM15A0001/0896BM15A0001.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="0896BM15A0001E" x="0" y="0"/>
+<gate name="A" symbol="0896BM15A0001E" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0896BM15A0001E">
 <connects>
-<connect gate="G$1" pin="BAL3" pad="3"/>
-<connect gate="G$1" pin="BAL4" pad="4"/>
-<connect gate="G$1" pin="GND" pad="2 5 6" route="any"/>
-<connect gate="G$1" pin="UNBAL" pad="1"/>
+<connect gate="A" pin="BAL1" pad="3"/>
+<connect gate="A" pin="BAL2" pad="4"/>
+<connect gate="A" pin="GND" pad="2 5 6" route="any"/>
+<connect gate="A" pin="UNBAL" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -731,30 +731,30 @@ KO</text>
 <deviceset name="CC1101" prefix="U">
 <description>IC RF TXRX ISM 1GHZ 20VFQFN &lt;a href="https://www.ti.com/lit/ds/symlink/cc1101.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="CC1101" x="0" y="0"/>
+<gate name="A" symbol="CC1101" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QLP20">
 <connects>
-<connect gate="G$1" pin="AVDD1" pad="9"/>
-<connect gate="G$1" pin="AVDD2" pad="11"/>
-<connect gate="G$1" pin="AVDD3" pad="14"/>
-<connect gate="G$1" pin="AVDD4" pad="15"/>
-<connect gate="G$1" pin="CSN" pad="7"/>
-<connect gate="G$1" pin="DCOUPL" pad="5"/>
-<connect gate="G$1" pin="DGUARD" pad="18"/>
-<connect gate="G$1" pin="DVDD" pad="4"/>
-<connect gate="G$1" pin="GDO0(ATEST)" pad="6"/>
-<connect gate="G$1" pin="GDO2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="16 19 GND GND1 GND2 GND3 GND4 GND5"/>
-<connect gate="G$1" pin="RBIAS" pad="17"/>
-<connect gate="G$1" pin="RF_N" pad="13"/>
-<connect gate="G$1" pin="RF_P" pad="12"/>
-<connect gate="G$1" pin="SCLK" pad="1"/>
-<connect gate="G$1" pin="SI" pad="20"/>
-<connect gate="G$1" pin="SO(GDO1)" pad="2"/>
-<connect gate="G$1" pin="XOSC_Q1" pad="8"/>
-<connect gate="G$1" pin="XOSC_Q2" pad="10"/>
+<connect gate="A" pin="AVDD1" pad="9"/>
+<connect gate="A" pin="AVDD2" pad="11"/>
+<connect gate="A" pin="AVDD3" pad="14"/>
+<connect gate="A" pin="AVDD4" pad="15"/>
+<connect gate="A" pin="CSN" pad="7"/>
+<connect gate="A" pin="DCOUPL" pad="5"/>
+<connect gate="A" pin="DGUARD" pad="18"/>
+<connect gate="A" pin="DVDD" pad="4"/>
+<connect gate="A" pin="GDO0(ATEST)" pad="6"/>
+<connect gate="A" pin="GDO2" pad="3"/>
+<connect gate="A" pin="GND" pad="16 19 GND GND1 GND2 GND3 GND4 GND5"/>
+<connect gate="A" pin="RBIAS" pad="17"/>
+<connect gate="A" pin="RF_N" pad="13"/>
+<connect gate="A" pin="RF_P" pad="12"/>
+<connect gate="A" pin="SCLK" pad="1"/>
+<connect gate="A" pin="SI" pad="20"/>
+<connect gate="A" pin="SO(GDO1)" pad="2"/>
+<connect gate="A" pin="XOSC_Q1" pad="8"/>
+<connect gate="A" pin="XOSC_Q2" pad="10"/>
 </connects>
 <technologies>
 <technology name="">
@@ -767,12 +767,12 @@ KO</text>
 <deviceset name="ANT-916-CHP-?" prefix="U">
 <description>RF ANT 916MHZ CHIP SOLDER SMD &lt;a href="https://linxtechnologies.com/wp/wp-content/uploads/ant-fff-chp-x.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
+<gate name="A" symbol="ANTENNA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ANT-916-CHP">
 <connects>
-<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="A" pin="ANT" pad="ANT"/>
 </connects>
 <technologies>
 <technology name="">
@@ -785,32 +785,32 @@ KO</text>
 <deviceset name="NRF24L01" prefix="U" uservalue="yes">
 <description>IC RF TXRX ISM&gt;1GHZ 20VFQFN &lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Nordic%20Semiconductor%20PDFs/nRF24L01_PS_July2007.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="NRF24L01" x="0" y="0"/>
+<gate name="A" symbol="NRF24L01" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFN20">
 <connects>
-<connect gate="G$1" pin="ANT1" pad="12"/>
-<connect gate="G$1" pin="ANT2" pad="13"/>
-<connect gate="G$1" pin="CE" pad="1"/>
-<connect gate="G$1" pin="CSN" pad="2"/>
-<connect gate="G$1" pin="DVDD" pad="19"/>
-<connect gate="G$1" pin="IREF" pad="16"/>
-<connect gate="G$1" pin="IRQ" pad="6"/>
-<connect gate="G$1" pin="MISO" pad="5"/>
-<connect gate="G$1" pin="MOSI" pad="4"/>
-<connect gate="G$1" pin="SCK" pad="3"/>
-<connect gate="G$1" pin="VDD@15" pad="15"/>
-<connect gate="G$1" pin="VDD@18" pad="18"/>
-<connect gate="G$1" pin="VDD@7" pad="7"/>
-<connect gate="G$1" pin="VDD_PA" pad="11"/>
-<connect gate="G$1" pin="VSS@0" pad="0"/>
-<connect gate="G$1" pin="VSS@14" pad="14"/>
-<connect gate="G$1" pin="VSS@17" pad="17"/>
-<connect gate="G$1" pin="VSS@20" pad="20"/>
-<connect gate="G$1" pin="VSS@8" pad="8"/>
-<connect gate="G$1" pin="XC1" pad="10"/>
-<connect gate="G$1" pin="XC2" pad="9"/>
+<connect gate="A" pin="ANT1" pad="12"/>
+<connect gate="A" pin="ANT2" pad="13"/>
+<connect gate="A" pin="CE" pad="1"/>
+<connect gate="A" pin="CSN" pad="2"/>
+<connect gate="A" pin="DVDD" pad="19"/>
+<connect gate="A" pin="IREF" pad="16"/>
+<connect gate="A" pin="IRQ" pad="6"/>
+<connect gate="A" pin="MISO" pad="5"/>
+<connect gate="A" pin="MOSI" pad="4"/>
+<connect gate="A" pin="SCK" pad="3"/>
+<connect gate="A" pin="VDD@15" pad="15"/>
+<connect gate="A" pin="VDD@18" pad="18"/>
+<connect gate="A" pin="VDD@7" pad="7"/>
+<connect gate="A" pin="VDD_PA" pad="11"/>
+<connect gate="A" pin="VSS@0" pad="0"/>
+<connect gate="A" pin="VSS@14" pad="14"/>
+<connect gate="A" pin="VSS@17" pad="17"/>
+<connect gate="A" pin="VSS@20" pad="20"/>
+<connect gate="A" pin="VSS@8" pad="8"/>
+<connect gate="A" pin="XC1" pad="10"/>
+<connect gate="A" pin="XC2" pad="9"/>
 </connects>
 <technologies>
 <technology name="">
@@ -863,65 +863,65 @@ KO</text>
 <deviceset name="ISM43340" prefix="A">
 <description>RX TXRX MODULE WIFI U.FL SMD &lt;a href="https://www.inventeksys.com/wp-content/uploads/ISM4334x_M4G_L44_Functional_Spec.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ISM43340" x="0" y="0"/>
+<gate name="A" symbol="ISM43340" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ISM43340">
 <connects>
-<connect gate="G$1" pin="P01-GND" pad="P$1"/>
-<connect gate="G$1" pin="P02-VDD" pad="P$2"/>
-<connect gate="G$1" pin="P03-GND" pad="P$3"/>
-<connect gate="G$1" pin="P04-JTAG_TMS" pad="P$4"/>
-<connect gate="G$1" pin="P05-JTAG_TCK" pad="P$5"/>
-<connect gate="G$1" pin="P06-JTAG_TDI" pad="P$6"/>
-<connect gate="G$1" pin="P07-JTAG_TDO" pad="P$7"/>
-<connect gate="G$1" pin="P08-JTAG_TDRSTN" pad="P$8"/>
-<connect gate="G$1" pin="P09-SPI_MOSI/ADC_4" pad="P$9"/>
-<connect gate="G$1" pin="P10-SPI_MISO/ADC_3" pad="P$10"/>
-<connect gate="G$1" pin="P11-SPI_SCK/ADC_2" pad="P$11"/>
-<connect gate="G$1" pin="P12-SPI_!SS!/ADC_1" pad="P$12"/>
-<connect gate="G$1" pin="P13-SPI_DR/DR/ADC_0" pad="P$13"/>
-<connect gate="G$1" pin="P14-VDD" pad="P$14"/>
-<connect gate="G$1" pin="P15-VBAT" pad="P$15"/>
-<connect gate="G$1" pin="P16-WAKEUP" pad="P$16"/>
-<connect gate="G$1" pin="P17-GND" pad="P$17"/>
-<connect gate="G$1" pin="P18-USB_DATA_P" pad="P$18"/>
-<connect gate="G$1" pin="P19-USB_DATA_N" pad="P$19"/>
-<connect gate="G$1" pin="P20-GND" pad="P$20"/>
-<connect gate="G$1" pin="P21-UART_RX" pad="P$21"/>
-<connect gate="G$1" pin="P22-UART_TX" pad="P$22"/>
-<connect gate="G$1" pin="P23-GPIO_0" pad="P$23"/>
-<connect gate="G$1" pin="P24-GPIO_1" pad="P$24"/>
-<connect gate="G$1" pin="P25-GPIO_2" pad="P$25"/>
-<connect gate="G$1" pin="P26-GPIO_3" pad="P$26"/>
-<connect gate="G$1" pin="P27-GPIO_4" pad="P$27"/>
-<connect gate="G$1" pin="P28-DNC" pad="P$28"/>
-<connect gate="G$1" pin="P29-DNC" pad="P$29"/>
-<connect gate="G$1" pin="P30-RES/GPIO_15/PB15" pad="P$30"/>
-<connect gate="G$1" pin="P31-RES/GPIO_14/PB14" pad="P$31"/>
-<connect gate="G$1" pin="P32-RES/GPIO_13/PB13" pad="P$32"/>
-<connect gate="G$1" pin="P33-BOOT_0" pad="P$33"/>
-<connect gate="G$1" pin="P34-!RST!" pad="P$34"/>
-<connect gate="G$1" pin="P35-GND" pad="P$35"/>
-<connect gate="G$1" pin="P36-GND" pad="P$36"/>
-<connect gate="G$1" pin="P37-GND" pad="P$37"/>
-<connect gate="G$1" pin="P38-GND" pad="P$38"/>
-<connect gate="G$1" pin="P39-GND" pad="P$39"/>
-<connect gate="G$1" pin="P40-GND" pad="P$40"/>
-<connect gate="G$1" pin="P41-GND" pad="P$41"/>
-<connect gate="G$1" pin="P42-GND" pad="P$42"/>
-<connect gate="G$1" pin="P43-GND" pad="P$43"/>
-<connect gate="G$1" pin="P44-GND" pad="P$44"/>
-<connect gate="G$1" pin="P45-GPIO_A" pad="P$45"/>
-<connect gate="G$1" pin="P46-GPIO_B" pad="P$46"/>
-<connect gate="G$1" pin="P47-GPIO_C" pad="P$47"/>
-<connect gate="G$1" pin="P48-GPIO_D" pad="P$48"/>
-<connect gate="G$1" pin="P49-GPIO_E" pad="P$49"/>
-<connect gate="G$1" pin="P50-GPIO_F" pad="P$50"/>
-<connect gate="G$1" pin="P51-GPIO_G" pad="P$51"/>
-<connect gate="G$1" pin="P52-GPIO_H" pad="P$52"/>
-<connect gate="G$1" pin="P53-GPIO_I" pad="P$53"/>
-<connect gate="G$1" pin="P54-GPIO_K" pad="P$54"/>
+<connect gate="A" pin="P01-GND" pad="P$1"/>
+<connect gate="A" pin="P02-VDD" pad="P$2"/>
+<connect gate="A" pin="P03-GND" pad="P$3"/>
+<connect gate="A" pin="P04-JTAG_TMS" pad="P$4"/>
+<connect gate="A" pin="P05-JTAG_TCK" pad="P$5"/>
+<connect gate="A" pin="P06-JTAG_TDI" pad="P$6"/>
+<connect gate="A" pin="P07-JTAG_TDO" pad="P$7"/>
+<connect gate="A" pin="P08-JTAG_TDRSTN" pad="P$8"/>
+<connect gate="A" pin="P09-SPI_MOSI/ADC_4" pad="P$9"/>
+<connect gate="A" pin="P10-SPI_MISO/ADC_3" pad="P$10"/>
+<connect gate="A" pin="P11-SPI_SCK/ADC_2" pad="P$11"/>
+<connect gate="A" pin="P12-SPI_!SS!/ADC_1" pad="P$12"/>
+<connect gate="A" pin="P13-SPI_DR/DR/ADC_0" pad="P$13"/>
+<connect gate="A" pin="P14-VDD" pad="P$14"/>
+<connect gate="A" pin="P15-VBAT" pad="P$15"/>
+<connect gate="A" pin="P16-WAKEUP" pad="P$16"/>
+<connect gate="A" pin="P17-GND" pad="P$17"/>
+<connect gate="A" pin="P18-USB_DATA_P" pad="P$18"/>
+<connect gate="A" pin="P19-USB_DATA_N" pad="P$19"/>
+<connect gate="A" pin="P20-GND" pad="P$20"/>
+<connect gate="A" pin="P21-UART_RX" pad="P$21"/>
+<connect gate="A" pin="P22-UART_TX" pad="P$22"/>
+<connect gate="A" pin="P23-GPIO_0" pad="P$23"/>
+<connect gate="A" pin="P24-GPIO_1" pad="P$24"/>
+<connect gate="A" pin="P25-GPIO_2" pad="P$25"/>
+<connect gate="A" pin="P26-GPIO_3" pad="P$26"/>
+<connect gate="A" pin="P27-GPIO_4" pad="P$27"/>
+<connect gate="A" pin="P28-DNC" pad="P$28"/>
+<connect gate="A" pin="P29-DNC" pad="P$29"/>
+<connect gate="A" pin="P30-RES/GPIO_15/PB15" pad="P$30"/>
+<connect gate="A" pin="P31-RES/GPIO_14/PB14" pad="P$31"/>
+<connect gate="A" pin="P32-RES/GPIO_13/PB13" pad="P$32"/>
+<connect gate="A" pin="P33-BOOT_0" pad="P$33"/>
+<connect gate="A" pin="P34-!RST!" pad="P$34"/>
+<connect gate="A" pin="P35-GND" pad="P$35"/>
+<connect gate="A" pin="P36-GND" pad="P$36"/>
+<connect gate="A" pin="P37-GND" pad="P$37"/>
+<connect gate="A" pin="P38-GND" pad="P$38"/>
+<connect gate="A" pin="P39-GND" pad="P$39"/>
+<connect gate="A" pin="P40-GND" pad="P$40"/>
+<connect gate="A" pin="P41-GND" pad="P$41"/>
+<connect gate="A" pin="P42-GND" pad="P$42"/>
+<connect gate="A" pin="P43-GND" pad="P$43"/>
+<connect gate="A" pin="P44-GND" pad="P$44"/>
+<connect gate="A" pin="P45-GPIO_A" pad="P$45"/>
+<connect gate="A" pin="P46-GPIO_B" pad="P$46"/>
+<connect gate="A" pin="P47-GPIO_C" pad="P$47"/>
+<connect gate="A" pin="P48-GPIO_D" pad="P$48"/>
+<connect gate="A" pin="P49-GPIO_E" pad="P$49"/>
+<connect gate="A" pin="P50-GPIO_F" pad="P$50"/>
+<connect gate="A" pin="P51-GPIO_G" pad="P$51"/>
+<connect gate="A" pin="P52-GPIO_H" pad="P$52"/>
+<connect gate="A" pin="P53-GPIO_I" pad="P$53"/>
+<connect gate="A" pin="P54-GPIO_K" pad="P$54"/>
 </connects>
 <technologies>
 <technology name="">
@@ -934,88 +934,88 @@ KO</text>
 <deviceset name="ISM43340-L77" prefix="U">
 <description>RX TXRX MODULE WIFI U.FL SMD &lt;a href="https://www.inventeksys.com/wp-content/uploads/ISM43340_Product_Brief-R1.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ISM43340-L77" x="0" y="0"/>
+<gate name="A" symbol="ISM43340-L77" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ISM43340-L77">
 <connects>
-<connect gate="G$1" pin="P01-5G_RF" pad="1"/>
-<connect gate="G$1" pin="P02-GND1" pad="2"/>
-<connect gate="G$1" pin="P03-GND2" pad="3"/>
-<connect gate="G$1" pin="P04-5G/2G_RF" pad="4"/>
-<connect gate="G$1" pin="P05-GND3" pad="5"/>
-<connect gate="G$1" pin="P06-WRF_RFIN_2G" pad="6"/>
-<connect gate="G$1" pin="P07-GND4" pad="7"/>
-<connect gate="G$1" pin="P08-WRF_GPIO_OUT" pad="8"/>
-<connect gate="G$1" pin="P09-RF_SW0" pad="9"/>
-<connect gate="G$1" pin="P10-RF_SW3" pad="10"/>
-<connect gate="G$1" pin="P11-RF_SW4" pad="11"/>
-<connect gate="G$1" pin="P12-BT_HOST_WAKE" pad="12"/>
-<connect gate="G$1" pin="P13-32KHZ_SLEEPCLK" pad="13"/>
-<connect gate="G$1" pin="P14-NFC_REG_PU" pad="14"/>
-<connect gate="G$1" pin="P15-BT_I2S_DO" pad="15"/>
-<connect gate="G$1" pin="P16-BT_I2S_CLK" pad="16"/>
-<connect gate="G$1" pin="P17-BT_I2S_WS" pad="17"/>
-<connect gate="G$1" pin="P18-BT_PCM_SYNC" pad="18"/>
-<connect gate="G$1" pin="P19-BT_PCM_CLK" pad="19"/>
-<connect gate="G$1" pin="P20-BT_PCM_OUT" pad="20"/>
-<connect gate="G$1" pin="P21-BT_PCM_IN" pad="21"/>
-<connect gate="G$1" pin="P22-BT_DEV_WAKE" pad="22"/>
-<connect gate="G$1" pin="P23-VIO" pad="23"/>
-<connect gate="G$1" pin="P24-BT_UART_CTS" pad="24"/>
-<connect gate="G$1" pin="P25-BT_UART_RTS" pad="25"/>
-<connect gate="G$1" pin="P26-BT_UART_TXD" pad="26"/>
-<connect gate="G$1" pin="P27-BT_UART_RXD" pad="27"/>
-<connect gate="G$1" pin="P28-NFC_VDDSWPIN_0" pad="28"/>
-<connect gate="G$1" pin="P29-NFC_VDD_SWP_0" pad="29"/>
-<connect gate="G$1" pin="P30-NFC_RTS" pad="30"/>
-<connect gate="G$1" pin="P31-NFC_CTS" pad="31"/>
-<connect gate="G$1" pin="P32-NFC_TX2" pad="32"/>
-<connect gate="G$1" pin="P33-NFC_TX1" pad="33"/>
-<connect gate="G$1" pin="P34-NFC_SDA" pad="34"/>
-<connect gate="G$1" pin="P35-NFC_SCL" pad="35"/>
-<connect gate="G$1" pin="P36-NFC_SPI_INT" pad="36"/>
-<connect gate="G$1" pin="P37-NFC_GPIO_0" pad="37"/>
-<connect gate="G$1" pin="P38-GND5" pad="38"/>
-<connect gate="G$1" pin="P39-SD_CLK" pad="39"/>
-<connect gate="G$1" pin="P40-SD_CMD" pad="40"/>
-<connect gate="G$1" pin="P41-SD_D0" pad="41"/>
-<connect gate="G$1" pin="P42-SD_D1" pad="42"/>
-<connect gate="G$1" pin="P43-SD_D2" pad="43"/>
-<connect gate="G$1" pin="P44-SD_D3" pad="44"/>
-<connect gate="G$1" pin="P45-NFC_URX" pad="45"/>
-<connect gate="G$1" pin="P46-NFC_UTX" pad="46"/>
-<connect gate="G$1" pin="P47-GND6" pad="47"/>
-<connect gate="G$1" pin="P48-NFC_SWPIO_0" pad="48"/>
-<connect gate="G$1" pin="P49-JTAG_SEL" pad="49"/>
-<connect gate="G$1" pin="P50-WL_REG_ON" pad="50"/>
-<connect gate="G$1" pin="P51-BT_REG_ON" pad="51"/>
-<connect gate="G$1" pin="P52-WL_GPIO0" pad="52"/>
-<connect gate="G$1" pin="P53-WL_GPIO1" pad="53"/>
-<connect gate="G$1" pin="P54-WL_GPIO6" pad="54"/>
-<connect gate="G$1" pin="P55-VBAT1" pad="55"/>
-<connect gate="G$1" pin="P56-VBAT2" pad="56"/>
-<connect gate="G$1" pin="P57-GND7" pad="57"/>
-<connect gate="G$1" pin="P58-GND8" pad="58"/>
-<connect gate="G$1" pin="P59-GND9" pad="59"/>
-<connect gate="G$1" pin="P60-GND10" pad="60"/>
-<connect gate="G$1" pin="P61-GND11" pad="61"/>
-<connect gate="G$1" pin="P62-GND12" pad="62"/>
-<connect gate="G$1" pin="P63-GND13" pad="63"/>
-<connect gate="G$1" pin="P64-GND14" pad="64"/>
-<connect gate="G$1" pin="P65-GND15" pad="65"/>
-<connect gate="G$1" pin="P66-GND16" pad="66"/>
-<connect gate="G$1" pin="P67-GND17" pad="67"/>
-<connect gate="G$1" pin="P68-GND21" pad="68"/>
-<connect gate="G$1" pin="P69-GND18" pad="69"/>
-<connect gate="G$1" pin="P70-GND22" pad="70"/>
-<connect gate="G$1" pin="P71-WL_GPIO2" pad="71"/>
-<connect gate="G$1" pin="P72-WL_GPIO3" pad="72"/>
-<connect gate="G$1" pin="P73-WL_GPIO4" pad="73"/>
-<connect gate="G$1" pin="P74-WL_GPIO5" pad="74"/>
-<connect gate="G$1" pin="P75-WL_GPIO12" pad="75"/>
-<connect gate="G$1" pin="P76-GND20" pad="76"/>
-<connect gate="G$1" pin="P77-GND19" pad="77"/>
+<connect gate="A" pin="P01-5G_RF" pad="1"/>
+<connect gate="A" pin="P02-GND1" pad="2"/>
+<connect gate="A" pin="P03-GND2" pad="3"/>
+<connect gate="A" pin="P04-5G/2G_RF" pad="4"/>
+<connect gate="A" pin="P05-GND3" pad="5"/>
+<connect gate="A" pin="P06-WRF_RFIN_2G" pad="6"/>
+<connect gate="A" pin="P07-GND4" pad="7"/>
+<connect gate="A" pin="P08-WRF_GPIO_OUT" pad="8"/>
+<connect gate="A" pin="P09-RF_SW0" pad="9"/>
+<connect gate="A" pin="P10-RF_SW3" pad="10"/>
+<connect gate="A" pin="P11-RF_SW4" pad="11"/>
+<connect gate="A" pin="P12-BT_HOST_WAKE" pad="12"/>
+<connect gate="A" pin="P13-32KHZ_SLEEPCLK" pad="13"/>
+<connect gate="A" pin="P14-NFC_REG_PU" pad="14"/>
+<connect gate="A" pin="P15-BT_I2S_DO" pad="15"/>
+<connect gate="A" pin="P16-BT_I2S_CLK" pad="16"/>
+<connect gate="A" pin="P17-BT_I2S_WS" pad="17"/>
+<connect gate="A" pin="P18-BT_PCM_SYNC" pad="18"/>
+<connect gate="A" pin="P19-BT_PCM_CLK" pad="19"/>
+<connect gate="A" pin="P20-BT_PCM_OUT" pad="20"/>
+<connect gate="A" pin="P21-BT_PCM_IN" pad="21"/>
+<connect gate="A" pin="P22-BT_DEV_WAKE" pad="22"/>
+<connect gate="A" pin="P23-VIO" pad="23"/>
+<connect gate="A" pin="P24-BT_UART_CTS" pad="24"/>
+<connect gate="A" pin="P25-BT_UART_RTS" pad="25"/>
+<connect gate="A" pin="P26-BT_UART_TXD" pad="26"/>
+<connect gate="A" pin="P27-BT_UART_RXD" pad="27"/>
+<connect gate="A" pin="P28-NFC_VDDSWPIN_0" pad="28"/>
+<connect gate="A" pin="P29-NFC_VDD_SWP_0" pad="29"/>
+<connect gate="A" pin="P30-NFC_RTS" pad="30"/>
+<connect gate="A" pin="P31-NFC_CTS" pad="31"/>
+<connect gate="A" pin="P32-NFC_TX2" pad="32"/>
+<connect gate="A" pin="P33-NFC_TX1" pad="33"/>
+<connect gate="A" pin="P34-NFC_SDA" pad="34"/>
+<connect gate="A" pin="P35-NFC_SCL" pad="35"/>
+<connect gate="A" pin="P36-NFC_SPI_INT" pad="36"/>
+<connect gate="A" pin="P37-NFC_GPIO_0" pad="37"/>
+<connect gate="A" pin="P38-GND5" pad="38"/>
+<connect gate="A" pin="P39-SD_CLK" pad="39"/>
+<connect gate="A" pin="P40-SD_CMD" pad="40"/>
+<connect gate="A" pin="P41-SD_D0" pad="41"/>
+<connect gate="A" pin="P42-SD_D1" pad="42"/>
+<connect gate="A" pin="P43-SD_D2" pad="43"/>
+<connect gate="A" pin="P44-SD_D3" pad="44"/>
+<connect gate="A" pin="P45-NFC_URX" pad="45"/>
+<connect gate="A" pin="P46-NFC_UTX" pad="46"/>
+<connect gate="A" pin="P47-GND6" pad="47"/>
+<connect gate="A" pin="P48-NFC_SWPIO_0" pad="48"/>
+<connect gate="A" pin="P49-JTAG_SEL" pad="49"/>
+<connect gate="A" pin="P50-WL_REG_ON" pad="50"/>
+<connect gate="A" pin="P51-BT_REG_ON" pad="51"/>
+<connect gate="A" pin="P52-WL_GPIO0" pad="52"/>
+<connect gate="A" pin="P53-WL_GPIO1" pad="53"/>
+<connect gate="A" pin="P54-WL_GPIO6" pad="54"/>
+<connect gate="A" pin="P55-VBAT1" pad="55"/>
+<connect gate="A" pin="P56-VBAT2" pad="56"/>
+<connect gate="A" pin="P57-GND7" pad="57"/>
+<connect gate="A" pin="P58-GND8" pad="58"/>
+<connect gate="A" pin="P59-GND9" pad="59"/>
+<connect gate="A" pin="P60-GND10" pad="60"/>
+<connect gate="A" pin="P61-GND11" pad="61"/>
+<connect gate="A" pin="P62-GND12" pad="62"/>
+<connect gate="A" pin="P63-GND13" pad="63"/>
+<connect gate="A" pin="P64-GND14" pad="64"/>
+<connect gate="A" pin="P65-GND15" pad="65"/>
+<connect gate="A" pin="P66-GND16" pad="66"/>
+<connect gate="A" pin="P67-GND17" pad="67"/>
+<connect gate="A" pin="P68-GND21" pad="68"/>
+<connect gate="A" pin="P69-GND18" pad="69"/>
+<connect gate="A" pin="P70-GND22" pad="70"/>
+<connect gate="A" pin="P71-WL_GPIO2" pad="71"/>
+<connect gate="A" pin="P72-WL_GPIO3" pad="72"/>
+<connect gate="A" pin="P73-WL_GPIO4" pad="73"/>
+<connect gate="A" pin="P74-WL_GPIO5" pad="74"/>
+<connect gate="A" pin="P75-WL_GPIO12" pad="75"/>
+<connect gate="A" pin="P76-GND20" pad="76"/>
+<connect gate="A" pin="P77-GND19" pad="77"/>
 </connects>
 <technologies>
 <technology name="">
