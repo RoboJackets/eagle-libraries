@@ -189,8 +189,12 @@ In this library you will find inductors. If you are looking for a common package
 <smd name="10" x="13.46" y="1.5" dx="3.3" dy="1.27" layer="1"/>
 <smd name="11" x="13.46" y="4.5" dx="3.3" dy="1.27" layer="1"/>
 <smd name="12" x="13.46" y="7.5" dx="3.3" dy="1.27" layer="1"/>
-<text x="-10.5" y="10.5" size="1" layer="25">&gt;NAME</text>
-<text x="-10.5" y="-10.5" size="1" layer="25" align="top-left">&gt;VALUE</text>
+<text x="-10.5" y="10.754" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-10.5" y="-10.754" size="1" layer="25" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-10.541" y1="10.541" x2="10.541" y2="10.541" width="0.1524" layer="39"/>
+<wire x1="10.541" y1="10.541" x2="10.541" y2="-10.541" width="0.1524" layer="39"/>
+<wire x1="10.541" y1="-10.541" x2="-10.541" y2="-10.541" width="0.1524" layer="39"/>
+<wire x1="-10.541" y1="-10.541" x2="-10.541" y2="10.541" width="0.1524" layer="39"/>
 </package>
 <package name="IND_TAIYO_NRS4018">
 <smd name="1" x="-1.397" y="0" dx="1.1938" dy="3.7084" layer="1"/>
@@ -207,17 +211,13 @@ In this library you will find inductors. If you are looking for a common package
 <wire x1="2.286" y1="2.286" x2="2.286" y2="2.1082" width="0.1524" layer="51"/>
 <wire x1="2.286" y1="-2.1082" x2="2.286" y2="-2.286" width="0.1524" layer="51"/>
 <wire x1="2.286" y1="-2.286" x2="-2.286" y2="-2.286" width="0.1524" layer="51"/>
-<wire x1="-2.6924" y1="0" x2="-2.8448" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.8448" y1="0" x2="-2.6924" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.8796" y1="0" x2="-2.032" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-2.032" y1="0" x2="-1.8796" y2="0" width="0" layer="51" curve="-180"/>
 <polygon width="0.1524" layer="41">
 <vertex x="-0.7493" y="1.9939"/>
 <vertex x="0.7493" y="1.9939"/>
 <vertex x="0.7493" y="-1.9939"/>
 <vertex x="-0.7493" y="-1.9939"/>
 </polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.2" y="2.667" size="1" layer="25" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
 <wire x1="-2.2479" y1="-2.1082" x2="-2.2479" y2="2.1082" width="0.1524" layer="51"/>
 <wire x1="-2.2479" y1="2.1082" x2="-2.2987" y2="2.1082" width="0.1524" layer="51"/>
 <wire x1="-2.2987" y1="2.1082" x2="-2.2987" y2="2.2987" width="0.1524" layer="51"/>
@@ -230,6 +230,11 @@ In this library you will find inductors. If you are looking for a common package
 <wire x1="2.2987" y1="-2.2987" x2="-2.2987" y2="-2.2987" width="0.1524" layer="51"/>
 <wire x1="-2.2987" y1="-2.2987" x2="-2.2987" y2="-2.1082" width="0.1524" layer="51"/>
 <wire x1="-2.2987" y1="-2.1082" x2="-2.2479" y2="-2.1082" width="0.1524" layer="51"/>
+<text x="-2.2" y="-3.533" size="1" layer="27" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-2.3" y1="2.3" x2="2.3" y2="2.3" width="0.1524" layer="41"/>
+<wire x1="2.3" y1="2.3" x2="2.3" y2="-2.3" width="0.1524" layer="41"/>
+<wire x1="2.3" y1="-2.3" x2="-2.3" y2="-2.3" width="0.1524" layer="41"/>
+<wire x1="-2.3" y1="-2.3" x2="-2.3" y2="2.3" width="0.1524" layer="41"/>
 </package>
 <package name="0805" urn="urn:adsk.eagle:footprint:37561/1" locally_modified="yes">
 <description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
@@ -237,27 +242,34 @@ In this library you will find inductors. If you are looking for a common package
 https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6761-2-ND/2523499</description>
 <smd name="1" x="-1.3" y="0" dx="1.4" dy="1" layer="1"/>
 <smd name="2" x="1.3" y="0" dx="1.4" dy="1" layer="1"/>
-<text x="-2.4" y="0.889" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.4" y="-0.889" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2.4" y="0.889" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.4" y="-0.889" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-2.1" y1="0.6" x2="2.1" y2="0.6" width="0.0508" layer="39"/>
 <wire x1="2.1" y1="0.6" x2="2.1" y2="-0.6" width="0.0508" layer="39"/>
 <wire x1="2.1" y1="-0.6" x2="-2.1" y2="-0.6" width="0.0508" layer="39"/>
 <wire x1="-2.1" y1="-0.6" x2="-2.1" y2="0.6" width="0.0508" layer="39"/>
 </package>
 <package name="744771147">
-<description>https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744771147/732-1214-2-ND/1638619</description>
 <smd name="1" x="0" y="4.95" dx="5.4" dy="2.9" layer="1"/>
-<smd name="P$2" x="0" y="-4.95" dx="5.4" dy="2.9" layer="1"/>
+<smd name="2" x="0" y="-4.95" dx="5.4" dy="2.9" layer="1"/>
 <wire x1="6" y1="6" x2="6" y2="-6" width="0.127" layer="21"/>
 <wire x1="6" y1="-6" x2="-6" y2="-6" width="0.127" layer="21"/>
 <wire x1="-6" y1="-6" x2="-6" y2="6" width="0.127" layer="21"/>
 <wire x1="-6" y1="6" x2="6" y2="6" width="0.127" layer="21"/>
 <circle x="5" y="5" radius="0.360553125" width="0.127" layer="21"/>
-<text x="-6" y="7" size="1" layer="21" font="vector">&gt;NAME</text>
+<text x="-6" y="7" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="-5.969" y1="5.969" x2="5.969" y2="5.969" width="0.1524" layer="39"/>
+<wire x1="5.969" y1="5.969" x2="5.969" y2="-5.969" width="0.1524" layer="39"/>
+<wire x1="5.969" y1="-5.969" x2="-5.969" y2="-5.969" width="0.1524" layer="39"/>
+<wire x1="-5.969" y1="-5.969" x2="-5.969" y2="5.969" width="0.1524" layer="39"/>
+<text x="-6.1" y="-7.954" size="1" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="DA203X-AL">
+<description>&lt;h3&gt;Transformer&lt;/h3&gt;
+&lt;p&gt;A transformer is a passive electrical device that transfers electrical energy from one electrical circuit to another, or multiple circuits. A varying current in any one coil of the transformer produces a varying magnetic flux in the transformer's core, which induces a varying electromotive force across any other coils wound around the same core. 
+&lt;/p&gt;</description>
 <circle x="-14.224" y="3.81" radius="0.254" width="0.254" layer="94"/>
 <circle x="-10.414" y="3.81" radius="0.254" width="0.254" layer="94"/>
 <circle x="-6.604" y="3.81" radius="0.254" width="0.254" layer="94"/>
@@ -336,55 +348,42 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 <text x="2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="IND">
-<pin name="1" x="15.24" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="2.54" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="7.62" y1="1.27" x2="10.16" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="10.16" y1="1.27" x2="12.7" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<text x="-1.9812" y="-4.2672" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-0.9144" y="3.3528" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-<symbol name="INDUCTOR">
-<description>&lt;h3&gt;Inductors&lt;/h3&gt;
-&lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;</description>
-<text x="-2.54" y="-6.35" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-6.35" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
-</symbol>
 <symbol name="INDUCTOR_SINGLE_POLARIZED">
+<description>&lt;h3&gt;Inductors&lt;/h3&gt;
+&lt;p&gt;An inductor is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. It resist changes in electrical current.&lt;/p&gt;</description>
 <pin name="P$1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="P$2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="3.81" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-1.27" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 <circle x="-6.35" y="2.54" radius="0.254" width="0.508" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="INDUCTOR">
+<description>&lt;h3&gt;Inductors&lt;/h3&gt;
+&lt;p&gt;An inductor is a passive two-terminal electrical component that stores energy in a magnetic field when electric current flows through it. It resist changes in electrical current.&lt;/p&gt;</description>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.016" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DA203X-AL" prefix="T" uservalue="yes">
-<description>DA2034-ALD Transformer</description>
+<description>Audio Transformers / Signal Transformers DA2032 Cap Chrgr For Linear LT3750/51</description>
 <gates>
 <gate name="A" symbol="DA203X-AL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DA2034" package="DA2034">
+<device name="" package="DA2034">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="10" pad="10"/>
@@ -399,15 +398,16 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MOUSER" value="994-DA2034-ALD" constant="no"/>
+<attribute name="MOUSER" value="994-DA2034-ALD"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NRS4018T100MDGJ" prefix="L">
+<deviceset name="NRS4018T100MDGJ" prefix="L" uservalue="yes">
+<description>10µH Shielded Wirewound Inductor 1.2A 180mOhm Max Nonstandard</description>
 <gates>
-<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="IND_TAIYO_NRS4018">
@@ -417,45 +417,64 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="NRS4018T100MDGJ" constant="no"/>
-<attribute name="VENDOR" value="TAIYO YUDEN" constant="no"/>
+<attribute name="DKPN" value="587-2886-1-ND"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR_0805" prefix="L">
-<description>https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6761-2-ND/2523499</description>
+<deviceset name="INDUCTOR_0805" prefix="L" uservalue="yes">
+<description>Generic 0805 Inductor</description>
 <gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0805">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="744771147" prefix="L" uservalue="yes">
-<description>Wurth Elektronik SMT Shielded Power Inductor
-&lt;p&gt;https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/744771147/732-1214-2-ND/1638619</description>
+<description>47µH Shielded Wirewound Inductor 2.21A 75mOhm Max Nonstandard</description>
 <gates>
-<gate name="G$1" symbol="INDUCTOR_SINGLE_POLARIZED" x="0" y="0"/>
+<gate name="A" symbol="INDUCTOR_SINGLE_POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="744771147">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="A" pin="P$1" pad="1"/>
+<connect gate="A" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="732-1214-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MLZ2012N6R8LT000" prefix="L" uservalue="yes">
+<description>6.8µH Shielded Multilayer Inductor 550mA 250mOhm 0805 (2012 Metric)</description>
+<gates>
+<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="445-6761-2-ND"/>
 </technology>
 </technologies>
 </device>
