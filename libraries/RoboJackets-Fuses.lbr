@@ -232,7 +232,7 @@
 <wire x1="9.905" y1="3.365" x2="9.905" y2="-3.365" width="0.2" layer="21"/>
 <wire x1="9.905" y1="-3.365" x2="-9.905" y2="-3.365" width="0.2" layer="21"/>
 <wire x1="-9.905" y1="-3.365" x2="-9.905" y2="3.365" width="0.2" layer="21"/>
-<text x="-10.105" y="3.565" size="1" layer="27" font="vector">&gt;NAME</text>
+<text x="-10.105" y="3.565" size="1" layer="25" font="vector">&gt;NAME</text>
 <rectangle x1="-10.105" y1="-3.565" x2="10.105" y2="3.565" layer="39"/>
 <text x="-10.105" y="-3.565" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
@@ -250,8 +250,8 @@ chip</description>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 <smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
 <smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.397" y="1.143" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.397" y="-2.413" size="1" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="1812">
 <description>Multilayer SMD</description>
@@ -268,8 +268,8 @@ chip</description>
 <rectangle x1="-0.6" y1="-0.3" x2="0.5" y2="0.3" layer="21"/>
 <smd name="1" x="-2.046" y="0" dx="2.286" dy="2.794" layer="1"/>
 <smd name="2" x="2.046" y="0" dx="2.286" dy="2.794" layer="1"/>
-<text x="-1.8575" y="1.905" size="0.6096" layer="27">&gt;VALUE</text>
-<text x="-1.8575" y="-2.54" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-2.1115" y="-2.921" size="1" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.1115" y="2.159" size="1" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="5SP_AXIAL">
 <description>https://www.digikey.com/products/en/circuit-protection/fuses/139?k=5stp&amp;k=12.5&amp;pkeyword=5stp&amp;sv=0&amp;sf=0&amp;FV=-8%7C139&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</description>
@@ -315,7 +315,8 @@ chip</description>
 <wire x1="10.936" y1="-2.794" x2="10.936" y2="2.794" width="0.1524" layer="51"/>
 <wire x1="10.936" y1="2.794" x2="-10.5778" y2="2.794" width="0.1524" layer="51"/>
 <wire x1="-10.5778" y1="2.794" x2="-10.5778" y2="-2.794" width="0.1524" layer="51"/>
-<text x="-10.9588" y="3.683" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-10.9588" y="3.683" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-11.176" y="-4.699" size="1" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="RST">
 <description>https://www.digikey.com/product-detail/en/bel-fuse-inc/RST-4-BULK/507-1182-ND/809326</description>
@@ -334,6 +335,7 @@ chip</description>
 <wire x1="4.3288" y1="2.1844" x2="4.3288" y2="-2.1844" width="0.1524" layer="21"/>
 <wire x1="-4.4088" y1="2.1844" x2="-4.4088" y2="-2.1844" width="0.1524" layer="21"/>
 <text x="-4.6166" y="2.465" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-4.572" y="-3.175" size="1" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -360,8 +362,8 @@ chip</description>
 <wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
 <wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
-<text x="-7.9502" y="-1.3716" size="1.778" layer="96" font="vector" ratio="10" rot="SR0" align="top-left">&gt;Value</text>
-<text x="-7.8994" y="1.4224" size="1.778" layer="95" font="vector" ratio="10" rot="SR0">&gt;Name</text>
+<text x="-7.9502" y="-1.3716" size="1.778" layer="96" ratio="10" rot="SR0" align="top-left">&gt;VALUE</text>
+<text x="-7.8994" y="1.4224" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
