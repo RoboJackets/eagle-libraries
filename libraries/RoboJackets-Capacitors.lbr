@@ -442,20 +442,6 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="PCAPH">
-<pin name="22" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="11" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="-0.3302" y1="0" x2="-0.3302" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="0.9398" y1="-1.905" x2="0.9398" y2="1.905" width="0.1524" layer="94" curve="-74"/>
-<wire x1="-1.6002" y1="0.635" x2="-1.6002" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="0.3048" y1="0" x2="1.27" y2="0" width="0.2032" layer="94"/>
-<wire x1="-0.3302" y1="-1.905" x2="-0.3302" y2="0" width="0.2032" layer="94"/>
-<wire x1="-2.2352" y1="1.27" x2="-0.9652" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.3302" y2="0" width="0.2032" layer="94"/>
-<wire x1="0.9398" y1="-1.905" x2="0.9398" y2="1.905" width="0.1524" layer="94" curve="-74"/>
-<text x="-7.9502" y="-1.7272" size="1.778" layer="96" font="vector" ratio="10" rot="SR0" align="top-left">&gt;VALUE</text>
-<text x="-7.8994" y="2.0828" size="1.778" layer="95" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ECA-1HHG221" prefix="C">
@@ -500,13 +486,13 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <deviceset name="ECA-0JM102" prefix="C">
 <description>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-0JM102/P5115-ND/244974</description>
 <gates>
-<gate name="A" symbol="PCAPH" x="0" y="0"/>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="PCAP_8X112">
 <connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -520,13 +506,13 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <deviceset name="EEE-1CA100SR">
 <description>https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1CA100SR/PCE3878TR-ND/766045</description>
 <gates>
-<gate name="A" symbol="PCAPH" x="-2.54" y="0"/>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CAP_4_X_5.4">
 <connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -537,13 +523,13 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <deviceset name="UWT0J102MNL1GS" prefix="C">
 <description>https://www.digikey.com/product-detail/en/nichicon/UWT0J102MNL1GS/493-2160-2-ND/589901</description>
 <gates>
-<gate name="A" symbol="PCAPH" x="0" y="0"/>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="PCAP_8X10-ELECT">
 <connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -554,8 +540,8 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 </device>
 <device name="PCAP_8X10-ELECT-M" package="PCAP_8X10-ELECT-M">
 <connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -566,8 +552,8 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 </device>
 <device name="PCAP_8X10-ELECT-L" package="PCAP_8X10-ELECT-L">
 <connects>
-<connect gate="A" pin="11" pad="1"/>
-<connect gate="A" pin="22" pad="2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
