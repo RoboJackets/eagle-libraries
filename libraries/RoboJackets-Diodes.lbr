@@ -1229,6 +1229,28 @@ Vss should normally be connected to GND.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="D5V0L1B2WS-7">
+<description>TVS 5V Diode
+&lt;p&gt;
+&lt;a href="https://www.diodes.com/assets/Datasheets/D5V0L1B2WS.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="D5V0L1B2WS-7DICT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
