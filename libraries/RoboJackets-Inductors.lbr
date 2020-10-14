@@ -113,13 +113,26 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -264,6 +277,20 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 <wire x1="-5.969" y1="-5.969" x2="-5.969" y2="5.969" width="0.1524" layer="39"/>
 <text x="-6.1" y="-7.954" size="1" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SRR1208">
+<wire x1="-6.35" y1="6.35" x2="6.35" y2="6.35" width="0.2" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="3.81" width="0.2" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="6.35" y1="-6.35" x2="-6.35" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-3.81" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="6.35" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="3.81" width="0.2" layer="51"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="-3.81" width="0.2" layer="51"/>
+<smd name="1" x="-5" y="0" dx="4" dy="7" layer="1"/>
+<smd name="2" x="5" y="0" dx="4" dy="7" layer="1"/>
+<text x="-6.35" y="6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DA203X-AL">
@@ -375,6 +402,20 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 <text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.016" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
+<symbol name="L-US">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="-1.27" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DA203X-AL" prefix="T" uservalue="yes">
@@ -476,6 +517,22 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 <technology name="">
 <attribute name="DKPN" value="445-6761-2-ND"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRR1208" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRR1208">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

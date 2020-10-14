@@ -337,6 +337,12 @@ chip</description>
 <text x="-4.6166" y="2.465" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-4.572" y="-3.175" size="1" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="FUSE_HOLDER">
+<pad name="P$1" x="0" y="0" drill="1.6"/>
+<pad name="P$2" x="0" y="3.4" drill="1.6"/>
+<pad name="P$3" x="9.92" y="3.4" drill="1.6"/>
+<pad name="P$4" x="9.92" y="0" drill="1.6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -346,6 +352,17 @@ chip</description>
 <wire x1="0" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <text x="-10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="FUSE-1">
+<wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0.762" x2="-3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -488,6 +505,22 @@ chip</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RST 4BULK" constant="no"/>
 <attribute name="VENDOR" value="BelFuse" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE_HOLDER">
+<gates>
+<gate name="G$1" symbol="FUSE-1" x="5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="FUSE_HOLDER">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1 P$2"/>
+<connect gate="G$1" pin="2" pad="P$3 P$4" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
