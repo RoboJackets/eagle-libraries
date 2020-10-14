@@ -857,16 +857,6 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <text x="-10.922" y="10.414" size="1.778" layer="95">&gt;NAME</text>
 <text x="-11.176" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="DIODE-1">
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.3114" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.5654" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CDSOD323-T*SC" prefix="D" uservalue="yes">
@@ -1279,8 +1269,11 @@ Vss should normally be connected to GND.</description>
 </devices>
 </deviceset>
 <deviceset name="S10M-TP">
+<description>Diode Standard 1000V 10A Surface Mount DO-214AB (HSMC)
+&lt;p&gt;
+&lt;a href="https://www.mccsemi.com/pdf/Products/S10A~S10M(HSMC).PDF"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIODE-1" x="2.54" y="5.08"/>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SMC">
@@ -1289,7 +1282,9 @@ Vss should normally be connected to GND.</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="S10M-TPMSCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

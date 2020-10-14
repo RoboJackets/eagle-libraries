@@ -1179,9 +1179,10 @@ Sourc: www.ctscorp.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPST_TACT" prefix="SW">
-<description>SMT 6mm switch, EVQQ2 series
-&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
+<deviceset name="EVQ-Q2K02W" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Surface Mount
+&lt;p&gt;
+&lt;a href="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2K02W/762932"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TS2-1" x="0" y="0"/>
 </gates>
@@ -1194,7 +1195,9 @@ Sourc: www.ctscorp.com</description>
 <connect gate="G$1" pin="S1" pad="B'"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="P12942SCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-KMR2" package="KMR2">
@@ -1210,7 +1213,11 @@ Sourc: www.ctscorp.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TL1105_A-H" prefix="SW">
+<deviceset name="TL1105" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Through Hole
+
+&lt;p&gt;
+&lt;a href="https://www.digikey.com/catalog/en/partgroup/tl1105-series/12847"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TL1105" x="0" y="0"/>
 </gates>

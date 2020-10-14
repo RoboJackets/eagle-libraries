@@ -766,6 +766,111 @@ TS-003</description>
 <smd name="7" x="3.81" y="-6.19" dx="0.89" dy="2.79" layer="1"/>
 <smd name="8" x="0" y="2.13" dx="10.8" dy="10.41" layer="1"/>
 </package>
+<package name="TS3B">
+<wire x1="-2.0574" y1="-5.08" x2="-3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-5.08" x2="-3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-9.271" x2="-2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-9.271" x2="-2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-5.08" x2="-0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-5.08" x2="-0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-9.271" x2="0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-9.271" x2="0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-5.08" x2="2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-5.08" x2="2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-9.271" x2="3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-9.271" x2="3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="-5.08" x2="5.207" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="-5.08" x2="5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="5.08" x2="-5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="5.08" x2="-5.207" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-5.7658" x2="-3.0226" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="-0.4826" y1="-5.7658" x2="-0.4826" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="2.0574" y1="-5.7658" x2="2.0574" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="-2.0574" y1="-5.7658" x2="-2.0574" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="0.4826" y1="-5.7658" x2="0.4826" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="-5.7658" x2="3.0226" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="-5.4864" y1="-5.6896" x2="-5.4864" y2="5.6896" width="0.1524" layer="39"/>
+<wire x1="-5.4864" y1="5.6896" x2="5.4864" y2="5.6896" width="0.1524" layer="39"/>
+<wire x1="5.4864" y1="5.6896" x2="5.4864" y2="-5.6896" width="0.1524" layer="39"/>
+<wire x1="5.4864" y1="-5.6896" x2="3.302" y2="-5.6896" width="0.1524" layer="39"/>
+<wire x1="3.302" y1="-5.6896" x2="3.302" y2="-9.8806" width="0.1524" layer="39"/>
+<wire x1="3.302" y1="-9.8806" x2="-3.302" y2="-9.8806" width="0.1524" layer="39"/>
+<wire x1="-3.302" y1="-9.8806" x2="-3.302" y2="-5.6896" width="0.1524" layer="39"/>
+<wire x1="-3.302" y1="-5.6896" x2="-5.4864" y2="-5.6896" width="0.1524" layer="39"/>
+<smd name="1" x="-2.54" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="2" x="0" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="3" x="2.54" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
+<text x="-3.1242" y="-5.461" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-5.0292" y="-8.9154" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<polygon width="0.1524" layer="39">
+<vertex x="-5.4864" y="-5.6896"/>
+<vertex x="-5.4864" y="5.6896"/>
+<vertex x="5.4864" y="5.6896"/>
+<vertex x="5.4864" y="-5.6896"/>
+<vertex x="3.302" y="-5.6896"/>
+<vertex x="3.302" y="-9.8806"/>
+<vertex x="-3.302" y="-9.8806"/>
+<vertex x="-3.302" y="-5.6896"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-3.048" y="-5.334"/>
+<vertex x="3.048" y="-5.334"/>
+<vertex x="3.048" y="-6.9342"/>
+<vertex x="-3.048" y="-6.9342"/>
+</polygon>
+</package>
+<package name="MF05A">
+<wire x1="-0.8382" y1="0.7112" x2="-0.8382" y2="1.2192" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="1.2192" x2="-1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.6858" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.6858" x2="-0.8382" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="-0.254" x2="-0.8382" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="0.254" x2="-1.4986" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.254" x2="-1.4986" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.254" x2="-0.8382" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="-1.2192" x2="-0.8382" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="-0.7112" x2="-1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.7112" x2="-1.4986" y2="-1.2192" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-1.2192" x2="-0.8382" y2="-1.2192" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="-0.7112" x2="0.8382" y2="-1.2192" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="-1.2192" x2="1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-1.1938" x2="1.4986" y2="-0.6858" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-0.6858" x2="0.8382" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="1.2192" x2="0.8382" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="0.7112" x2="1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="0.7112" x2="1.4986" y2="1.2192" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="1.2192" x2="0.8382" y2="1.2192" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="-1.4986" x2="0.8382" y2="-1.4986" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="-1.4986" x2="0.8382" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="1.4986" x2="-0.8382" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="1.4986" x2="-0.8382" y2="-1.4986" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-1.7526" x2="-1.0922" y2="-1.4732" width="0.1524" layer="39"/>
+<wire x1="-1.0922" y1="-1.4732" x2="-2.1336" y2="-1.4732" width="0.1524" layer="39"/>
+<wire x1="-2.1336" y1="-1.4732" x2="-2.1336" y2="1.4732" width="0.1524" layer="39"/>
+<wire x1="-2.1336" y1="1.4732" x2="-1.0922" y2="1.4732" width="0.1524" layer="39"/>
+<wire x1="-1.0922" y1="1.4732" x2="-1.0922" y2="1.7526" width="0.1524" layer="39"/>
+<wire x1="-1.0922" y1="1.7526" x2="1.0922" y2="1.7526" width="0.1524" layer="39"/>
+<wire x1="1.0922" y1="1.7526" x2="1.0922" y2="1.4732" width="0.1524" layer="39"/>
+<wire x1="1.0922" y1="1.4732" x2="2.1336" y2="1.4732" width="0.1524" layer="39"/>
+<wire x1="2.1336" y1="1.4732" x2="2.1336" y2="-1.4732" width="0.1524" layer="39"/>
+<wire x1="2.1336" y1="-1.4732" x2="1.0922" y2="-1.4732" width="0.1524" layer="39"/>
+<wire x1="1.0922" y1="-1.4732" x2="1.0922" y2="-1.7526" width="0.1524" layer="39"/>
+<wire x1="1.0922" y1="-1.7526" x2="-1.0922" y2="-1.7526" width="0.1524" layer="39"/>
+<wire x1="-0.9652" y1="-1.6256" x2="0.9652" y2="-1.6256" width="0.1524" layer="21"/>
+<wire x1="0.9652" y1="-0.3302" x2="0.9652" y2="0.3302" width="0.1524" layer="21"/>
+<wire x1="0.9652" y1="1.6256" x2="-0.9652" y2="1.6256" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<smd name="1" x="-1.2192" y="0.9525" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.2192" y="0" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="3" x="-1.2192" y="-0.9525" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="4" x="1.2192" y="-0.9525" dx="1.27" dy="0.5588" layer="1"/>
+<smd name="5" x="1.2192" y="0.9525" dx="1.27" dy="0.5588" layer="1"/>
+<text x="-2.8674" y="0.6952" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-2" y="-3" size="1" layer="27">&gt;Value</text>
+<text x="-2" y="2" size="1" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IX4427">
@@ -1039,6 +1144,30 @@ TS-003</description>
 <pin name="CB" x="20.32" y="7.62" length="middle" direction="pas" rot="R180"/>
 <pin name="SWITCH_OUTPUT" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
 <pin name="ON/!OFF" x="-20.32" y="7.62" length="middle" direction="in"/>
+</symbol>
+<symbol name="LM1085ISX-5.0/NOPB">
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="38.1" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="38.1" y1="-12.7" x2="38.1" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="38.1" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<pin name="ADJ/GND" x="2.54" y="-7.62" length="middle" direction="pas"/>
+<pin name="VIN" x="2.54" y="0" length="middle" direction="in"/>
+<pin name="VOUT" x="43.18" y="0" length="middle" direction="out" rot="R180"/>
+<text x="18.1356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="17.5006" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="LP2985IM5X-3.3/NOPB">
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="33.02" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="-15.24" x2="33.02" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<pin name="BP" x="2.54" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND" x="38.1" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="ON" x="2.54" y="-7.62" length="middle" direction="pas"/>
+<pin name="VIN" x="2.54" y="0" length="middle" direction="in"/>
+<pin name="VOUT" x="38.1" y="0" length="middle" direction="out" rot="R180"/>
+<text x="15.5956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="14.9606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1534,7 +1663,10 @@ TS-003</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RT8289" prefix="IC">
+<deviceset name="RT8289GSP" prefix="IC">
+<description>Buck Switching Regulator IC Positive Adjustable 1.222V 1 Output 5A 8-SOIC (0.154", 3.90mm Width) Exposed Pad
+&lt;p&gt;
+&lt;a href="https://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RT8289" x="0" y="0"/>
 </gates>
@@ -1549,12 +1681,19 @@ TS-003</description>
 <connect gate="G$1" pin="VIN" pad="7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="1028-1046-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MIC29301-*WU-TR">
+<description>Linear Voltage Regulator IC Output 3A TO-263-5
+&lt;p&gt;
+
+
+&lt;a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MIC29301" x="0" y="0"/>
 </gates>
@@ -1568,12 +1707,17 @@ TS-003</description>
 <connect gate="G$1" pin="OUT" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="MIC29301-3.3WU-CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCP1117DT*GOS-ND">
+<deviceset name="NCP1117DTARKG">
+<description>Linear Voltage Regulator IC Output 1A DPAK
+&lt;p&gt;
+&lt;a href="https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="78XX" x="0" y="0"/>
 </gates>
@@ -1585,7 +1729,9 @@ TS-003</description>
 <connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="NCP1117DTARKGOSCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1613,6 +1759,52 @@ TS-003</description>
 <attribute name="MF" value="Texas Instruments"/>
 <attribute name="MP" value="LM2678SX-5.0/NOPB"/>
 <attribute name="PACKAGE" value="TO-263-7 Texas Instruments"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM1085ISX-5.0/NOPB" prefix="U">
+<description>Linear Voltage Regulator IC Output 3A DDPAK/TO-263-3
+
+&lt;a href="https://www.ti.com/lit/ds/symlink/lm1085.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1602643035728"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LM1085ISX-5.0/NOPB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TS3B">
+<connects>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="296-35391-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP2985IM5X-3.3/NOPB" prefix="U">
+<description>Linear Voltage Regulator IC Output 150mA SOT-23-5
+&lt;p&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/lp2985-n.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1602692520844"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LP2985IM5X-3.3/NOPB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MF05A">
+<connects>
+<connect gate="A" pin="BP" pad="4"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="ON" pad="3"/>
+<connect gate="A" pin="VIN" pad="1"/>
+<connect gate="A" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="LP2985IM5X-3.3/NOPBCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

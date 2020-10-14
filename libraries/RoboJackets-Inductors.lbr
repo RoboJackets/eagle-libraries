@@ -521,7 +521,10 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 </device>
 </devices>
 </deviceset>
-<deviceset name="SRR1208" prefix="L" uservalue="yes">
+<deviceset name="SRR1208-6R5ML" prefix="L" uservalue="yes">
+<description>Shielded Wirewound Inductor 18mOhm Max Nonstandard
+&lt;p&gt;
+&lt;a href="https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
 </gates>
@@ -532,7 +535,9 @@ https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="SRR1208-6R5MLCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

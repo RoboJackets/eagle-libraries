@@ -8468,6 +8468,11 @@ https://www.digikey.com/product-detail/en/wiznet/W5500/1278-1021-ND/4425702</des
 </devices>
 </deviceset>
 <deviceset name="ST7920" prefix="U">
+<description>&lt;p&gt;
+Sunlight Readable 128x64 SPI or Parallel Graphic LCD
+&lt;/p&gt;
+&lt;br&gt;
+&lt;a href="https://www.crystalfontz.com/product/cfag12864syyhvt-lcd-graphical-128x64"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD20" x="0" y="0"/>
 </gates>

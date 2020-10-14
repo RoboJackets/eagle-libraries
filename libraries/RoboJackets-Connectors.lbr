@@ -17856,7 +17856,12 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="S3B-VH" prefix="J">
+<deviceset name="B3P-VH(LF)(SN)" prefix="J">
+<description>Connector Header Through Hole 3 position 0.156" (3.96mm)
+
+&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eVH.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="S3B-VH" x="0" y="-7.62"/>
 </gates>
@@ -17868,7 +17873,9 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <connect gate="A" pin="X-3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="455-1640-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -17971,6 +17978,9 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 </devices>
 </deviceset>
 <deviceset name="6T4AWGLUG">
+<description>S6 6 AWG Lug
+&lt;p&gt;
+&lt;a href="https://lugsdirect.com/S6-Single-Wire-Single-Barrel-Mechanical-Lug-6-AWG.htm"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="6T4AWGLUG" symbol="6T4AWGLUG" x="0" y="0"/>
 </gates>
@@ -17986,7 +17996,9 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 </devices>
 </deviceset>
 <deviceset name="DM1B-DSF-PEJ(22)" prefix="J">
-<description>DM1 Series 9 Position 2.9 mm Height SMT SD Memory Card</description>
+<description>DM1 Series 9 Position 2.9 mm Height SMT SD Memory Card
+&lt;p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DM1B-DSF-PEJ_22_/HR846CT-ND/559986?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DM1B-DSF-PEJ(22)" x="0" y="0"/>
 </gates>
@@ -18008,18 +18020,17 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" 12 _9 + 3_ Position Card Connector Secure Digital - SD Surface Mount, Right Angle Gold "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="HR846CT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DM1B-DSF-PEJ_22_/HR846CT-ND/559986?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="Hirose"/>
-<attribute name="MP" value="DM1B-DSF-PEJ_22_"/>
-<attribute name="PACKAGE" value="None"/>
+<attribute name="DKPN" value="HR846CT-ND"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="641737-1" prefix="J">
+<description>CONN HEADER R/A 4POS 5.08MM
+
+&lt;p&gt;
+&lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=641737&amp;DocType=Customer+Drawing&amp;DocLang=English"&gt;Datsheet&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="641737-1" x="0" y="0"/>
 </gates>
@@ -18033,14 +18044,16 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="6417371" constant="no"/>
-<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+<attribute name="DKPN" value="A25430-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="S3B-EH(LF)(SN)" prefix="X">
+<description>CONN HEADER R/A 3POS 2.5MM
+&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eEH.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONNHEADERR/A3POS2.5MM" x="0" y="0"/>
 </gates>
@@ -18052,12 +18065,17 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 <connect gate="G$1" pin="TX" pad="TX"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="455-1626-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="B6B-EH-A(LF)(SN)" prefix="X">
+<description>CONN HEADER VERT 6POS 2.5MM
+&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eEH.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONNHEADERVERT6POS2.5MM" x="0" y="0"/>
 </gates>
@@ -18072,12 +18090,18 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 <connect gate="G$1" pin="X-6" pad="X-6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="455-1615-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="S5B-EH">
+<deviceset name="S5B-EH(LF)(SN)">
+<description>CONN HEADER R/A 5POS 2.5MM
+&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eEH.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="S5B-EH" x="0" y="0"/>
 </gates>
@@ -18091,12 +18115,18 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 <connect gate="G$1" pin="X-5" pad="X-5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="455-1628-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="S4B-EH">
+<deviceset name="S4B-EH(LF)(SN)">
+<description>Connector Header Through Hole, Right Angle 4 position 0.098" (2.50mm)
+&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/eEH.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="S4B-EH" x="0" y="-10.16"/>
 </gates>
@@ -18109,7 +18139,9 @@ V: &lt;a href="https://www.digikey.com/product-detail/en/molex/0353620250/WM1892
 <connect gate="A" pin="X-4" pad="X-4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="455-1627-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

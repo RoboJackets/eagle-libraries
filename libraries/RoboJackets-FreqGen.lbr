@@ -678,7 +678,9 @@ Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
 </devices>
 </deviceset>
 <deviceset name="ECS-80-18-5PX-TR" prefix="Y">
-<description>CRYSTAL SMD</description>
+<description>±30ppm Crystal 18pF HC-49/US
+&lt;p&gt;
+&lt;a href="https://ecsxtal.com/store/pdf/csm-7x.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ECS-80-18-5PX-TR" x="0" y="0"/>
 </gates>
@@ -690,12 +692,7 @@ Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" CSM-7XDN Series 8 MHz ±50 ppm 18 pF -40 to +85 °C Surface Mount Crystal "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="XC1271CT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/ecs-inc/ECS-80-18-5PX-TR/XC1271CT-ND/827735?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="ECS Inc."/>
-<attribute name="MP" value="ECS-80-18-5PX-TR"/>
-<attribute name="PACKAGE" value="HC49/US ECS International"/>
+<attribute name="DKPN" value="XC1271CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -838,7 +835,10 @@ Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
 </devices>
 </deviceset>
 <deviceset name="CSTCE16M0V53-R0" prefix="X" uservalue="yes">
-<description>16Mhz - SMD</description>
+<description>Ceramic Resonator Built in Capacitor ±0.3% -20°C ~ 80°C Surface Mount
+
+&lt;p&gt;
+&lt;a href="https://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESONATOR" x="0" y="0"/>
 </gates>
@@ -851,37 +851,7 @@ Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CASE" value=""/>
-<attribute name="MONTHLY_USAGE" value="_____"/>
-<attribute name="PART_NUMBER" value="CSTCE16M0V53-R0"/>
-<attribute name="PRICE" value="_____"/>
-<attribute name="SUPPLIER" value="_____"/>
-<attribute name="TYPE" value="Cristalli"/>
-<attribute name="VALUE" value="CSTCE16M0V53-R0"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CSM-7X-DU" prefix="Q">
-<description>&lt;b&gt;SMD CRYSTAL&lt;/b&gt;&lt;p&gt;
-Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
-<gates>
-<gate name="P" symbol="Q" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CSM-7X-DU">
-<connects>
-<connect gate="P" pin="1" pad="1"/>
-<connect gate="P" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="3" constant="no"/>
+<attribute name="DKPN" value="490-1198-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
