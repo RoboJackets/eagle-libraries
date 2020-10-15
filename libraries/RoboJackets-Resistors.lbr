@@ -500,6 +500,20 @@ In this library you will find resistors. If you are looking for a common package
 <wire x1="-3.937" y1="-3.937" x2="-8.763" y2="-3.937" width="0.1524" layer="39"/>
 <wire x1="-8.763" y1="-3.937" x2="-8.763" y2="3.937" width="0.1524" layer="39"/>
 </package>
+<package name="RC0805N">
+<wire x1="-1.6002" y1="-0.8636" x2="-1.6002" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="0.8636" x2="1.6002" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="1.6002" y1="0.8636" x2="1.6002" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="1.6002" y1="-0.8636" x2="-1.6002" y2="-0.8636" width="0.1524" layer="21"/>
+<smd name="1" x="-0.852796875" y="0" dx="1.0056" dy="1.199996875" layer="1"/>
+<smd name="2" x="0.852796875" y="0" dx="1.0056" dy="1.199996875" layer="1"/>
+<wire x1="-1.778" y1="-1.016" x2="1.778" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="1.778" y1="-1.016" x2="1.778" y2="1.016" width="0.127" layer="39"/>
+<wire x1="1.778" y1="1.016" x2="-1.778" y2="1.016" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="1.016" x2="-1.778" y2="-1.016" width="0.127" layer="39"/>
+<text x="-1.9336" y="1.17" size="0.8" layer="25" rot="SR0">&gt;Name</text>
+<text x="-2" y="-2" size="0.8" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RA-2">
@@ -867,6 +881,29 @@ In this library you will find resistors. If you are looking for a common package
 <attribute name="POWER" value="35W" constant="no"/>
 <attribute name="TOLERANCE" value="±5%" constant="no"/>
 <attribute name="VALUE" value="3.3k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ-L06KF50MV" prefix="R" uservalue="yes">
+<description>Current Sensing Resistor
+&lt;p&gt;
+&lt;a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC0805N">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1"/>
+<connect gate="G$1" pin="PIN2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="P50LLCT-ND	
+" constant="no"/>
 </technology>
 </technologies>
 </device>
