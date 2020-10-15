@@ -44334,10 +44334,6 @@ In this library you will find logos and images specific to RoboJackets. The part
 <rectangle x1="-0.0085" y1="3.45751875" x2="8.6735" y2="3.474509375" layer="25"/>
 <rectangle x1="-0.0085" y1="3.474509375" x2="8.6735" y2="3.4915" layer="25"/>
 </package>
-<package name="STANDOFF-HOLE">
-<circle x="0" y="0" radius="3.6" width="0" layer="39"/>
-<hole x="0" y="0" drill="3.9"/>
-</package>
 </packages>
 <symbols>
 </symbols>
