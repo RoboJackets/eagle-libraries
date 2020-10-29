@@ -11471,18 +11471,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pin name="GND" x="10.16" y="-7.62" length="middle" direction="pas" rot="R180"/>
 <pin name="SHIELD" x="-10.16" y="-2.54" length="middle" direction="pas"/>
 </symbol>
-<symbol name="BUTTON">
-<pin name="P$1" x="-1.524" y="0" visible="off" length="point" direction="pas"/>
-<pin name="P$2" x="1.524" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<text x="-2.794" y="2.032" size="1.27" layer="95">&gt;NAME</text>
-<circle x="-1.524" y="0" radius="0.254" width="0.254" layer="94"/>
-<circle x="1.524" y="0" radius="0.254" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="0.762" x2="-0.762" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="1.524" x2="0.762" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.524" x2="0.762" y2="0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="2.032" y2="0.762" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="4PIN-03536?" prefix="J">
@@ -15387,23 +15375,6 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <technology name="">
 <attribute name="DKPN" value="609-4616-1-ND" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BUTTON" prefix="J">
-<description>&lt;p&gt;Connector for a simple external button&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="BUTTON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X02">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
