@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -343,6 +343,18 @@ chip</description>
 <pad name="P$3" x="9.92" y="3.4" drill="1.6"/>
 <pad name="P$4" x="9.92" y="0" drill="1.6"/>
 </package>
+<package name="C1F">
+<description>&lt;a href = "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/71600.pdf?__cf_chl_jschl_tk__=c077a2b0d405632c5cc75a59452b70f1e7b891a8-1600383503-0-AdsOCIGWubV6F82KEZAXb8ntYBsU1Kbc1NU6DoePEsAHI3diJrolGE1Zp7Hdy_ZJqxX4TvSrsAMIWT5Xwhbu4pDVgGF-IdlBz677ToNQoh0pGVLj6hgfcn2XkZo4yWTSy5zUIMR6DZbp_su-6dVvMAK6KJXyizSfVBSoSfqemmhHmU_0B2jpnLIWShvUuI6zH5llQPME4Wzw0hnOZV0-HjR_4Uo9v4sl-DMeFzD6LK2uvFJlA02YJ_xR0ST7XuUhxsO_DJFIeC365uVIGgwiQp_yVaiY6NGPlDhRFd93gSFiMcqS5bhFsEWvZHdEvcsK4FWdQtCRtZObsT0PKC5WcVXt1VEUofx3rVxelcjB6KrvggtJ2PNbFKsfgzbu59lJfA"&gt; Datasheet&lt;\a&gt;</description>
+<smd name="1" x="-2.09" y="0" dx="1.78" dy="1.14" layer="1" rot="R90"/>
+<smd name="2" x="2.09" y="0" dx="1.78" dy="1.14" layer="1" rot="R90"/>
+<wire x1="-2.94" y1="1.27" x2="-2.94" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="-2.94" y1="-1.27" x2="2.94" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="2.94" y1="-1.27" x2="2.94" y2="1.27" width="0.2" layer="21"/>
+<wire x1="2.94" y1="1.27" x2="-2.94" y2="1.27" width="0.2" layer="21"/>
+<text x="-3" y="2" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-3.048" y1="-1.397" x2="3.048" y2="1.397" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -352,6 +364,14 @@ chip</description>
 <wire x1="0" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <text x="-10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="FUSE-1">
+<pin name="P$1" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="P$2" x="2.54" y="0" visible="off" length="point"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -515,6 +535,27 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="36-3568-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C1F3.5" prefix="XF" uservalue="yes">
+<description>C1F 3.5 &lt;br&gt;
+&lt;a href = "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1F">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="507-1884-1-ND" constant="no"/>
+<attribute name="VALUE" value="3.5"/>
 </technology>
 </technologies>
 </device>
