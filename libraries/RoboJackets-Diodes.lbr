@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -684,6 +684,18 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="DFLS130L-7">
+<description>&lt;a href  = "https://www.diodes.com/assets/Datasheets/ds30492.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<smd name="1" x="1.6" y="0" dx="1.4" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-0.95" y="0" dx="2.2" dy="1.4" layer="1" rot="R180"/>
+<wire x1="-1.5" y1="0.965" x2="-1.5" y2="-0.965" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-0.965" x2="1.5" y2="-0.965" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-0.965" x2="1.5" y2="0.965" width="0.2" layer="21"/>
+<wire x1="1.5" y1="0.965" x2="-1.5" y2="0.965" width="0.2" layer="21"/>
+<text x="-2" y="2" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-2" y="-2.7" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-1.1" x2="1.6" y2="1.1" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AN-AN">
@@ -856,6 +868,24 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <pin name="VDD" x="16.51" y="7.62" length="middle" direction="pas" rot="R180"/>
 <text x="-10.922" y="10.414" size="1.778" layer="95">&gt;NAME</text>
 <text x="-11.176" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="SCHOTTKY-1">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1284,6 +1314,27 @@ Vss should normally be connected to GND.</description>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="S10M-TPMSCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DFLS130L-7" prefix="D" uservalue="yes">
+<description>DFLS130L-7 &lt;br&gt;
+&lt;a href = "https://www.diodes.com/assets/Datasheets/ds30492.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFLS130L-7">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="DFLS130LDICT-ND" constant="no"/>
+<attribute name="VALUE" value="30" constant="no"/>
 </technology>
 </technologies>
 </device>
