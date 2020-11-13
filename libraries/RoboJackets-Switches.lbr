@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -564,6 +564,15 @@ Sourc: www.ctscorp.com</description>
 <text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="GPTS202312B">
+<description>&lt;a href = "http://switches-connectors-custom.cwind.com/Asset/GPTS203312BR2.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<pad name="P" x="0" y="0" drill="1.2"/>
+<pad name="1" x="0" y="3.5" drill="1.2"/>
+<pad name="6" x="0" y="-3.5" drill="1.2"/>
+<text x="-3" y="7" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-7" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-3.6" y1="-6.3" x2="3.7" y2="6.3" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HEX">
@@ -916,6 +925,14 @@ Sourc: www.ctscorp.com</description>
 <text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.175" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SPDT-1">
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="COMMON" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="A" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="B" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KMR2" prefix="S">
@@ -1231,6 +1248,27 @@ Sourc: www.ctscorp.com</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPTS202312B" prefix="SW">
+<description>GPTS202312B &lt;br&gt;
+&lt;a href = "http://switches-connectors-custom.cwind.com/Asset/GPTS203312BR2.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPDT-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPTS202312B">
+<connects>
+<connect gate="G$1" pin="A" pad="6"/>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="COMMON" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="CW183-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
