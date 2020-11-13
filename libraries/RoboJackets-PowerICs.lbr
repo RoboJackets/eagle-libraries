@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -871,21 +871,39 @@ TS-003</description>
 <text x="-2" y="-3" size="1" layer="27">&gt;Value</text>
 <text x="-2" y="2" size="1" layer="25">&gt;NAME</text>
 </package>
-<package name="TSOT-23-6">
-<description>&lt;a href="https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="5" x="1.0995" y="0" dx="0.7" dy="1" layer="1" rot="R270"/>
-<smd name="2" x="-1.0995" y="0" dx="0.7" dy="1" layer="1" rot="R270"/>
-<smd name="4" x="1.0995" y="-0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
-<smd name="3" x="-1.0995" y="-0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
-<smd name="6" x="1.0995" y="0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
-<smd name="1" x="-1.0995" y="0.95" dx="0.7" dy="1" layer="1" rot="R270"/>
-<wire x1="1.778" y1="1.492" x2="1.778" y2="-1.508" width="0.2" layer="21"/>
-<wire x1="-1.778" y1="1.492" x2="-1.778" y2="-1.508" width="0.2" layer="21"/>
-<wire x1="1.778" y1="1.524" x2="-1.778" y2="1.524" width="0.2" layer="21"/>
-<wire x1="1.778" y1="-1.524" x2="-1.778" y2="-1.524" width="0.2" layer="21"/>
-<text x="-2.318" y="1.778" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.445" y="-1.856" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-<circle x="-2.3" y="1" radius="0.2" width="0" layer="21"/>
+<package name="SOT-223">
+<description>&lt;a href="https://www.diodes.com/assets/Datasheets/AP2114.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<wire x1="-3.2766" y1="-1.778" x2="-2.8924" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="-1.705" y1="-1.778" x2="-0.6064" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="0.6064" y1="-1.778" x2="1.705" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="2.8924" y1="-1.778" x2="3.2766" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="3.2766" y1="1.878" x2="1.7494" y2="1.878" width="0.2" layer="51"/>
+<wire x1="-1.7494" y1="1.878" x2="-3.2766" y2="1.878" width="0.2" layer="51"/>
+<wire x1="-1.705" y1="-1.778" x2="-2.8924" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="-2.8924" y1="-1.778" x2="-2.8924" y2="-4.056" width="0.2" layer="51"/>
+<wire x1="-2.8924" y1="-4.056" x2="-1.705" y2="-4.056" width="0.2" layer="51"/>
+<wire x1="-1.705" y1="-4.056" x2="-1.705" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="-0.6064" y1="-1.778" x2="-0.6064" y2="-4.056" width="0.2" layer="51"/>
+<wire x1="-0.6064" y1="-4.056" x2="0.6064" y2="-4.056" width="0.2" layer="51"/>
+<wire x1="0.6064" y1="-4.056" x2="0.6064" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="2.8924" y1="-1.778" x2="1.705" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="1.705" y1="-1.778" x2="1.705" y2="-4.056" width="0.2" layer="51"/>
+<wire x1="1.705" y1="-4.056" x2="2.8924" y2="-4.056" width="0.2" layer="51"/>
+<wire x1="2.8924" y1="-4.056" x2="2.8924" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="1.7494" y1="1.878" x2="1.7494" y2="4.056" width="0.2" layer="51"/>
+<wire x1="1.7494" y1="4.056" x2="-1.7494" y2="4.056" width="0.2" layer="51"/>
+<wire x1="-1.7494" y1="4.056" x2="-1.7494" y2="1.878" width="0.2" layer="51"/>
+<wire x1="-0.6064" y1="-1.778" x2="0.6064" y2="-1.778" width="0.2" layer="51"/>
+<wire x1="3.2766" y1="-1.778" x2="3.2766" y2="1.878" width="0.2" layer="51"/>
+<wire x1="1.7494" y1="1.878" x2="-1.7494" y2="1.878" width="0.2" layer="51"/>
+<wire x1="-3.2766" y1="1.878" x2="-3.2766" y2="-1.778" width="0.2" layer="51"/>
+<smd name="1" x="-2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
+<smd name="2" x="0" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
+<smd name="3" x="2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
+<smd name="4" x="0" y="3.025" dx="3.1508" dy="1.7612" layer="1"/>
+<text x="-4" y="-2" size="1" layer="25" font="vector" rot="SR90">&gt;NAME</text>
+<text x="4" y="-2" size="1" layer="27" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
+<circle x="-3.3" y="-3" radius="0.2" width="0" layer="27"/>
 </package>
 </packages>
 <symbols>
@@ -1185,19 +1203,17 @@ TS-003</description>
 <text x="15.5956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="14.9606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
-<symbol name="AP63203WU-7">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="EN" x="-12.7" y="-1.27" length="middle" direction="pas"/>
-<pin name="FB" x="-12.7" y="4.572" length="middle" direction="pas"/>
-<pin name="VIN" x="-12.7" y="-7.112" length="middle" direction="pas"/>
-<pin name="SW" x="12.7" y="-1.27" length="middle" direction="pas" rot="R180"/>
-<pin name="BST" x="12.7" y="4.572" length="middle" direction="pas" rot="R180"/>
-<pin name="GND" x="12.7" y="-7.112" length="middle" direction="pas" rot="R180"/>
-<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<symbol name="AP2114H-*TRG1">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="EPAD" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="VIN" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="VOUT" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<text x="-7.62" y="-8.128" size="2.54" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-7.62" y="5.588" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1840,24 +1856,29 @@ TS-003</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AP63203WU-7" prefix="U">
-<description>&lt;p&gt;3.3V Switching Step-Down Power Regulator, Max Input 32V&lt;/p&gt;</description>
+<deviceset name="AP2114H-*TRG1" prefix="U">
+<description>Linear Voltage Regulator IC 1 Output 1A SOT-223
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-1.8TRG1/AP2114H-1.8TRG1DICT-ND/4505140"&gt;DigiKey 1.8V&lt;\a&gt;
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142"&gt;DigiKey 3.3V&lt;\a&gt;</description>
 <gates>
-<gate name="G$1" symbol="AP63203WU-7" x="0" y="0"/>
+<gate name="A" symbol="AP2114H-*TRG1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSOT-23-6">
+<device name="" package="SOT-223">
 <connects>
-<connect gate="G$1" pin="BST" pad="6"/>
-<connect gate="G$1" pin="EN" pad="2"/>
-<connect gate="G$1" pin="FB" pad="1"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SW" pad="5"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="A" pin="EPAD" pad="4"/>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VOUT" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DKPN" value="AP63203WU-7DICT-ND  " constant="no"/>
+<technology name="1.8">
+<attribute name="DKPN" value="AP2114H-1.8TRG1DICT-ND" constant="no"/>
+</technology>
+<technology name="3.3">
+<attribute name="DKPN" value="AP2114H-3.3TRG1DICT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
