@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17419,7 +17419,9 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; Datashee
 </devices>
 </deviceset>
 <deviceset name="SI-52003-F">
-<description>https://www.digikey.com/products/en?keywords=si-52003</description>
+<description>1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX, Power over Ethernet (PoE)
+
+https://www.digikey.com/products/en?keywords=si-52003</description>
 <gates>
 <gate name="G$1" symbol="POE_MAGJACK_COM_CT" x="0" y="0"/>
 </gates>
@@ -17440,7 +17442,9 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; Datashee
 <connect gate="G$1" pin="V-" pad="9 11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="380-1119-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
