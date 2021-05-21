@@ -899,7 +899,7 @@ Values given are
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBD4448HTW">
+<deviceset name="MMBD4448HTW" prefix="U">
 <description>Diode Array 3 Independent Standard 80V 250mA Surface Mount 6-TSSOP, SC-88, SOT-363</description>
 <gates>
 <gate name="G$1" symbol="MMBD4448HTW" x="0" y="0"/>
@@ -1186,7 +1186,7 @@ Surface Mount 2114/DO-214AA</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RB521S30T1G">
+<deviceset name="RB521S30T1G" prefix="D">
 <description>https://www.digikey.com/product-detail/en/on-semiconductor/RB521S30T1G/RB521S30T1GOSTR-ND/920292</description>
 <gates>
 <gate name="G$1" symbol="DIODE-SINGLE" x="0" y="0"/>
@@ -1236,7 +1236,7 @@ Vss should normally be connected to GND.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="D5V0L1B2WS-7">
+<deviceset name="D5V0L1B2WS-7" prefix="D">
 <description>TVS 5V Diode
 &lt;p&gt;
 &lt;a href="https://www.diodes.com/assets/Datasheets/D5V0L1B2WS.pdf"&gt;Datasheet&lt;/a&gt;
@@ -1258,7 +1258,7 @@ Vss should normally be connected to GND.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="S10M-TP">
+<deviceset name="S10M-TP" prefix="D">
 <description>Diode Standard 1000V 10A Surface Mount DO-214AB (HSMC)
 &lt;p&gt;
 &lt;a href="https://www.mccsemi.com/pdf/Products/S10A~S10M(HSMC).PDF"&gt;Datasheet&lt;/a&gt;</description>
