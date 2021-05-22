@@ -1289,6 +1289,25 @@ Vss should normally be connected to GND.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="DFLS130L-7" prefix="D" uservalue="yes">
+<description>&lt;p&gt;DFLS130L-7&lt;\p&gt;
+&lt;p&gt;30V SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER 1.0A &lt;\p&gt; &lt;br&gt;
+&lt;a href = "https://www.diodes.com/assets/Datasheets/ds30492.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERDI-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
