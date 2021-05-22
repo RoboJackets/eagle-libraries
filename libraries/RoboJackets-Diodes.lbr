@@ -1090,6 +1090,10 @@ Surface Mount 2114/DO-214AA</description>
 </devices>
 </deviceset>
 <deviceset name="SMAJ20A" prefix="D">
+<description>&lt;p&gt;TVS DIODE 20V 32.4V DO214AC&lt;\p&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TVS" x="0" y="0"/>
 </gates>
@@ -1143,7 +1147,10 @@ Surface Mount 2114/DO-214AA</description>
 </devices>
 </deviceset>
 <deviceset name="MBR0520LT1G_DIODE" prefix="D">
-<description>https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSTR-ND/918574</description>
+<description>&lt;p&gt;DIODE SCHOTTKY 20V 500MA SOD123&lt;\p&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE-SINGLE" x="0" y="0"/>
 </gates>
@@ -1187,7 +1194,10 @@ Surface Mount 2114/DO-214AA</description>
 </devices>
 </deviceset>
 <deviceset name="RB521S30T1G" prefix="D">
-<description>https://www.digikey.com/product-detail/en/on-semiconductor/RB521S30T1G/RB521S30T1GOSTR-ND/920292</description>
+<description>&lt;p&gt;DIODE SCHOTTKY 30V 200MA SOD523&lt;\p&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE-SINGLE" x="0" y="0"/>
 </gates>
