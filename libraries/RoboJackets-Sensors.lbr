@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -480,6 +480,90 @@ In this library you will find circuit elements that are used for getting measure
 <rectangle x1="-5.2" y1="-16.6" x2="5.2" y2="-9" layer="39"/>
 <rectangle x1="-11.5" y1="-9" x2="11.5" y2="7.7" layer="39"/>
 </package>
+<package name="VL6180X_STM">
+<smd name="1" x="-1.2422" y="1.875" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="2" x="-1.2422" y="1.125" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="3" x="-1.2422" y="0.375" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="4" x="-1.2422" y="-0.375" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="5" x="-1.2422" y="-1.125" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="6" x="-1.2422" y="-1.875" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="7" x="1.2422" y="-1.875" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="8" x="1.2422" y="-1.125" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="9" x="1.2422" y="-0.375" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="10" x="1.2422" y="0.375" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="11" x="1.2422" y="1.125" dx="1.0112" dy="0.5088" layer="1"/>
+<smd name="12" x="1.2422" y="1.875" dx="1.0112" dy="0.5088" layer="1"/>
+<wire x1="-1.5748" y1="-2.5908" x2="1.5748" y2="-2.5908" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="2.5908" x2="-1.5748" y2="2.5908" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="1.8796" x2="-2.6416" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.6416" y1="1.8796" x2="-2.4384" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4478" y1="-2.4384" x2="1.4478" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="-2.4384" x2="1.4478" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="2.4384" x2="-0.3048" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.4384" x2="-1.4478" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="2.4384" x2="-1.4478" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="1.8796" x2="-0.8128" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-0.8128" y1="1.8796" x2="-0.6604" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.4638" x2="-0.3048" y2="2.4384" width="0.1524" layer="51" curve="-180"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="VL6180X_STM-M">
+<smd name="1" x="-1.2922" y="1.875" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="2" x="-1.2922" y="1.125" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="3" x="-1.2922" y="0.375" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="4" x="-1.2922" y="-0.375" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="5" x="-1.2922" y="-1.125" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="6" x="-1.2922" y="-1.875" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="7" x="1.2922" y="-1.875" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="8" x="1.2922" y="-1.125" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="9" x="1.2922" y="-0.375" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="10" x="1.2922" y="0.375" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="11" x="1.2922" y="1.125" dx="1.1112" dy="0.5088" layer="1"/>
+<smd name="12" x="1.2922" y="1.875" dx="1.1112" dy="0.5088" layer="1"/>
+<wire x1="-1.5748" y1="-2.5908" x2="1.5748" y2="-2.5908" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="2.5908" x2="-1.5748" y2="2.5908" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.8796" x2="-2.7432" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.7432" y1="1.8796" x2="-2.54" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4478" y1="-2.4384" x2="1.4478" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="-2.4384" x2="1.4478" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="2.4384" x2="-0.3048" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.4384" x2="-1.4478" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="2.4384" x2="-1.4478" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="1.8796" x2="-0.8128" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-0.8128" y1="1.8796" x2="-0.6604" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.4638" x2="-0.3048" y2="2.4384" width="0.1524" layer="51" curve="-180"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="VL6180X_STM-L">
+<smd name="1" x="-1.1922" y="1.875" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="2" x="-1.1922" y="1.125" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="3" x="-1.1922" y="0.375" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="4" x="-1.1922" y="-0.375" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="5" x="-1.1922" y="-1.125" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="6" x="-1.1922" y="-1.875" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="7" x="1.1922" y="-1.875" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="8" x="1.1922" y="-1.125" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="9" x="1.1922" y="-0.375" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="10" x="1.1922" y="0.375" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="11" x="1.1922" y="1.125" dx="0.9112" dy="0.5088" layer="1"/>
+<smd name="12" x="1.1922" y="1.875" dx="0.9112" dy="0.5088" layer="1"/>
+<wire x1="-1.5748" y1="-2.5908" x2="1.5748" y2="-2.5908" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="2.5908" x2="-1.5748" y2="2.5908" width="0.1524" layer="21"/>
+<wire x1="-2.3368" y1="1.8796" x2="-2.54" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="1.8796" x2="-2.3368" y2="1.8796" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4478" y1="-2.4384" x2="1.4478" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="-2.4384" x2="1.4478" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="2.4384" x2="-0.3048" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.4384" x2="-1.4478" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-1.4478" y1="2.4384" x2="-1.4478" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="1.8796" x2="-0.8128" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="-0.8128" y1="1.8796" x2="-0.6604" y2="1.8796" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.4638" x2="-0.3048" y2="2.4384" width="0.1524" layer="51" curve="-180"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL345">
@@ -656,6 +740,26 @@ In this library you will find circuit elements that are used for getting measure
 <pin name="DATA_IO" x="22.86" y="2.54" length="middle" rot="R180"/>
 <text x="-12.7" y="10.16" size="1.778" layer="95" ratio="10">&gt;NAME</text>
 <text x="-15.24" y="-10.16" size="1.778" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="VL6180XV0NR/1">
+<pin name="GPIO1" x="2.54" y="0" length="middle"/>
+<pin name="NC_2" x="2.54" y="-2.54" length="middle" direction="nc"/>
+<pin name="NC_3" x="2.54" y="-5.08" length="middle" direction="nc"/>
+<pin name="GPIO0" x="2.54" y="-7.62" length="middle"/>
+<pin name="SCL" x="2.54" y="-10.16" length="middle" direction="in"/>
+<pin name="SDA" x="2.54" y="-12.7" length="middle"/>
+<pin name="NC_4" x="53.34" y="-12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="AVDD_VCSEL" x="53.34" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="AVSS_VCSEL" x="53.34" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="AVDD" x="53.34" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC" x="53.34" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="AVSS" x="53.34" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="48.26" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="48.26" y1="-17.78" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -900,6 +1004,39 @@ In this library you will find circuit elements that are used for getting measure
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VL6180XV0NR/1" prefix="U">
+<gates>
+<gate name="A" symbol="VL6180XV0NR/1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VL6180X_STM">
+<connects>
+<connect gate="A" pin="AVDD" pad="10"/>
+<connect gate="A" pin="AVDD_VCSEL" pad="8"/>
+<connect gate="A" pin="AVSS" pad="12"/>
+<connect gate="A" pin="AVSS_VCSEL" pad="9"/>
+<connect gate="A" pin="GPIO0" pad="4"/>
+<connect gate="A" pin="GPIO1" pad="1"/>
+<connect gate="A" pin="NC" pad="11"/>
+<connect gate="A" pin="NC_2" pad="2"/>
+<connect gate="A" pin="NC_3" pad="3"/>
+<connect gate="A" pin="NC_4" pad="7"/>
+<connect gate="A" pin="SCL" pad="5"/>
+<connect gate="A" pin="SDA" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.st.com/resource/en/datasheet/vl6180x.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VL6180XV0NR/1" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Update_to_database_2020-12-18" constant="no"/>
+<attribute name="VENDOR" value="STMicroelectronics" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
