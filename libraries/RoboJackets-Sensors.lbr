@@ -564,6 +564,32 @@ In this library you will find circuit elements that are used for getting measure
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
+<package name="SON65P200X240X70-6N">
+<wire x1="-1" y1="1.2" x2="1" y2="1.2" width="0.127" layer="51"/>
+<wire x1="1" y1="1.2" x2="1" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.2" x2="-1" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.2" x2="-1" y2="1.2" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.1" x2="-1" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.2" x2="1" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1" y1="1.2" x2="1" y2="1.1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.1" x2="1" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.2" x2="-1" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.2" x2="-1" y2="-1.1" width="0.127" layer="21"/>
+<circle x="-1.7" y="0.6" radius="0.05" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="1.45" x2="1.5" y2="1.45" width="0.05" layer="39"/>
+<wire x1="1.5" y1="1.45" x2="1.5" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="1.5" y1="-1.45" x2="-1.5" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="-1.45" x2="-1.5" y2="1.45" width="0.05" layer="39"/>
+<text x="-1.50271875" y="1.50271875" size="0.61070625" layer="25">&gt;NAME</text>
+<text x="-1.501" y="-1.751159375" size="0.61000625" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-0.45" y="0.6" radius="0.05" width="0.1" layer="51"/>
+<smd name="1" x="-0.75" y="0.65" dx="1" dy="0.4" layer="1"/>
+<smd name="2" x="-0.75" y="0" dx="1" dy="0.4" layer="1"/>
+<smd name="3" x="-0.75" y="-0.65" dx="1" dy="0.4" layer="1"/>
+<smd name="6" x="0.75" y="0.65" dx="1" dy="0.4" layer="1"/>
+<smd name="4" x="0.75" y="-0.65" dx="1" dy="0.4" layer="1"/>
+<smd name="5" x="0.75" y="0" dx="1" dy="0.4" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL345">
@@ -760,6 +786,19 @@ In this library you will find circuit elements that are used for getting measure
 <wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="TCS34725FN">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.63425" y="10.179" size="1.78131875" layer="95">&gt;NAME</text>
+<text x="-7.629559375" y="-10.1727" size="1.78023125" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="VDD" x="10.16" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="SCL" x="-10.16" y="2.54" length="short" direction="in" function="clk"/>
+<pin name="INT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="SDA" x="-10.16" y="-2.54" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1036,6 +1075,33 @@ In this library you will find circuit elements that are used for getting measure
 <attribute name="MANUFACTURER_PART_NUMBER" value="VL6180XV0NR/1" constant="no"/>
 <attribute name="SOURCELIBRARY" value="Update_to_database_2020-12-18" constant="no"/>
 <attribute name="VENDOR" value="STMicroelectronics" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCS34725FN" prefix="U">
+<description>Color Light To Digital with IR Filter </description>
+<gates>
+<gate name="G$1" symbol="TCS34725FN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON65P200X240X70-6N">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INT" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Color Sensor 16 b Gain Control, Interrupt, Sleep Mode 6-SMD Module "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="TCS34725FNCT-ND"/>
+<attribute name="MF" value="ams"/>
+<attribute name="MP" value="TCS34725FN"/>
+<attribute name="PACKAGE" value="SMD-6 ams"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TCS34725FN/?ref=eda"/>
 </technology>
 </technologies>
 </device>
