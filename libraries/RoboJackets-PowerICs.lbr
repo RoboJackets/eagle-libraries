@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -905,6 +905,32 @@ TS-003</description>
 <text x="4" y="-2" size="1" layer="27" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
 <circle x="-3.3" y="-3" radius="0.2" width="0" layer="27"/>
 </package>
+<package name="SOP-8L_DIO">
+<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1" roundness="100"/>
+<wire x1="-2.1082" y1="-2.5908" x2="2.1082" y2="-2.5908" width="0.1524" layer="21"/>
+<wire x1="2.1082" y1="2.5908" x2="-2.1082" y2="2.5908" width="0.1524" layer="21"/>
+<wire x1="2.1082" y1="-1.2446" x2="2.1082" y2="1.2954" width="0.1524" layer="21"/>
+<wire x1="-4.2926" y1="1.905" x2="-4.445" y2="1.905" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.445" y1="1.905" x2="-4.2926" y2="1.905" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-1.9812" y1="-2.4638" x2="1.9812" y2="-2.4638" width="0.1524" layer="51"/>
+<wire x1="1.9812" y1="-2.4638" x2="1.9812" y2="2.4638" width="0.1524" layer="51"/>
+<wire x1="1.9812" y1="2.4638" x2="0.3048" y2="2.4638" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="2.4638" x2="-0.3048" y2="2.4638" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="2.4638" x2="-1.9812" y2="2.4638" width="0.1524" layer="51"/>
+<wire x1="-1.9812" y1="2.4638" x2="-1.9812" y2="-2.4638" width="0.1524" layer="51"/>
+<wire x1="-1.6764" y1="1.905" x2="-1.7526" y2="1.905" width="0" layer="51" curve="-180"/>
+<wire x1="-1.7526" y1="1.905" x2="-1.6764" y2="1.905" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="2.4638" x2="-0.3048" y2="2.4638" width="0.1524" layer="51" curve="-180"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IX4427">
@@ -1214,6 +1240,22 @@ TS-003</description>
 <pin name="VOUT" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
 <text x="-7.62" y="-8.128" size="2.54" layer="96" align="top-left">&gt;VALUE</text>
 <text x="-7.62" y="5.588" size="2.54" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="AP1509-50SG-13">
+<pin name="VIN" x="2.54" y="0" length="middle" direction="in"/>
+<pin name="OUTPUT" x="2.54" y="-2.54" length="middle" direction="out"/>
+<pin name="FB" x="2.54" y="-5.08" length="middle" direction="out"/>
+<pin name="SD" x="2.54" y="-7.62" length="middle" direction="pas"/>
+<pin name="GND_2" x="58.42" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND_3" x="58.42" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND_4" x="58.42" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="58.42" y="0" length="middle" direction="pwr" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="53.34" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="-12.7" x2="53.34" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="25.7556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="25.1206" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1879,6 +1921,34 @@ TS-003</description>
 </technology>
 <technology name="3.3">
 <attribute name="DKPN" value="AP2114H-3.3TRG1DICT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP1509-50SG-13" prefix="U">
+<description>Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A 8-SOIC (0.154", 3.90mm Width)</description>
+<gates>
+<gate name="A" symbol="AP1509-50SG-13" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP-8L_DIO">
+<connects>
+<connect gate="A" pin="FB" pad="3"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="GND_2" pad="5"/>
+<connect gate="A" pin="GND_3" pad="6"/>
+<connect gate="A" pin="GND_4" pad="7"/>
+<connect gate="A" pin="OUTPUT" pad="2"/>
+<connect gate="A" pin="SD" pad="4"/>
+<connect gate="A" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AP1509-50SG-13" constant="no"/>
+<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
+<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
 </technology>
 </technologies>
 </device>
