@@ -4695,20 +4695,6 @@ https://www.digikey.com/product-detail/en/wiznet/W5500/1278-1021-ND/4425702</des
 <text x="0.127" y="-4.699" size="1.27" layer="94" font="vector" align="bottom-center">VEE</text>
 <text x="0.127" y="3.429" size="1.27" layer="94" font="vector" align="bottom-center">VCC</text>
 </symbol>
-<symbol name="TLE493DA2B6HTSA1">
-<description>&lt;h3&gt;TLE493DA2B6HTSA1&lt;/h3&gt;
-&lt;p&gt;Hall Effect Sensor X, Y, Z Axis. I2C&lt;/p&gt;</description>
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
-<pin name="VDD" x="-15.24" y="2.54" length="middle" direction="pas"/>
-<pin name="GND" x="-15.24" y="-2.54" length="middle" direction="pas"/>
-<pin name="SCL/INT" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="SDA" x="15.24" y="2.54" length="middle" direction="pas" rot="R180"/>
-<text x="-10.16" y="6.096" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="HK-GT2B">
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
@@ -5781,27 +5767,6 @@ ISM BAND RADIO</text>
 <text x="0" y="-15.24" size="1.27" layer="94" align="center">VDD: 1.8-3.6V
 Temp: -40~+85°C</text>
 </symbol>
-<symbol name="ICM-20948">
-<wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
-<pin name="AD0/SDO" x="-20.32" y="-2.54" length="middle" direction="pas"/>
-<pin name="AUX_CL" x="-20.32" y="5.08" length="middle" direction="pas" function="clk"/>
-<pin name="AUX_DA" x="-20.32" y="2.54" length="middle" direction="pas"/>
-<pin name="FSYNC" x="-20.32" y="7.62" length="middle" direction="pas"/>
-<pin name="GND" x="20.32" y="-12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="INT1" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NCS" x="-20.32" y="-7.62" length="middle" direction="pas"/>
-<pin name="REGOUT" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="RESV_20" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="SCL/SCLK" x="-20.32" y="0" length="middle" direction="pas" function="clk"/>
-<pin name="SDA/SDI" x="-20.32" y="-5.08" length="middle" direction="pas"/>
-<pin name="VDD" x="20.32" y="15.24" length="middle" direction="pas" rot="R180"/>
-<pin name="VDDIO" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
-<text x="-15.24" y="20.32" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="OPAMP_DUAL">
 <pin name="OUTA" x="15.24" y="7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="INA-" x="-15.24" y="5.08" visible="pad" length="middle" direction="pas"/>
@@ -5861,27 +5826,6 @@ Temp: -40~+85°C</text>
 <pin name="EN" x="20.32" y="2.54" length="middle" direction="pas" rot="R180"/>
 <text x="-5.08" y="10.414" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.08" y="-7.874" size="1.778" layer="96" align="top-left">&gt;Value</text>
-</symbol>
-<symbol name="ICM-20948-1">
-<wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.1524" layer="94"/>
-<pin name="AD0/SDO" x="-20.32" y="-2.54" length="middle" direction="pas"/>
-<pin name="AUX_CL" x="-20.32" y="5.08" length="middle" direction="pas" function="clk"/>
-<pin name="AUX_DA" x="-20.32" y="2.54" length="middle" direction="pas"/>
-<pin name="FSYNC" x="-20.32" y="7.62" length="middle" direction="pas"/>
-<pin name="GND" x="20.32" y="-12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="INT1" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NCS" x="-20.32" y="-7.62" length="middle" direction="pas"/>
-<pin name="REGOUT" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="RESV_20" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="SCL/SCLK" x="-20.32" y="0" length="middle" direction="pas" function="clk"/>
-<pin name="SDA/SDI" x="-20.32" y="-5.08" length="middle" direction="pas"/>
-<pin name="VDD" x="20.32" y="15.24" length="middle" direction="pas" rot="R180"/>
-<pin name="VDDIO" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
-<text x="-15.24" y="18.034" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-18.034" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="TEENSY_3.6">
 <wire x1="-22.86" y1="-53.34" x2="20.32" y2="-53.34" width="0.254" layer="94"/>
@@ -6552,29 +6496,6 @@ https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%
 <technologies>
 <technology name="AHC">
 <attribute name="DKPN" value="296-8744-1-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TLE493DA2B6HTSA1" prefix="U">
-<description>Hall Effect Sensor X, Y, Z Axis, 
-I2C, 3.3V&lt;br&gt;
-&lt;a href = "https://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/TLE493D-A2B6_V1.3_4-9-19.pdf"&gt;Datasheet&lt;\a&gt;</description>
-<gates>
-<gate name="G$1" symbol="TLE493DA2B6HTSA1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-6">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 3 5"/>
-<connect gate="G$1" pin="SCL/INT" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="6"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="TLE493DA2B6HTSA1CT-ND"/>
 </technology>
 </technologies>
 </device>
@@ -7936,38 +7857,6 @@ RFM69HCW - ISM Band RF Transceiver &lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="296-18509-1-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ICM-20948" prefix="U">
-<description>Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI Output
-&lt;p&gt;&lt;\p&gt;
-&lt;a href="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-20948/1428-1123-1-ND/7062698"&gt;DigiKey&lt;\a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ICM-20948-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="24-QFN_(3X3)">
-<connects>
-<connect gate="G$1" pin="AD0/SDO" pad="9"/>
-<connect gate="G$1" pin="AUX_CL" pad="7"/>
-<connect gate="G$1" pin="AUX_DA" pad="21"/>
-<connect gate="G$1" pin="FSYNC" pad="11"/>
-<connect gate="G$1" pin="GND" pad="18"/>
-<connect gate="G$1" pin="INT1" pad="12"/>
-<connect gate="G$1" pin="NCS" pad="22"/>
-<connect gate="G$1" pin="REGOUT" pad="10"/>
-<connect gate="G$1" pin="RESV_20" pad="20"/>
-<connect gate="G$1" pin="SCL/SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA/SDI" pad="24"/>
-<connect gate="G$1" pin="VDD" pad="13"/>
-<connect gate="G$1" pin="VDDIO" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="1428-1123-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
