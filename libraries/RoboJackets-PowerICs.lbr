@@ -1936,7 +1936,8 @@ TS-003</description>
 </devices>
 </deviceset>
 <deviceset name="AP1509-50SG-13" prefix="U">
-<description>Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A 8-SOIC (0.154", 3.90mm Width)</description>
+<description>Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A 8-SOIC (0.154", 3.90mm Width)&lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Datasheets/AP1509.pdf"&gt;DATASHEET&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="AP1509-50SG-13" x="0" y="0"/>
 </gates>
