@@ -906,6 +906,7 @@ TS-003</description>
 <circle x="-3.3" y="-3" radius="0.2" width="0" layer="27"/>
 </package>
 <package name="SOP-8L_DIO">
+<description>&lt;a href="https://www.diodes.com/assets/Datasheets/AP1509.pdf"&gt;DATASHEET&lt;/a&gt;</description>
 <smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
 <smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1" roundness="100"/>
 <smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1" roundness="100"/>
@@ -919,7 +920,7 @@ TS-003</description>
 <wire x1="2.1082" y1="-1.2446" x2="2.1082" y2="1.2954" width="0.1524" layer="21"/>
 <wire x1="-4.2926" y1="1.905" x2="-4.445" y2="1.905" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-4.445" y1="1.905" x2="-4.2926" y2="1.905" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-2.9972" y="-4.445" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-1.9812" y1="-2.4638" x2="1.9812" y2="-2.4638" width="0.1524" layer="51"/>
 <wire x1="1.9812" y1="-2.4638" x2="1.9812" y2="2.4638" width="0.1524" layer="51"/>
 <wire x1="1.9812" y1="2.4638" x2="0.3048" y2="2.4638" width="0.1524" layer="51"/>
@@ -929,7 +930,15 @@ TS-003</description>
 <wire x1="-1.6764" y1="1.905" x2="-1.7526" y2="1.905" width="0" layer="51" curve="-180"/>
 <wire x1="-1.7526" y1="1.905" x2="-1.6764" y2="1.905" width="0" layer="51" curve="-180"/>
 <wire x1="0.3048" y1="2.4638" x2="-0.3048" y2="2.4638" width="0.1524" layer="51" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="3.175" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<rectangle x1="-3.5" y1="1.6" x2="-1.9" y2="2.2" layer="39"/>
+<rectangle x1="-3.5" y1="0.3" x2="-1.9" y2="0.9" layer="39" rot="R180"/>
+<rectangle x1="-3.5" y1="-2.2" x2="-1.9" y2="-1.6" layer="39" rot="R180"/>
+<rectangle x1="1.9" y1="1.6" x2="3.5" y2="2.2" layer="39"/>
+<rectangle x1="1.9" y1="0.3" x2="3.5" y2="1" layer="39"/>
+<rectangle x1="1.9" y1="-1" x2="3.5" y2="-0.3" layer="39"/>
+<rectangle x1="1.9" y1="-2.2" x2="3.5" y2="-1.6" layer="39"/>
+<rectangle x1="-3.5" y1="-1" x2="-1.9" y2="-0.3" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1250,12 +1259,12 @@ TS-003</description>
 <pin name="GND_3" x="58.42" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND_4" x="58.42" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND" x="58.42" y="0" length="middle" direction="pwr" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="53.34" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="53.34" y1="-12.7" x2="53.34" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="53.34" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="25.7556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="25.1206" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="53.34" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-12.7" x2="53.34" y2="5.08" width="0.254" layer="94"/>
+<wire x1="53.34" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="25.7556" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="25.1206" y="-16.2814" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1945,10 +1954,7 @@ TS-003</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AP1509-50SG-13" constant="no"/>
-<attribute name="SOURCELIBRARY" value="DIODESINC_2_2015-08-18" constant="no"/>
-<attribute name="VENDOR" value="Diodes Inc" constant="no"/>
+<attribute name="DKPN" value="AP1509-50SGDICT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
