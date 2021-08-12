@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -135,6 +135,8 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -480,6 +482,53 @@ In this library you will find circuit elements that are used for getting measure
 <rectangle x1="-5.2" y1="-16.6" x2="5.2" y2="-9" layer="39"/>
 <rectangle x1="-11.5" y1="-9" x2="11.5" y2="7.7" layer="39"/>
 </package>
+<package name="24-QFN_(3X3)">
+<description>&lt;a href="https://invensense.tdk.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf?ref_disty=digikey"&gt;Datasheet&lt;\a&gt;</description>
+<circle x="-2.4" y="1" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.2" y="1.1" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.3" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.3" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.3" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.3" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-2.12" y1="2.12" x2="2.12" y2="2.12" width="0.05" layer="39"/>
+<wire x1="2.12" y1="2.12" x2="2.12" y2="-2.12" width="0.05" layer="39"/>
+<wire x1="2.12" y1="-2.12" x2="-2.12" y2="-2.12" width="0.05" layer="39"/>
+<wire x1="-2.12" y1="-2.12" x2="-2.12" y2="2.12" width="0.05" layer="39"/>
+<smd name="1" x="-1.545" y="1" dx="0.64" dy="0.22" layer="1" roundness="25"/>
+<smd name="2" x="-1.545" y="0.6" dx="0.64" dy="0.22" layer="1" roundness="25"/>
+<smd name="3" x="-1.545" y="0.2" dx="0.64" dy="0.22" layer="1" roundness="25"/>
+<smd name="4" x="-1.545" y="-0.2" dx="0.64" dy="0.22" layer="1" roundness="25"/>
+<smd name="5" x="-1.545" y="-0.6" dx="0.64" dy="0.22" layer="1" roundness="25"/>
+<smd name="6" x="-1.545" y="-1" dx="0.64" dy="0.22" layer="1" roundness="25"/>
+<smd name="7" x="-1" y="-1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="10" x="0.2" y="-1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="11" x="0.6" y="-1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="12" x="1" y="-1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R90"/>
+<smd name="13" x="1.545" y="-1" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R180"/>
+<smd name="14" x="1.545" y="-0.6" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R180"/>
+<smd name="15" x="1.545" y="-0.2" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R180"/>
+<smd name="16" x="1.545" y="0.2" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R180"/>
+<smd name="17" x="1.545" y="0.6" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R180"/>
+<smd name="18" x="1.545" y="1" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R180"/>
+<smd name="19" x="1" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
+<smd name="20" x="0.6" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
+<smd name="21" x="0.2" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
+<smd name="22" x="-0.2" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
+<smd name="23" x="-0.6" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
+<smd name="24" x="-1" y="1.545" dx="0.64" dy="0.22" layer="1" roundness="25" rot="R270"/>
+<text x="-2.1" y="2.2" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2" y="-2.2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL345">
@@ -657,6 +706,27 @@ In this library you will find circuit elements that are used for getting measure
 <text x="-12.7" y="10.16" size="1.778" layer="95" ratio="10">&gt;NAME</text>
 <text x="-15.24" y="-10.16" size="1.778" layer="96" ratio="10" align="top-left">&gt;VALUE</text>
 </symbol>
+<symbol name="ICM-20948-1-1">
+<wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.1524" layer="94"/>
+<pin name="AD0/SDO" x="-20.32" y="-2.54" length="middle" direction="pas"/>
+<pin name="AUX_CL" x="-20.32" y="5.08" length="middle" direction="pas" function="clk"/>
+<pin name="AUX_DA" x="-20.32" y="2.54" length="middle" direction="pas"/>
+<pin name="FSYNC" x="-20.32" y="7.62" length="middle" direction="pas"/>
+<pin name="GND" x="20.32" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="INT1" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="NCS" x="-20.32" y="-7.62" length="middle" direction="pas"/>
+<pin name="REGOUT" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="RESV_20" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SCL/SCLK" x="-20.32" y="0" length="middle" direction="pas" function="clk"/>
+<pin name="SDA/SDI" x="-20.32" y="-5.08" length="middle" direction="pas"/>
+<pin name="VDD" x="20.32" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="VDDIO" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
+<text x="-15.24" y="18.034" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-18.034" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADXL345" prefix="U">
@@ -686,7 +756,9 @@ In this library you will find circuit elements that are used for getting measure
 </devices>
 </deviceset>
 <deviceset name="ICM-20948" prefix="U">
-<description>Axis=3 Axis Gyro+3 Axis Accel+Compass. Pin For Pin With m</description>
+<description>Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI Output
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-20948/1428-1123-1-ND/7062698"&gt;DigiKey&lt;\a&gt;</description>
 <gates>
 <gate name="A" symbol="ICM-20948-1" x="0" y="0"/>
 </gates>
@@ -882,8 +954,10 @@ In this library you will find circuit elements that are used for getting measure
 </device>
 </devices>
 </deviceset>
-<deviceset name="CQ2065">
-<description>current sensor</description>
+<deviceset name="CQ2065" prefix="U">
+<description>Current Sensor 85A 1 Channel Hall Effect, Open Loop Bidirectional Module
+&lt;p&gt;
+&lt;a href="https://www.akm.com/content/dam/documents/products/current-sensor/cq2065/cq2065-en-datasheet.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CQ2065" x="0" y="0"/>
 </gates>
@@ -899,7 +973,9 @@ In this library you will find circuit elements that are used for getting measure
 <connect gate="G$1" pin="VSS" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="974-1092-5-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

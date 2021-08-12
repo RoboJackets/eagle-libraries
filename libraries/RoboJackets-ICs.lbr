@@ -5781,27 +5781,6 @@ ISM BAND RADIO</text>
 <text x="0" y="-15.24" size="1.27" layer="94" align="center">VDD: 1.8-3.6V
 Temp: -40~+85°C</text>
 </symbol>
-<symbol name="ICM-20948">
-<wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
-<pin name="AD0/SDO" x="-20.32" y="-2.54" length="middle" direction="pas"/>
-<pin name="AUX_CL" x="-20.32" y="5.08" length="middle" direction="pas" function="clk"/>
-<pin name="AUX_DA" x="-20.32" y="2.54" length="middle" direction="pas"/>
-<pin name="FSYNC" x="-20.32" y="7.62" length="middle" direction="pas"/>
-<pin name="GND" x="20.32" y="-12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="INT1" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NCS" x="-20.32" y="-7.62" length="middle" direction="pas"/>
-<pin name="REGOUT" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="RESV_20" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="SCL/SCLK" x="-20.32" y="0" length="middle" direction="pas" function="clk"/>
-<pin name="SDA/SDI" x="-20.32" y="-5.08" length="middle" direction="pas"/>
-<pin name="VDD" x="20.32" y="15.24" length="middle" direction="pas" rot="R180"/>
-<pin name="VDDIO" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
-<text x="-15.24" y="20.32" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="OPAMP_DUAL">
 <pin name="OUTA" x="15.24" y="7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="INA-" x="-15.24" y="5.08" visible="pad" length="middle" direction="pas"/>
@@ -5861,27 +5840,6 @@ Temp: -40~+85°C</text>
 <pin name="EN" x="20.32" y="2.54" length="middle" direction="pas" rot="R180"/>
 <text x="-5.08" y="10.414" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.08" y="-7.874" size="1.778" layer="96" align="top-left">&gt;Value</text>
-</symbol>
-<symbol name="ICM-20948-1">
-<wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.1524" layer="94"/>
-<pin name="AD0/SDO" x="-20.32" y="-2.54" length="middle" direction="pas"/>
-<pin name="AUX_CL" x="-20.32" y="5.08" length="middle" direction="pas" function="clk"/>
-<pin name="AUX_DA" x="-20.32" y="2.54" length="middle" direction="pas"/>
-<pin name="FSYNC" x="-20.32" y="7.62" length="middle" direction="pas"/>
-<pin name="GND" x="20.32" y="-12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="INT1" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NCS" x="-20.32" y="-7.62" length="middle" direction="pas"/>
-<pin name="REGOUT" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="RESV_20" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="SCL/SCLK" x="-20.32" y="0" length="middle" direction="pas" function="clk"/>
-<pin name="SDA/SDI" x="-20.32" y="-5.08" length="middle" direction="pas"/>
-<pin name="VDD" x="20.32" y="15.24" length="middle" direction="pas" rot="R180"/>
-<pin name="VDDIO" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
-<text x="-15.24" y="18.034" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-18.034" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="TEENSY_3.6">
 <wire x1="-22.86" y1="-53.34" x2="20.32" y2="-53.34" width="0.254" layer="94"/>
@@ -7936,38 +7894,6 @@ RFM69HCW - ISM Band RF Transceiver &lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="296-18509-1-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ICM-20948" prefix="U">
-<description>Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, SPI Output
-&lt;p&gt;&lt;\p&gt;
-&lt;a href="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-20948/1428-1123-1-ND/7062698"&gt;DigiKey&lt;\a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ICM-20948-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="24-QFN_(3X3)">
-<connects>
-<connect gate="G$1" pin="AD0/SDO" pad="9"/>
-<connect gate="G$1" pin="AUX_CL" pad="7"/>
-<connect gate="G$1" pin="AUX_DA" pad="21"/>
-<connect gate="G$1" pin="FSYNC" pad="11"/>
-<connect gate="G$1" pin="GND" pad="18"/>
-<connect gate="G$1" pin="INT1" pad="12"/>
-<connect gate="G$1" pin="NCS" pad="22"/>
-<connect gate="G$1" pin="REGOUT" pad="10"/>
-<connect gate="G$1" pin="RESV_20" pad="20"/>
-<connect gate="G$1" pin="SCL/SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA/SDI" pad="24"/>
-<connect gate="G$1" pin="VDD" pad="13"/>
-<connect gate="G$1" pin="VDDIO" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="1428-1123-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
