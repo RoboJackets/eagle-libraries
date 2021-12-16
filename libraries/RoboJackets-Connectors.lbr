@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -9690,6 +9690,11 @@ rfk_1850.pdf</description>
 <hole x="2.67" y="0" drill="3.4"/>
 <rectangle x1="-5.2" y1="-2.1" x2="5.3" y2="14.2" layer="39"/>
 </package>
+<package name="XT60PW-M">
+<pad name="P$1" x="-3.6" y="0" drill="2"/>
+<pad name="P$2" x="3.6" y="0" drill="2"/>
+<pad name="P$3" x="-7" y="4" drill="0.6" shape="square"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X15" urn="urn:adsk.eagle:package:22427/2" type="model">
@@ -11580,6 +11585,16 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
 <text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="XT60PW-M">
+<wire x1="0" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
+<circle x="2.54" y="5.08" radius="1.04726875" width="0.254" layer="94"/>
+<circle x="10.16" y="5.08" radius="1.077628125" width="0.254" layer="94"/>
+<pin name="P$1" x="2.54" y="2.54" length="short" rot="R90"/>
+<pin name="P$2" x="10.16" y="2.54" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15601,6 +15616,17 @@ Molex 1x2 1.25mm SMT&lt;br&gt;
 <technology name="">
 <attribute name="DKPN" value="WM22676-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XT60PW-MAMASS">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
