@@ -346,8 +346,8 @@ In this library you will find LEDs and other visual output devices.
 </package>
 <package name="OP293B">
 <circle x="0" y="0" radius="5.97" width="0.127" layer="21"/>
-<pad name="P$1" x="-1.27" y="0" drill="0.6" shape="square"/>
-<pad name="P$2" x="1.27" y="0" drill="0.6"/>
+<pad name="P$1" x="1.27" y="0" drill="0.6" shape="square"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.6"/>
 <text x="-3" y="7" size="1.27" layer="25">&gt;Name</text>
 <text x="-3" y="-8" size="1.27" layer="27">&gt;Value</text>
 </package>
@@ -680,8 +680,8 @@ Used in manufacturing several products at SparkFun.
 <devices>
 <device name="" package="OP293B">
 <connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="C" pad="P$2"/>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
