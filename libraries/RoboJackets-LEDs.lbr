@@ -657,22 +657,6 @@ Used in manufacturing several products at SparkFun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-OP593B">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="OP593B">
-<connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="C" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LED-OP293B">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
