@@ -536,6 +536,8 @@ Source: &lt;a href="http://www.fairchildsemi.com/ds/MO%2FMOCD207-M.pdf"&gt; Data
 <circle x="0" y="0" radius="5.59" width="0.127" layer="21"/>
 <pad name="P$1" x="1.27" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="-1.27" y="0" drill="0.8"/>
+<text x="-5.08" y="6.35" size="1" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-5.08" y="-7.62" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 </packages>
 <symbols>
