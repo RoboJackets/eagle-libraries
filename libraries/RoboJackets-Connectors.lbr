@@ -9899,8 +9899,8 @@ rfk_1850.pdf</description>
 <package name="0436500213">
 <smd name="P$1" x="-5.385" y="0" dx="3.43" dy="1.65" layer="1"/>
 <smd name="P$2" x="5.385" y="0" dx="3.43" dy="1.65" layer="1"/>
-<smd name="P$3" x="-1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
-<smd name="P$4" x="1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
 <wire x1="-5" y1="-3" x2="-5" y2="5.4" width="0.127" layer="21"/>
 <wire x1="-5" y1="5.4" x2="5" y2="5.4" width="0.127" layer="21"/>
 <wire x1="5" y1="5.4" x2="5" y2="-3" width="0.127" layer="21"/>
@@ -16137,8 +16137,8 @@ Molex 1x2 1.25mm SMT&lt;br&gt;
 <devices>
 <device name="" package="0436500213">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1 P$3"/>
-<connect gate="G$1" pin="2" pad="P$2 P$4"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
