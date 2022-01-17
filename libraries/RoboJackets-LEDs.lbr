@@ -345,11 +345,11 @@ In this library you will find LEDs and other visual output devices.
 <text x="-2" y="-4" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="OP293B">
-<circle x="0" y="0" radius="5.97" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
 <pad name="P$1" x="1.27" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="-1.27" y="0" drill="0.8"/>
-<text x="-3" y="7" size="1.27" layer="25">&gt;Name</text>
-<text x="-3" y="-8" size="1.27" layer="27">&gt;Value</text>
+<text x="-3" y="4" size="1.27" layer="25">&gt;Name</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
