@@ -1334,7 +1334,7 @@ Sourc: www.ctscorp.com</description>
 <description>Push Button Switch: GPTS202312B &lt;br&gt;
 &lt;a href = "http://switches-connectors-custom.cwind.com/Asset/GPTS203312BR2.pdf"&gt;Datasheet&lt;\a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SPDT-1" x="0" y="0"/>
+<gate name="G$1" symbol="SPDT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="GPTS202312B">
