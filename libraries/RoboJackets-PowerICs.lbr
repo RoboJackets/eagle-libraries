@@ -1399,7 +1399,9 @@ TS-003</description>
 </devices>
 </deviceset>
 <deviceset name="LMZ14201" prefix="U">
-<description>Non-Isolated PoL Module DC DC Converter 1 Output 5 ~ 30V 1A 6V - 42V Input</description>
+<description>Non-Isolated PoL Module DC DC Converter 1 Output 5 ~ 30V 1A 6V - 42V Input
+&lt;p&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/lmz14201h.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1643856036056&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmz14201h"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="LMZ14201" x="0" y="0"/>
 </gates>
@@ -1626,7 +1628,9 @@ TS-003</description>
 </devices>
 </deviceset>
 <deviceset name="LT1930ES5#TRMPBF" prefix="U">
-<description>Boost, Flyback, SEPIC Switching Regulator IC Positive Adjustable 2.45V 1 Output 1A (Switch) SOT-23-5 Thin, TSOT-23-5</description>
+<description>Boost, Flyback, SEPIC Switching Regulator IC Positive Adjustable 2.45V 1 Output 1A (Switch) SOT-23-5 Thin, TSOT-23-5
+&lt;p&gt;
+&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/1930f.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="LT1930ES5TRMPBF" x="0" y="0"/>
 </gates>
