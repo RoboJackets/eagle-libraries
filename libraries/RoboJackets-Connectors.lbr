@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -9541,13 +9541,19 @@ rfk_1850.pdf</description>
 <smd name="8" x="3.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
 </package>
 <package name="B2P_SMALL">
-<pad name="2" x="3.98" y="0" drill="1.65" shape="square" rot="R180"/>
-<pad name="1" x="0.02" y="0" drill="1.65" rot="R180"/>
-<text x="2" y="2.81" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="7.493" y="0.127" size="2.54" layer="21" rot="R90">+</text>
-<text x="-3.175" y="1.778" size="2.54" layer="21">_</text>
-<text x="-3.175" y="1.778" size="2.54" layer="22">_</text>
-<text x="7.493" y="0.127" size="2.54" layer="22" rot="R90">+</text>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.524" shape="square" rot="R180"/>
+<pad name="1" x="-2.9972" y="0" drill="1.016" diameter="1.524" rot="R180"/>
+<text x="-3.2" y="3.81" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-7.375" y="5.778" size="2.54" layer="22">_</text>
+<text x="4.293" y="3.127" size="2.54" layer="22" rot="R90">+</text>
+<wire x1="-6.2" y1="3" x2="3.4" y2="3" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="3" x2="-6.2" y2="-2.56" width="0.1524" layer="21"/>
+<wire x1="3.4" y1="3" x2="3.4" y2="-2.56" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="-2.6" x2="3.4" y2="-2.6" width="0.1524" layer="21"/>
+<wire x1="3.8" y1="0" x2="5.8" y2="1" width="0.1524" layer="21"/>
+<wire x1="5.8" y1="1" x2="5.8" y2="-1" width="0.1524" layer="21"/>
+<wire x1="5.8" y1="-1" x2="3.8" y2="0" width="0.1524" layer="21"/>
+<text x="-3" y="-5" size="1" layer="27" font="vector" ratio="10" align="bottom-center">&gt;Value</text>
 </package>
 <package name="87438-02" library_version="2">
 <description>&lt;b&gt;1.50mm Pitch Pico-SPOX™ Wire-to-Board Header, Surface Mount, Right Angle, Shrouded, Nylon, 2 Circuits, Embossed Tape on Reel, Beige&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/874380243_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
@@ -9911,8 +9917,6 @@ rfk_1850.pdf</description>
 <package name="CON_436500217_MOL">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.524" shape="square"/>
 <pad name="2" x="-2.9972" y="0" drill="1.016" diameter="1.524"/>
-<pad name="M1" x="2.9972" y="-1.9558" drill="1.27" diameter="1.27"/>
-<pad name="M2" x="-5.9944" y="-1.9558" drill="1.27" diameter="1.27"/>
 <text x="-4.9958" y="-4.045" size="1" layer="27" font="vector" ratio="10" rot="SR0">&gt;Value</text>
 <text x="-4.8752" y="4.045" size="1" layer="25" font="vector" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="3.5814" y1="0" x2="5.1054" y2="0.635" width="0.1524" layer="51"/>
@@ -9922,7 +9926,6 @@ rfk_1850.pdf</description>
 <wire x1="3.3274" y1="-2.4638" x2="3.3274" y2="3.0988" width="0.1524" layer="51"/>
 <wire x1="3.3274" y1="3.0988" x2="-6.3246" y2="3.0988" width="0.1524" layer="51"/>
 <wire x1="-6.3246" y1="3.0988" x2="-6.3246" y2="-2.4638" width="0.1524" layer="51"/>
-<text x="-6.6802" y="13.0048" size="1.27" layer="51" ratio="6" rot="SR0">436500217</text>
 <wire x1="3.5814" y1="0" x2="5.1054" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="5.1054" y1="0.635" x2="5.1054" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="5.1054" y1="-0.635" x2="3.5814" y2="0" width="0.1524" layer="21"/>
@@ -9930,17 +9933,6 @@ rfk_1850.pdf</description>
 <wire x1="-5.207" y1="-2.4638" x2="2.1844" y2="-2.4638" width="0.1524" layer="21"/>
 <wire x1="3.3274" y1="-1.0668" x2="3.3274" y2="3.0988" width="0.1524" layer="21"/>
 <wire x1="3.3274" y1="3.0988" x2="-6.3246" y2="3.0988" width="0.1524" layer="21"/>
-<text x="-6.6802" y="13.0048" size="1.27" layer="21" ratio="6" rot="SR0">436500217</text>
-<text x="-3.2258" y="8.255" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="6.499990625" y="6.275"/>
-<vertex x="6.499990625" y="-5.645"/>
-<vertex x="-9.4999875" y="-5.645"/>
-<vertex x="-9.4999875" y="6.275"/>
-</polygon>
-<text x="-24.384" y="-9.8552" size="1.27" layer="48" ratio="6" rot="SR0">PTH_DRILL_SIZE:_1.02_MM,_TOL:_+0.05/-0.05</text>
-<text x="-24.9682" y="-12.3952" size="1.27" layer="48" ratio="6" rot="SR0">NPTH_DRILL_SIZE:_1.27_MM,_TOL:_+0.05/-0.05</text>
-<text x="-4.7752" y="8.255" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <packages3d>
