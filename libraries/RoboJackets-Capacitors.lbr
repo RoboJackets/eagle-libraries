@@ -564,6 +564,18 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 </device>
 </devices>
 </deviceset>
+<deviceset name="MAL216051101E3">
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
