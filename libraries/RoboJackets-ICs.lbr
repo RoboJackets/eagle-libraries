@@ -6029,7 +6029,7 @@ Temp: -40~+85°C</text>
 <pin name="SD2" x="-17.78" y="-12.7" length="middle"/>
 <pin name="SD3" x="-17.78" y="-15.24" length="middle"/>
 <pin name="SDA" x="-17.78" y="-20.32" length="middle"/>
-<pin name="VCC" x="17.78" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="-17.78" y="25.4" length="middle" direction="pwr"/>
 <pin name="SC4" x="17.78" y="5.08" length="middle" rot="R180"/>
 <pin name="SC5" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="SC6" x="17.78" y="0" length="middle" rot="R180"/>
