@@ -418,6 +418,23 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <text x="-4.6736" y="4.572" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-4.826" y="-4.699" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 </package>
+<package name="ECH-U1H184GX9">
+<smd name="1" x="-2.9" y="0" dx="2" dy="3.8" layer="1" rot="R180"/>
+<smd name="2" x="2.9" y="0" dx="2" dy="3.8" layer="1" rot="R180"/>
+<rectangle x1="-4" y1="-2" x2="4" y2="2" layer="39"/>
+<text x="-4" y="2" size="1" layer="25">&gt;NAME</text>
+<text x="-4" y="-2" size="1" layer="27" align="top-left">&gt;VALUE</text>
+</package>
+<package name="BFC241646203">
+<pad name="1" x="-2.5" y="0" drill="0.6" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="0.6"/>
+<wire x1="-3.6" y1="3" x2="-3.6" y2="-3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3" x2="3.6" y2="-3" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-3" x2="3.6" y2="3" width="0.2" layer="21"/>
+<wire x1="3.6" y1="3" x2="-3.6" y2="3" width="0.2" layer="21"/>
+<text x="-3.6" y="3.2" size="1" layer="25">&gt;NAME</text>
+<text x="-3.6" y="-3.1" size="1" layer="27" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -441,6 +458,16 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="C-EU">
+<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
+<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -559,6 +586,50 @@ In this library you will find uncommon capacitors. If you are looking for a comm
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="UWT0J102MNL1GS" constant="no"/>
 <attribute name="VENDOR" value="Nichicon" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECH-U1H184GX9" prefix="C" uservalue="yes">
+<description>0.18µF Film Capacitor 50V Polyphenylene Sulfide (PPS), Metallized - Stacked 2416 (6041 Metric)
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECH-U1H184GX9/PCF1555CT-ND/1630918"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ECH-U1H184GX9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="PCF1555CT-ND" constant="no"/>
+<attribute name="VALUE" value="0.18u" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BFC241646203" prefix="C" uservalue="yes">
+<description>0.062µF Film Capacitor 25V 63V Polypropylene (PP), Metallized Radial
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/vishay-bc-components/BFC241646203/BC2071-ND/502851"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BFC241646203">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="BC2071-ND" constant="no"/>
+<attribute name="VALUE" value="62n" constant="no"/>
 </technology>
 </technologies>
 </device>
