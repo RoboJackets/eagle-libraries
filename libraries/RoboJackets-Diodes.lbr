@@ -685,42 +685,46 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TEFD4300F">
+<description>https://www.vishay.com/docs/83472/tefd4300f.pdf</description>
 <circle x="0" y="0" radius="2" width="0.254" layer="21"/>
 <pad name="1" x="-1.27" y="0" drill="0.6" shape="square"/>
 <pad name="2" x="1.27" y="0" drill="0.6"/>
-<text x="-2" y="3" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2" y="-3" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2" y="3" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2" y="-3" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.8" width="0.1524" layer="21"/>
 <wire x1="-0.6" y1="-0.8" x2="0.6" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.6" y1="0" x2="-0.6" y2="0.8" width="0.1524" layer="21"/>
 <wire x1="0.6" y1="0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
 </package>
 <package name="DSN0603-2">
+<description>https://assets.nexperia.com/documents/package-information/SOD962-2.pdf</description>
 <smd name="C1" x="-0.2" y="0" dx="0.15" dy="0.25" layer="1"/>
 <smd name="C2" x="0.2" y="0" dx="0.15" dy="0.25" layer="1"/>
 <wire x1="-0.4" y1="0.1" x2="-0.4" y2="-0.1" width="0.2" layer="21"/>
-<text x="-0.4" y="0.5" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.4" y="-0.2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-0.4" y="0.5" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-0.4" y="-0.2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="D26V0H1U2LP20-7">
+<description>https://www.diodes.com/assets/Datasheets/D26V0H1U2LP20.pdf</description>
 <smd name="1" x="-0.675" y="0" dx="0.55" dy="1.9" layer="1"/>
 <smd name="2" x="0.675" y="0" dx="0.55" dy="1.9" layer="1"/>
 <wire x1="-1" y1="1" x2="-1" y2="-1" width="0.2" layer="21"/>
 <wire x1="-1" y1="-1" x2="1" y2="-1" width="0.2" layer="21"/>
 <wire x1="1" y1="-1" x2="1" y2="1" width="0.2" layer="21"/>
 <wire x1="1" y1="1" x2="-1" y2="1" width="0.2" layer="21"/>
-<text x="-2" y="2" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2" y="-2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2" y="2" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2" y="-2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <circle x="-1.6" y="-1.1" radius="0.282840625" width="0.2" layer="21"/>
 </package>
 <package name="SOD-523">
+<description>https://www.nxp.com/docs/en/package-information/SOD523.pdf</description>
 <smd name="1" x="-0.66" y="0" dx="0.48" dy="0.4" layer="1"/>
 <smd name="2" x="0.66" y="0" dx="0.48" dy="0.4" layer="1"/>
 <wire x1="-1.108" y1="0.4" x2="-1.108" y2="-0.4" width="0.1524" layer="21"/>
 <wire x1="-1.108" y1="-0.4" x2="-0.162" y2="-0.4" width="0.1524" layer="21"/>
 <wire x1="-0.162" y1="-0.4" x2="-0.162" y2="0.4" width="0.1524" layer="21"/>
 <wire x1="-0.162" y1="0.4" x2="-1.108" y2="0.4" width="0.1524" layer="21"/>
-<text x="-1" y="1" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="1" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-1" y="-1" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
 <wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="21"/>
 </package>
@@ -862,8 +866,8 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<pin name="ANODE" x="-1.27" y="0" visible="off" length="point"/>
-<pin name="CATHODE" x="3.81" y="0" visible="off" length="point"/>
+<pin name="ANODE" x="-1.27" y="0" visible="off" length="point" direction="pas"/>
+<pin name="CATHODE" x="3.81" y="0" visible="off" length="point" direction="pas"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 <wire x1="2.6924" y1="1.8796" x2="2.3876" y2="1.5748" width="0.1524" layer="94"/>
