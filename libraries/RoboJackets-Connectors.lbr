@@ -10075,14 +10075,8 @@ rfk_1850.pdf</description>
 <wire x1="-3.9624" y1="5.588" x2="-8.3312" y2="5.588" width="0.1524" layer="21"/>
 <wire x1="8.3312" y1="1.143" x2="8.3312" y2="5.588" width="0.1524" layer="21"/>
 <wire x1="-8.3312" y1="-1.143" x2="-8.3312" y2="-5.6134" width="0.1524" layer="21"/>
-<text x="-4.2672" y="-10.795" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="41">
-<vertex x="11.49998125" y="8.765"/>
-<vertex x="11.49998125" y="-8.785"/>
-<vertex x="-11.499984375" y="-8.785"/>
-<vertex x="-11.499984375" y="8.765"/>
-</polygon>
-<text x="-3.2766" y="10.795" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.9972" y="-8.255" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="6.985" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="CON_39288040">
 <pad name="1" x="0" y="0" drill="1.397" diameter="1.905" shape="square"/>
@@ -10096,7 +10090,7 @@ rfk_1850.pdf</description>
 <wire x1="-3.0988" y1="-8.7376" x2="7.2898" y2="-8.7376" width="0.1524" layer="21"/>
 <wire x1="7.2898" y1="-8.7376" x2="7.2898" y2="2.2606" width="0.1524" layer="21"/>
 <wire x1="7.2898" y1="2.2606" x2="-3.0988" y2="2.2606" width="0.1524" layer="21"/>
-<text x="-2.159" y="-13.335" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-2.159" y="-10.795" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-3.3528" y1="0" x2="-4.8768" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="-4.8768" y1="0.635" x2="-4.8768" y2="-0.635" width="0.1524" layer="51"/>
 <wire x1="-4.8768" y1="-0.635" x2="-3.3528" y2="0" width="0.1524" layer="51"/>
@@ -10104,25 +10098,19 @@ rfk_1850.pdf</description>
 <wire x1="7.2898" y1="-8.7376" x2="7.2898" y2="2.2606" width="0.1524" layer="51"/>
 <wire x1="7.2898" y1="2.2606" x2="-3.0988" y2="2.2606" width="0.1524" layer="51"/>
 <wire x1="-3.0988" y1="2.2606" x2="-3.0988" y2="-8.7376" width="0.1524" layer="51"/>
-<polygon width="0.1524" layer="41">
-<vertex x="10.474990625" y="5.425"/>
-<vertex x="10.474990625" y="-11.925"/>
-<vertex x="-6.2749875" y="-11.925"/>
-<vertex x="-6.2749875" y="5.425"/>
-</polygon>
-<text x="-1.1684" y="6.985" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.4384" y="3.175" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="N3793-6303RB_3MM">
-<pad name="1" x="0" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="2" x="2.54" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="3" x="5.08" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="4" x="7.62" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="5" x="10.16" y="0" drill="0.8636" diameter="1.3716"/>
-<pad name="6" x="0" y="-2.54" drill="0.8636" diameter="1.3716"/>
-<pad name="7" x="2.54" y="-2.54" drill="0.8636" diameter="1.3716"/>
-<pad name="8" x="5.08" y="-2.54" drill="0.8636" diameter="1.3716"/>
-<pad name="9" x="7.62" y="-2.54" drill="0.8636" diameter="1.3716"/>
-<pad name="10" x="10.16" y="-2.54" drill="0.8636" diameter="1.3716"/>
+<pad name="9" x="0" y="0" drill="0.8636" diameter="1.3716"/>
+<pad name="7" x="2.54" y="0" drill="0.8636" diameter="1.3716"/>
+<pad name="5" x="5.08" y="0" drill="0.8636" diameter="1.3716"/>
+<pad name="3" x="7.62" y="0" drill="0.8636" diameter="1.3716"/>
+<pad name="1" x="10.16" y="0" drill="0.8636" diameter="1.3716"/>
+<pad name="10" x="0" y="-2.54" drill="0.8636" diameter="1.3716"/>
+<pad name="8" x="2.54" y="-2.54" drill="0.8636" diameter="1.3716"/>
+<pad name="6" x="5.08" y="-2.54" drill="0.8636" diameter="1.3716"/>
+<pad name="4" x="7.62" y="-2.54" drill="0.8636" diameter="1.3716"/>
+<pad name="2" x="10.16" y="-2.54" drill="0.8636" diameter="1.3716"/>
 <pad name="11" x="-8.9408" y="-1.27" drill="2.54" diameter="3.048"/>
 <pad name="12" x="19.1008" y="-1.27" drill="2.54" diameter="3.048"/>
 <wire x1="-11.0998" y1="-5.969" x2="21.2598" y2="-5.969" width="0.1524" layer="21"/>
@@ -16989,16 +16977,16 @@ Molex 1x2 1.25mm SMT&lt;br&gt;
 <devices>
 <device name="" package="N3793-6303RB_3MM">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="10" pad="10"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-<connect gate="A" pin="7" pad="7"/>
-<connect gate="A" pin="8" pad="8"/>
-<connect gate="A" pin="9" pad="9"/>
+<connect gate="A" pin="1" pad="9"/>
+<connect gate="A" pin="10" pad="2"/>
+<connect gate="A" pin="2" pad="7"/>
+<connect gate="A" pin="3" pad="5"/>
+<connect gate="A" pin="4" pad="3"/>
+<connect gate="A" pin="5" pad="1"/>
+<connect gate="A" pin="6" pad="10"/>
+<connect gate="A" pin="7" pad="8"/>
+<connect gate="A" pin="8" pad="6"/>
+<connect gate="A" pin="9" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
