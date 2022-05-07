@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1573,21 +1573,21 @@ TS-003</description>
 <text x="25.1206" y="-16.2814" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="ADP7158ARDZ-1.2-R7">
-<pin name="VOUT" x="2.54" y="0" length="middle" direction="pas"/>
-<pin name="VOUT_SENSE" x="2.54" y="-2.54" length="middle" direction="pas"/>
-<pin name="BYP" x="2.54" y="-5.08" length="middle" direction="pas"/>
-<pin name="EN" x="2.54" y="-7.62" length="middle" direction="pas"/>
-<pin name="REF_SENSE" x="63.5" y="-10.16" length="middle" direction="pas" rot="R180"/>
-<pin name="REF" x="63.5" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="VREG" x="63.5" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="VIN" x="63.5" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="EPAD" x="63.5" y="0" length="middle" direction="pas" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-15.24" x2="58.42" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="58.42" y1="-15.24" x2="58.42" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="58.42" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="VOUT" x="-30.48" y="5.08" length="middle" direction="pas"/>
+<pin name="VOUT_SENSE" x="-30.48" y="2.54" length="middle" direction="pas"/>
+<pin name="BYP" x="-30.48" y="0" length="middle" direction="pas"/>
+<pin name="EN" x="-30.48" y="-2.54" length="middle" direction="pas"/>
+<pin name="REF_SENSE" x="30.48" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="REF" x="30.48" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="VREG" x="30.48" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="VIN" x="30.48" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="EPAD" x="30.48" y="5.08" length="middle" direction="pas" rot="R180"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-25.4" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="94"/>
+<text x="-4.7244" y="14.1986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="11.6586" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
