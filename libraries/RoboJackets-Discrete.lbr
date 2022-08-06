@@ -553,6 +553,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/ds/MO%2FMOCD207-M.pdf"&gt; Data
 <wire x1="0.99" y1="-0.49" x2="0.99" y2="-0.97" width="0.127" layer="21"/>
 <wire x1="0.99" y1="-0.97" x2="-0.98" y2="-0.97" width="0.127" layer="21"/>
 <wire x1="-0.98" y1="-0.97" x2="-0.98" y2="-0.51" width="0.127" layer="21"/>
+</package>
 <package name="TO254P1067X483X2286-3">
 <wire x1="-2.8" y1="2.945" x2="7.88" y2="2.945" width="0.127" layer="21"/>
 <wire x1="7.88" y1="2.945" x2="7.88" y2="-1.885" width="0.127" layer="21"/>
@@ -1521,6 +1522,10 @@ Rdson=1.8mOhm</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="FQP47P06" prefix="Q">
 <description>P-Channel 60V 47A (Tc) 160W (Tc) Through Hole TO-220-3
 &lt;p&gt;&lt;\p&gt;
@@ -1549,6 +1554,9 @@ Rdson=1.8mOhm</description>
 </gates>
 <devices>
 <device name="" package="SOT-23">
+</device>
+</devices>
+</deviceset>
 <deviceset name="FDN352AP" prefix="Q">
 <description>MOSFET P-CH 30V 1.3A SUPERSOT3
 &lt;p&gt;&lt;\p&gt;
