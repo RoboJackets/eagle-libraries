@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -684,6 +684,50 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="TEFD4300F">
+<description>https://www.vishay.com/docs/83472/tefd4300f.pdf</description>
+<circle x="0" y="0" radius="2" width="0.254" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.6" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="0.6"/>
+<text x="-2" y="3" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2" y="-3" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="-0.8" x2="0.6" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="0" x2="-0.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="0.8" x2="0.6" y2="-0.8" width="0.1524" layer="21"/>
+</package>
+<package name="DSN0603-2">
+<description>https://assets.nexperia.com/documents/package-information/SOD962-2.pdf</description>
+<smd name="C1" x="-0.2" y="0" dx="0.15" dy="0.25" layer="1"/>
+<smd name="C2" x="0.2" y="0" dx="0.15" dy="0.25" layer="1"/>
+<wire x1="-0.4" y1="0.1" x2="-0.4" y2="-0.1" width="0.2" layer="21"/>
+<text x="-0.4" y="0.5" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-0.4" y="-0.2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+</package>
+<package name="D26V0H1U2LP20-7">
+<description>https://www.diodes.com/assets/Datasheets/D26V0H1U2LP20.pdf</description>
+<smd name="1" x="-0.675" y="0" dx="0.55" dy="1.9" layer="1"/>
+<smd name="2" x="0.675" y="0" dx="0.55" dy="1.9" layer="1"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.2" layer="21"/>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.2" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.2" layer="21"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.2" layer="21"/>
+<text x="-2" y="2" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2" y="-2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<circle x="-1.6" y="-1.1" radius="0.282840625" width="0.2" layer="21"/>
+</package>
+<package name="SOD-523">
+<description>https://www.nxp.com/docs/en/package-information/SOD523.pdf</description>
+<smd name="1" x="-0.66" y="0" dx="0.48" dy="0.4" layer="1"/>
+<smd name="2" x="0.66" y="0" dx="0.48" dy="0.4" layer="1"/>
+<wire x1="-1.108" y1="0.4" x2="-1.108" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="-1.108" y1="-0.4" x2="-0.162" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="-0.162" y1="-0.4" x2="-0.162" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="-0.162" y1="0.4" x2="-1.108" y2="0.4" width="0.1524" layer="21"/>
+<text x="-1" y="1" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1" y="-1" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AN-AN">
@@ -812,6 +856,71 @@ https://www.digikey.com/products/en/prototyping-fabrication-products/adapter-bre
 <pin name="VDD" x="16.51" y="7.62" length="middle" direction="pas" rot="R180"/>
 <text x="-10.922" y="10.414" size="1.778" layer="95">&gt;NAME</text>
 <text x="-11.176" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="PHOTO_DIODE">
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<pin name="ANODE" x="-1.27" y="0" visible="off" length="point" direction="pas"/>
+<pin name="CATHODE" x="3.81" y="0" visible="off" length="point" direction="pas"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<wire x1="2.6924" y1="1.8796" x2="2.3876" y2="1.5748" width="0.1524" layer="94"/>
+<wire x1="2.3876" y1="1.5748" x2="2.1336" y2="1.8288" width="0.1524" layer="94"/>
+<wire x1="2.1336" y1="1.8288" x2="1.8034" y2="1.4986" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.3462" x2="1.651" y2="1.6002" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.6002" x2="1.6256" y2="1.5748" width="0.1524" layer="94"/>
+<wire x1="1.6256" y1="1.5748" x2="1.6256" y2="1.3462" width="0.1524" layer="94"/>
+<wire x1="1.6256" y1="1.3462" x2="1.8796" y2="1.3462" width="0.1524" layer="94"/>
+<wire x1="2.1844" y1="2.3876" x2="1.8796" y2="2.0828" width="0.1524" layer="94"/>
+<wire x1="1.8796" y1="2.0828" x2="1.6256" y2="2.3368" width="0.1524" layer="94"/>
+<wire x1="1.6256" y1="2.3368" x2="1.2954" y2="2.0066" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="1.8542" x2="1.143" y2="2.1082" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="2.1082" x2="1.1176" y2="2.0828" width="0.1524" layer="94"/>
+<wire x1="1.1176" y1="2.0828" x2="1.1176" y2="1.8542" width="0.1524" layer="94"/>
+<wire x1="1.1176" y1="1.8542" x2="1.3716" y2="1.8542" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="TVS_DIODE">
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.27" x2="-3.302" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="0" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="C1" x="-5.842" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-3.302" y1="1.27" x2="-3.302" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="-1.27" x2="-2.794" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.032" y2="1.27" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="D26V0H1U2LP20-7">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1307,6 +1416,130 @@ Vss should normally be connected to GND.
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEFD4300F" prefix="D">
+<description>Photodiode 950nm 100ns 40° Radial
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TEFD4300F/TEFD4300F-ND/2987578"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PHOTO_DIODE" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEFD4300F">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="TEFD4300F-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PESD5V0H1BSFYL" prefix="D">
+<description>5V Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount DSN0603-2
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/nexperia-usa-inc/PESD5V0H1BSFYL/1727-2675-1-ND/6576108"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DSN0603-2">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1727-2675-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PESD4V0Y1BSFYL" prefix="D">
+<description>3.7V (Typ) Clamp Ipp Tvs Diode Surface Mount DSN0603-2
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/nexperia-usa-inc/PESD4V0Y1BSFYL/1727-7840-1-ND/9326518"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DSN0603-2">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1727-7840-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D26V0H1U2LP20-7" prefix="D">
+<description>40V Clamp 9.5A Ipp Tvs Diode Surface Mount U-DFN2020-2
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/diodes-incorporated/D26V0H1U2LP20-7/D26V0H1U2LP20-7DICT-ND/4898881"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="D26V0H1U2LP20-7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D26V0H1U2LP20-7">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESDZX051-1BF4" prefix="D">
+<description>10V (Typ) Clamp 4A (8/20µs) Ipp Tvs Diode Surface Mount ST0201
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/stmicroelectronics/ESDZX051-1BF4/497-ESDZX051-1BF4CT-ND/12749584"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TVS_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DSN0603-2">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="497-ESDZX051-1BF4CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS581-02V-V-G-08" prefix="D">
+<description>Diode Schottky 40V 200mA Surface Mount SOD-523
+&lt;p&gt;&lt;\p&gt;
+&lt;a href="https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/BAS581-02V-V-G-08/112-BAS581-02V-V-G-08CT-ND/8564684"&gt;DigiKey&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="D26V0H1U2LP20-7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="112-BAS581-02V-V-G-08CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
