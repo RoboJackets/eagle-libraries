@@ -604,6 +604,15 @@ Sourc: www.ctscorp.com</description>
 <wire x1="0.3048" y1="5.4102" x2="-0.3048" y2="5.3848" width="0.1524" layer="51" curve="-180"/>
 <text x="-3.2766" y="6.985" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="TT11EGPC1">
+<pad name="1" x="-2.54" y="0" drill="0.6" diameter="1.09" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="0.6" diameter="1.09" shape="square"/>
+<pad name="3" x="0" y="0" drill="0.6" diameter="1.09" shape="square"/>
+<wire x1="-4.065" y1="2.615" x2="-4.065" y2="-2.615" width="0.127" layer="21"/>
+<wire x1="4.065" y1="2.615" x2="4.065" y2="-2.615" width="0.127" layer="21"/>
+<wire x1="4.065" y1="2.615" x2="-4.065" y2="2.615" width="0.127" layer="21"/>
+<wire x1="-4.1" y1="-2.6" x2="4.1" y2="-2.6" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HEX">
@@ -1369,6 +1378,23 @@ Sourc: www.ctscorp.com</description>
 <technology name="">
 <attribute name="DKPN" value="CKN10790CT-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TT11EGPC1" prefix="S">
+<gates>
+<gate name="G$1" symbol="SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TT11EGPC1">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="COMMON" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
