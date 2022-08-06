@@ -571,7 +571,11 @@ Sourc: www.ctscorp.com</description>
 <pad name="6" x="0" y="-3.5" drill="1.2"/>
 <text x="-3" y="7" size="1" layer="25" font="vector">&gt;NAME</text>
 <text x="-3" y="-7" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
-<rectangle x1="-3.6" y1="-6.3" x2="3.7" y2="6.3" layer="39"/>
+<rectangle x1="-3.5" y1="-6.1" x2="3.5" y2="6.1" layer="39"/>
+<wire x1="-3.4" y1="6" x2="-3.4" y2="-6" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-6" x2="3.4" y2="-6" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-6" x2="3.4" y2="6" width="0.2" layer="21"/>
+<wire x1="3.4" y1="6" x2="-3.4" y2="6" width="0.2" layer="21"/>
 </package>
 <package name="K12SCS1.55NOLFTX">
 <description>&lt;a href="https://www.ckswitches.com/media/1338/k12s.pdf"&gt;DATASHEET&lt;/a&gt;</description>
@@ -1336,10 +1340,10 @@ Sourc: www.ctscorp.com</description>
 </devices>
 </deviceset>
 <deviceset name="GPTS202312B" prefix="SW">
-<description>GPTS202312B &lt;br&gt;
+<description>Push Button Switch: GPTS202312B &lt;br&gt;
 &lt;a href = "http://switches-connectors-custom.cwind.com/Asset/GPTS203312BR2.pdf"&gt;Datasheet&lt;\a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SPDT-1" x="0" y="0"/>
+<gate name="G$1" symbol="SPDT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="GPTS202312B">
