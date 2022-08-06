@@ -351,6 +351,7 @@ In this library you will find LEDs and other visual output devices.
 <pad name="P$2" x="-1.27" y="0" drill="0.8"/>
 <text x="-3" y="4" size="1.27" layer="25">&gt;Name</text>
 <text x="-3" y="-5" size="1.27" layer="27">&gt;Value</text>
+</package>
 <package name="DIO_SFH_4544" urn="urn:adsk.eagle:footprint:22908896/1" locally_modified="yes">
 <description>&lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-5824108/SFH%204544_EN.pdf"&gt;Datasheet&lt;\a&gt;</description>
 <wire x1="-4.52" y1="-3" x2="-4.52" y2="3" width="0.05" layer="39"/>
@@ -766,6 +767,9 @@ Used in manufacturing several products at SparkFun.
 <connect gate="G$1" pin="A" pad="P$2"/>
 <connect gate="G$1" pin="C" pad="P$1"/>
 </connects>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SFH_4544" prefix="D">
 <description>Infrared (IR) Emitter 940nm 1.6V 100mA 550mW/sr @ 100mA 20° Radial 
 &lt;p&gt;&lt;\p&gt;
