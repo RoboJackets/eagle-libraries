@@ -7,6 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
@@ -336,6 +337,20 @@ In this library you will find LEDs and other visual output devices.
 <vertex x="-1.6" y="0.25"/>
 <vertex x="-1.6" y="0.5"/>
 </polygon>
+</package>
+<package name="OP593B">
+<pad name="P$1" x="-1.27" y="0" drill="0.6" shape="square"/>
+<pad name="P$2" x="1.27" y="0" drill="0.6"/>
+<circle x="0" y="0" radius="2.8" width="0.127" layer="21"/>
+<text x="-2" y="3" size="1.27" layer="25">&gt;Name</text>
+<text x="-2" y="-4" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="OP293B">
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<pad name="P$1" x="1.27" y="0" drill="0.8" shape="square"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.8"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;Name</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="DIO_SFH_4544" urn="urn:adsk.eagle:footprint:22908896/1" locally_modified="yes">
 <description>&lt;a href="https://dammedia.osram.info/media/resource/hires/osram-dam-5824108/SFH%204544_EN.pdf"&gt;Datasheet&lt;\a&gt;</description>
@@ -739,6 +754,19 @@ Used in manufacturing several products at SparkFun.
 <attribute name="VALUE" value="Yellow" constant="no"/>
 </technology>
 </technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-OP293B">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OP293B">
+<connects>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="P$1"/>
+</connects>
 </device>
 </devices>
 </deviceset>
