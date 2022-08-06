@@ -12979,8 +12979,6 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pin name="6" x="22.86" y="-12.7" length="middle" rot="R180"/>
 <pin name="7" x="22.86" y="-15.24" length="middle" rot="R180"/>
 <pin name="8" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="MP1" x="0" y="0" length="middle"/>
-<pin name="MP2" x="0" y="-2.54" length="middle"/>
 </symbol>
 <symbol name="CONN_10P_00C_1">
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
@@ -17551,8 +17549,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="MP1" pad="MP1"/>
-<connect gate="G$1" pin="MP2" pad="MP2"/>
 </connects>
 <technologies>
 <technology name="">
