@@ -7,9 +7,9 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -197,14 +197,14 @@
 <wire x1="5.45" y1="-15.8" x2="-5.45" y2="-15.8" width="0.2" layer="51"/>
 <wire x1="-5.45" y1="-15.8" x2="-5.45" y2="-7.5" width="0.2" layer="51"/>
 <rectangle x1="-6.2" y1="-7.2" x2="6.2" y2="6.7" layer="39"/>
-<text x="-6.2" y="6.7" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-6.2" y="-7.2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-6.2" y="6.7" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-6.2" y="-7.2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="F1206">
 <smd name="2" x="1.422" y="0" dx="1.6" dy="1.8" layer="1"/>
 <smd name="1" x="-1.422" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-2.522" y="1.2" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.522" y="-1.2" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2.522" y="1.2" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.522" y="-1.2" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-2.322" y1="1" x2="2.322" y2="1" width="0.2" layer="21"/>
 <wire x1="2.322" y1="1" x2="2.322" y2="-1" width="0.2" layer="21"/>
 <wire x1="2.322" y1="-1" x2="-2.322" y2="-1" width="0.2" layer="21"/>
@@ -214,8 +214,8 @@
 <package name="F0603">
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-1.65" y="0.85" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.65" y="-0.85" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-1.65" y="0.85" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.65" y="-0.85" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.2" layer="21"/>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.2" layer="21"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.2" layer="21"/>
@@ -232,9 +232,9 @@
 <wire x1="9.905" y1="3.365" x2="9.905" y2="-3.365" width="0.2" layer="21"/>
 <wire x1="9.905" y1="-3.365" x2="-9.905" y2="-3.365" width="0.2" layer="21"/>
 <wire x1="-9.905" y1="-3.365" x2="-9.905" y2="3.365" width="0.2" layer="21"/>
-<text x="-10.105" y="3.565" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-10.105" y="3.565" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <rectangle x1="-10.105" y1="-3.565" x2="10.105" y2="3.565" layer="39"/>
-<text x="-10.105" y="-3.565" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-10.105" y="-3.565" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -250,8 +250,8 @@ chip</description>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 <smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
 <smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.397" y="1.143" size="1" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.397" y="-2.413" size="1" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.497" y="1.143" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.497" y="-1.113" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="1812">
 <description>Multilayer SMD</description>
@@ -268,8 +268,8 @@ chip</description>
 <rectangle x1="-0.6" y1="-0.3" x2="0.5" y2="0.3" layer="21"/>
 <smd name="1" x="-2.046" y="0" dx="2.286" dy="2.794" layer="1"/>
 <smd name="2" x="2.046" y="0" dx="2.286" dy="2.794" layer="1"/>
-<text x="-2.1115" y="-2.921" size="1" layer="27" font="vector">&gt;VALUE</text>
-<text x="-2.1115" y="2.159" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.8115" y="-1.821" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="-2.8115" y="1.859" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
 <package name="5SP_AXIAL">
 <description>https://www.digikey.com/products/en/circuit-protection/fuses/139?k=5stp&amp;k=12.5&amp;pkeyword=5stp&amp;sv=0&amp;sf=0&amp;FV=-8%7C139&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</description>
@@ -315,11 +315,10 @@ chip</description>
 <wire x1="10.936" y1="-2.794" x2="10.936" y2="2.794" width="0.1524" layer="51"/>
 <wire x1="10.936" y1="2.794" x2="-10.5778" y2="2.794" width="0.1524" layer="51"/>
 <wire x1="-10.5778" y1="2.794" x2="-10.5778" y2="-2.794" width="0.1524" layer="51"/>
-<text x="-10.9588" y="3.683" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-11.176" y="-4.699" size="1" layer="27" font="vector">&gt;VALUE</text>
+<text x="-10.8318" y="3.683" size="1" layer="25" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-10.8318" y="-3.683" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="RST">
-<description>https://www.digikey.com/product-detail/en/bel-fuse-inc/RST-4-BULK/507-1182-ND/809326</description>
 <pad name="1" x="-2.58" y="0" drill="0.9652" diameter="1.4732" shape="square"/>
 <pad name="2" x="2.5" y="0" drill="0.9652" diameter="1.4732" rot="R180"/>
 <wire x1="-5.7804" y1="0" x2="-4.5104" y2="0" width="0.1524" layer="51"/>
@@ -334,14 +333,27 @@ chip</description>
 <wire x1="4.3288" y1="-2.1844" x2="-4.4088" y2="-2.1844" width="0.1524" layer="21"/>
 <wire x1="4.3288" y1="2.1844" x2="4.3288" y2="-2.1844" width="0.1524" layer="21"/>
 <wire x1="-4.4088" y1="2.1844" x2="-4.4088" y2="-2.1844" width="0.1524" layer="21"/>
-<text x="-4.6166" y="2.465" size="1" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-4.572" y="-3.175" size="1" layer="27" font="vector">&gt;VALUE</text>
+<text x="-4.5166" y="2.765" size="1" layer="25" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.472" y="-2.775" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
 <package name="3568">
 <pad name="P$1" x="0" y="0" drill="1.6"/>
 <pad name="P$2" x="0" y="3.4" drill="1.6"/>
 <pad name="P$3" x="9.92" y="3.4" drill="1.6"/>
 <pad name="P$4" x="9.92" y="0" drill="1.6"/>
+<text x="0.055" y="-1.66" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="0.055" y="5.089" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
+<package name="C1F">
+<smd name="1" x="-1.33" y="0" dx="1.78" dy="1.14" layer="1" rot="R90"/>
+<smd name="2" x="1.33" y="0" dx="1.78" dy="1.14" layer="1" rot="R90"/>
+<wire x1="1.6" y1="0.79" x2="1.6" y2="-0.79" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-0.79" x2="-1.6" y2="-0.79" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-0.79" x2="-1.6" y2="0.79" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.79" x2="1.6" y2="0.79" width="0.2" layer="21"/>
+<text x="-2" y="1" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2" y="-1" size="1" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.7" y1="-0.89" x2="1.7" y2="0.89" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -391,7 +403,7 @@ chip</description>
 </devices>
 </deviceset>
 <deviceset name="3549" prefix="F" uservalue="yes">
-<description>Pair of clips to hold mini automotive blade fuses:
+<description>Pair of clips to hold mini automotive blade fuses&lt;p&gt;
 &lt;a href="http://keyelco.com/userAssets/file/M65p42.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
@@ -411,7 +423,7 @@ chip</description>
 </devices>
 </deviceset>
 <deviceset name="3557-2" prefix="F" uservalue="yes">
-<description>Fuse holder for automotive blade fuses: 
+<description>Fuse holder for automotive blade fuses&lt;p&gt;
 &lt;a href="https://www.keyelco.com/userAssets/file/M65p41.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
@@ -424,7 +436,7 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="36-3557-2-ND" constant="no"/>
+<attribute name="DKPN" value="36-3557-2-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -457,8 +469,8 @@ chip</description>
 </devices>
 </deviceset>
 <deviceset name="5STP_12.5-R" prefix="F">
-<description>Fuse 12.5A (Digikey#: 507-1564-ND)
-&lt;p&gt;https://www.digikey.com/products/en/circuit-protection/fuses/139?k=5stp&amp;k=12.5&amp;pkeyword=5stp&amp;sv=0&amp;sf=0&amp;FV=-8%7C139&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</description>
+<description>Fuse 12.5A
+&lt;p&gt;&lt;a href="https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-5st-5stp-series.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -470,8 +482,8 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="5STP 12.5R" constant="no"/>
-<attribute name="VENDOR" value="BelFuse" constant="no"/>
+<attribute name="DKPN" value="507-1564-ND" constant="no"/>
+<attribute name="VALUE" value="12.5" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -479,7 +491,8 @@ chip</description>
 </deviceset>
 <deviceset name="RST_4-BULK" prefix="F">
 <description>4A Fuse
-&lt;p&gt;https://www.digikey.com/product-detail/en/bel-fuse-inc/RST-4-BULK/507-1182-ND/809326</description>
+&lt;p&gt;
+&lt;a href="https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-rst-series.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -491,8 +504,8 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="RST 4BULK" constant="no"/>
-<attribute name="VENDOR" value="BelFuse" constant="no"/>
+<attribute name="DKPN" value="507-1182-ND" constant="no"/>
+<attribute name="VALUE" value="4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -515,6 +528,27 @@ chip</description>
 <technologies>
 <technology name="">
 <attribute name="DKPN" value="36-3568-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C1F3.5" prefix="XF" uservalue="yes">
+<description>C1F 3.5 &lt;p&gt;
+&lt;a href = "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1F">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="507-1884-1-ND" constant="no"/>
+<attribute name="VALUE" value="3.5"/>
 </technology>
 </technologies>
 </device>

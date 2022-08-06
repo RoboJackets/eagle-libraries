@@ -564,6 +564,46 @@ Sourc: www.ctscorp.com</description>
 <text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="GPTS202312B">
+<description>&lt;a href = "http://switches-connectors-custom.cwind.com/Asset/GPTS203312BR2.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<pad name="P" x="0" y="0" drill="1.2"/>
+<pad name="1" x="0" y="3.5" drill="1.2"/>
+<pad name="6" x="0" y="-3.5" drill="1.2"/>
+<text x="-3" y="7" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-7" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-3.5" y1="-6.1" x2="3.5" y2="6.1" layer="39"/>
+<wire x1="-3.4" y1="6" x2="-3.4" y2="-6" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-6" x2="3.4" y2="-6" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-6" x2="3.4" y2="6" width="0.2" layer="21"/>
+<wire x1="3.4" y1="6" x2="-3.4" y2="6" width="0.2" layer="21"/>
+</package>
+<package name="K12SCS1.55NOLFTX">
+<description>&lt;a href="https://www.ckswitches.com/media/1338/k12s.pdf"&gt;DATASHEET&lt;/a&gt;</description>
+<smd name="1" x="-4.95" y="2.375003125" dx="2.1082" dy="2.3622" layer="1"/>
+<smd name="2" x="-4.95" y="-2.375003125" dx="2.1082" dy="2.3622" layer="1"/>
+<smd name="3" x="4.95" y="-2.375003125" dx="2.1082" dy="2.3622" layer="1" rot="R180"/>
+<smd name="4" x="4.95" y="2.375003125" dx="2.1082" dy="2.3622" layer="1" rot="R180"/>
+<wire x1="-5.9436" y1="-5.5372" x2="5.9436" y2="-5.5372" width="0.1524" layer="21"/>
+<wire x1="5.9436" y1="-5.5372" x2="5.9436" y2="-3.8862" width="0.1524" layer="21"/>
+<wire x1="5.9436" y1="5.5372" x2="-5.9436" y2="5.5372" width="0.1524" layer="21"/>
+<wire x1="-5.9436" y1="5.5372" x2="-5.9436" y2="3.8862" width="0.1524" layer="21"/>
+<wire x1="-5.9436" y1="0.8636" x2="-5.9436" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="-5.9436" y1="-3.8862" x2="-5.9436" y2="-5.5372" width="0.1524" layer="21"/>
+<wire x1="5.9436" y1="-0.8636" x2="5.9436" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="5.9436" y1="3.8862" x2="5.9436" y2="5.5372" width="0.1524" layer="21"/>
+<wire x1="-8.4074" y1="2.3876" x2="-8.5598" y2="2.3876" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-8.5598" y1="2.3876" x2="-8.4074" y2="2.3876" width="0.1524" layer="21" curve="-180"/>
+<text x="-2.9972" y="-6.985" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-5.7912" y1="-5.3848" x2="5.7912" y2="-5.3848" width="0.1524" layer="51"/>
+<wire x1="5.7912" y1="-5.3848" x2="5.7912" y2="5.3848" width="0.1524" layer="51"/>
+<wire x1="5.7912" y1="5.3848" x2="-0.3048" y2="5.3848" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="5.3848" x2="-5.7912" y2="5.3848" width="0.1524" layer="51"/>
+<wire x1="-5.7912" y1="5.3848" x2="-5.7912" y2="-5.3848" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="2.3876" x2="-3.9624" y2="2.3876" width="0" layer="51" curve="-180"/>
+<wire x1="-3.9624" y1="2.3876" x2="-3.81" y2="2.3876" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="5.4102" x2="-0.3048" y2="5.3848" width="0.1524" layer="51" curve="-180"/>
+<text x="-3.2766" y="6.985" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HEX">
@@ -916,6 +956,61 @@ Sourc: www.ctscorp.com</description>
 <text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.175" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SPDT-1">
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="COMMON" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="A" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="B" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SPST_NO">
+<pin name="1" x="2.54" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="38.1" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="38.1" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="33.02" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="-7.62" x2="33.02" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="-2.54" x2="33.02" y2="0" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="0" x2="33.02" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="30.48" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="2.54" x2="30.48" y2="0" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="0" x2="33.02" y2="0" width="0.1524" layer="94"/>
+<wire x1="33.02" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="-2.54" x2="30.48" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="-5.08" x2="25.4" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="2.413" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="2.413" x2="25.4" y2="0" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="25.4" y2="-4.953" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-4.953" x2="25.4" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="-0.508" x2="27.94" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="-1.27" x2="27.94" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="-1.778" x2="27.94" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-0.508" x2="26.67" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="25.908" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="-1.27" x2="25.908" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="26.162" y1="-1.778" x2="27.94" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-0.508" x2="25.4" y2="0" width="0.127" layer="94" curve="-180"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="-0.508" width="0.127" layer="94" curve="-180"/>
+<wire x1="26.162" y1="-2.794" x2="26.162" y2="-2.286" width="0.127" layer="94" curve="-180"/>
+<wire x1="26.162" y1="-2.286" x2="26.162" y2="-2.794" width="0.127" layer="94" curve="-180"/>
+<wire x1="25.4" y1="2.413" x2="25.4" y2="2.667" width="0.254" layer="94" curve="-180"/>
+<wire x1="25.4" y1="2.667" x2="25.4" y2="2.413" width="0.254" layer="94" curve="-180"/>
+<wire x1="25.4" y1="-5.207" x2="25.4" y2="-4.953" width="0.254" layer="94" curve="-180"/>
+<wire x1="25.4" y1="-4.953" x2="25.4" y2="-5.207" width="0.254" layer="94" curve="-180"/>
+<text x="15.5956" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="14.9606" y="-11.2014" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KMR2" prefix="S">
@@ -1231,6 +1326,49 @@ Sourc: www.ctscorp.com</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPTS202312B" prefix="SW">
+<description>Push Button Switch: GPTS202312B &lt;br&gt;
+&lt;a href = "http://switches-connectors-custom.cwind.com/Asset/GPTS203312BR2.pdf"&gt;Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPTS202312B">
+<connects>
+<connect gate="G$1" pin="A" pad="6"/>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="COMMON" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="CW183-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K12SCS1.55NOLFTX" prefix="SW">
+<description>SWITCH PUSH SPST-NO 0.1A 30V&lt;br&gt;
+&lt;a href="https://www.ckswitches.com/media/1338/k12s.pdf"&gt;DATASHEET&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="SPST_NO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="K12SCS1.55NOLFTX">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="CKN10790CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
