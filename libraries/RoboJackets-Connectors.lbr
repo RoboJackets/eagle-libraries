@@ -16780,7 +16780,7 @@ Molex 1x2 1.25mm SMT&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="0436500213">
+<deviceset name="0436500213" prefix="J">
 <gates>
 <gate name="G$1" symbol="PINHD2" x="0" y="0"/>
 </gates>
