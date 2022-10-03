@@ -1367,7 +1367,7 @@ Rdson=1.8mOhm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-OP593B">
+<deviceset name="LED-OP593B" prefix="D">
 <gates>
 <gate name="G$1" symbol="NPN_PHOTOTRANSISTOR" x="0" y="0"/>
 </gates>
